@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Ideal Solutions</title>
+<meta name="keywords" content="Ideal Solutions">
+<meta name="description" content="Ideal Solutions">
+<meta charset="UTF-8">
+<meta name="author" content="Ideal Solutions">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="assets/css/jquery.timepicker.min.css">
+<link rel="stylesheet" href="assets/css/jquery-ui.css">
+<link rel="stylesheet" href="assets/css/jquery.dataTables.min.css">
+<link rel="stylesheet" href="assets/css/responsive.dataTables.min.css">
+<link rel="stylesheet" href="assets/css/buttons.dataTables.min.css">
+<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+<div class="fixed_loading">
+	<div class="fixed_loading_inset">
+		<div class="sk-cube-grid">
+		  <div class="sk-cube sk-cube1"></div>
+		  <div class="sk-cube sk-cube2"></div>
+		  <div class="sk-cube sk-cube3"></div>
+		  <div class="sk-cube sk-cube4"></div>
+		  <div class="sk-cube sk-cube5"></div>
+		  <div class="sk-cube sk-cube6"></div>
+		  <div class="sk-cube sk-cube7"></div>
+		  <div class="sk-cube sk-cube8"></div>
+		  <div class="sk-cube sk-cube9"></div>
+		</div>
+	</div>
+</div>
+
+
+<!-- header start area -->
+<div class="col-sm-12 topbar">
+
+	<!-- left header start -->
+	<div class="top_bar_left">
+		<div class="main_logo">
+			<a href="map-view.html" title="ideal solutions" class="mob_logo"><img src="assets/images/mob-logo.png" alt="main logo"></a>
+		</div>
+		<div class="toggle_bar"><span></span></div>
+		<div class="map_and_dash">
+			<ul>
+				<li><a href="wizard.html">wizard</a></li>
+				<li><a href="map-view.html">map view</a></li>
+			</ul>
+		</div>
+		<div class="full_search_area">
+			<div class="search_inside">
+				<div class="searchicon"><img src="assets/images/search-icon.png" /></div>
+				<div class="searchfield"><input type="text" placeholder="Search"></div>
+				<div class="searchbtn"><input type="button" value="search"></div>
+			</div>
+			<div class="mobile_search_close"><img src="assets/images/clear.png"></div>
+		</div>
+		<div class="mobile_search_click"><img src="assets/images/search-icon.png" /></div>
+	</div>
+	<!-- left header end -->
+
+
+
+	<!-- right header start -->
+	<div class="right_top_bar">
+		<div class="setting_list">
+			<ul>
+				<li class="desk_search_click"><a href="#" data-toggle="tooltip" title="Search"><img src="assets/images/search-icon-white.png"></a></li>
+				<li class="topbar_reminder"><a href="#" data-toggle="tooltip" title="Triggered Reminder"><img src="assets/images/remin.png"></a></li>
+				<li class="topbar_maintain"><a href="#" data-toggle="tooltip" title="Maintenance"><img src="assets/images/mainten.png"></a></li>
+				<li class="topbar_alerts"><a href="#" data-toggle="tooltip" title="Alert"><img src="assets/images/alert.png"></a></li>
+				<!-- <li><a href="#" data-toggle="tooltip" title="Reports"><img src="assets/images/reports.png"></a></li> -->
+			</ul>
+			<div class="col-sm-12 user_profile">
+				<span><img src="assets/images/men.jpg"></span>
+				<h6>Odai Amer</h6>
+				<i class="fa fa-caret-down"></i>
+				<div class="user_popup">
+					<ul>
+						<li><i class="fa fa-power-off"></i> logout</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- right header end -->
+
+	<div class="mobile_click"><i class="fa fa-ellipsis-v"></i></div>
+</div>
+<!-- header end area -->
+
+
+
+<!-- Start main Div -->
+<div class="col-sm-12 all_main_area">
+
+		<!--Dashboard sidebar navigation-->
+			<aside class="sidebar">
+				<div class="side_logo"><a href="map-view.html" title="ideal solutions" class="desk_logo"><img src="assets/images/main-logo.png" alt="main logo" /></a></div>
+
+				<div class="side_nav">
+					<ul>
+						<li><a href="map-view.html"><span><img src="assets/images/dashboard.png"></span> Dashboard</a></li>
+						<li><a href="fleets.html"><span><img src="assets/images/fleets.png"></span> fleets</a></li>
+						<li><a href="drivers.html"><span><img src="assets/images/drivers.png"></span> drivers</a></li>
+						<li><a href="users.html"><span><img src="assets/images/users.png"></span> users</a></li>
+						<li><a href="vehicles.html"><span><img src="assets/images/nav-vehicle.png"></span> vehicles</a></li>
+						<li><a href="consumption.html"><span><img src="assets/images/consump-icon.png"></span> Consumptions</a></li>
+						<li><a href="fuel-tanks.html"><span><img src="assets/images/fuel.png"></span> fuel tanks</a></li>
+						<li><a href="geofences.html"><span><img src="assets/images/geofence.png"></span> geofences</a></li>
+						<li><a href="shifts.html"><span><img src="assets/images/shifts.png"></span> shifts</a></li>
+						<li><a href="maintenance.html"><span><img src="assets/images/maintenance.png"></span> maintenance</a></li>
+						<li><a href="landmarks.html"><span><img src="assets/images/landmark.png"></span> landmark</a></li>
+						<li><a href="point-of-interest.html"><span><img src="assets/images/point.png"></span> point of interest</a></li>
+						<li><a href="reminders.html"><span><img src="assets/images/remin.png"></span> reminder</a></li>
+						<li><a href="alerts.html"><span><img src="assets/images/alert.png"></span> Alerts</a></li>
+						<li class="active_nav"><a href="invoices.html"><span><img src="assets/images/invoice.png"></span> invoice</a></li>
+						<li><a href="report.html"><span><img src="assets/images/report.png"></span> report</a></li>
+					</ul>
+				</div>
+			</aside>
+	<!--End Dashboard sidebar -->
+
+
+
+
+		<!-- right Side map view -->
+			<section class="right_section" id="invoice_section">
+				<div class="scroll_bar_area">
+					<div class="col-sm-12 title_bar">
+						<div class="title_bar_left">
+							<div class="filter"><i class="fa fa-filter" data-toggle="tooltip" title="Filter"></i></div>
+						</div>
+						<div class="title_bar_heading"><span><img src="assets/images/invoices.png"></span> Invoices</div>
+						<div class="title_bar_right">
+							<div class="add_user"><a href="#">add new Invoice</a></div>
+						</div>
+					</div>
+
+
+					<div class="col-sm-12 filter_part">
+						<div class="row">
+							<form>
+								<div class="col-sm-3 input_field"><input type="text" placeholder="Refrence Number"></div>
+								<div class="col-sm-3 input_field"><input type="text" placeholder="Type"></div>
+								<div class="col-sm-3 input_field"><input type="text" placeholder="Price (QAR)"></div>
+								<div class="col-sm-3 input_field"><input type="text" placeholder="Created by"></div>
+								<div class="col-sm-12 filter_btn">
+									<input type="submit" value="Apply">
+									<div class="close_filter">Close</div>
+								</div>
+							</form>
+						</div>
+					</div>
+
+
+					<div class="col-sm-12 page_table_part">
+						<table id="invoice_section_table" class="display responsive nowrap" width="100%">
+						    <thead>
+						        <tr>
+						            <th>Reference Number</th>
+						            <th>Type</th>
+						            <th>Price (QAR)</th>
+						            <th>Created By</th>
+						            <th>Actions</th>
+						        </tr>
+						    </thead>
+						    <tbody>
+						        <tr>
+						            <td>00065464464</td>
+						            <td>Maintenance</td>
+						            <td>500</td>
+						            <td>Test Fuel</td>
+						            <td>
+						            	<span class="invoice_detail_icon" data-toggle="tooltip" title="Detail"><i class="fa fa-file-text"></i></span>
+						            	<span class="edit_lists" data-toggle="tooltip" title="Edit"><i class="fa fa-pencil"></i></span>
+						            	<span class="remove_lists" data-toggle="tooltip" title="Delete"><i class="fa fa-trash"></i></span>
+						            </td>
+						        </tr>
+						         <tr>
+						            <td>00065464464</td>
+						            <td>Maintenance</td>
+						            <td>500</td>
+						            <td>Test Fuel</td>
+						            <td>
+						            	<span class="invoice_detail_icon" data-toggle="tooltip" title="Detail"><i class="fa fa-file-text"></i></span>
+						            	<span class="edit_lists" data-toggle="tooltip" title="Edit"><i class="fa fa-pencil"></i></span>
+						            	<span class="remove_lists" data-toggle="tooltip" title="Delete"><i class="fa fa-trash"></i></span>
+						            </td>
+						        </tr>
+						         <tr>
+						            <td>00065464464</td>
+						            <td>Maintenance</td>
+						            <td>500</td>
+						            <td>Test Fuel</td>
+						            <td>
+						            	<span class="invoice_detail_icon" data-toggle="tooltip" title="Detail"><i class="fa fa-file-text"></i></span>
+						            	<span class="edit_lists" data-toggle="tooltip" title="Edit"><i class="fa fa-pencil"></i></span>
+						            	<span class="remove_lists" data-toggle="tooltip" title="Delete"><i class="fa fa-trash"></i></span>
+						            </td>
+						        </tr>
+						         <tr>
+						            <td>00065464464</td>
+						            <td>Maintenance</td>
+						            <td>500</td>
+						            <td>Test Fuel</td>
+						            <td>
+						            	<span class="invoice_detail_icon" data-toggle="tooltip" title="Detail"><i class="fa fa-file-text"></i></span>
+						            	<span class="edit_lists" data-toggle="tooltip" title="Edit"><i class="fa fa-pencil"></i></span>
+						            	<span class="remove_lists" data-toggle="tooltip" title="Delete"><i class="fa fa-trash"></i></span>
+						            </td>
+						        </tr>
+						         <tr>
+						            <td>00065464464</td>
+						            <td>Maintenance</td>
+						            <td>500</td>
+						            <td>Test Fuel</td>
+						            <td>
+						            	<span class="invoice_detail_icon" data-toggle="tooltip" title="Detail"><i class="fa fa-file-text"></i></span>
+						            	<span class="edit_lists" data-toggle="tooltip" title="Edit"><i class="fa fa-pencil"></i></span>
+						            	<span class="remove_lists" data-toggle="tooltip" title="Delete"><i class="fa fa-trash"></i></span>
+						            </td>
+						        </tr>
+						         <tr>
+						            <td>00065464464</td>
+						            <td>Maintenance</td>
+						            <td>500</td>
+						            <td>Test Fuel</td>
+						            <td>
+						            	<span class="invoice_detail_icon" data-toggle="tooltip" title="Detail"><i class="fa fa-file-text"></i></span>
+						            	<span class="edit_lists" data-toggle="tooltip" title="Edit"><i class="fa fa-pencil"></i></span>
+						            	<span class="remove_lists" data-toggle="tooltip" title="Delete"><i class="fa fa-trash"></i></span>
+						            </td>
+						        </tr>
+						         <tr>
+						            <td>00065464464</td>
+						            <td>Maintenance</td>
+						            <td>500</td>
+						            <td>Test Fuel</td>
+						            <td>
+						            	<span class="invoice_detail_icon" data-toggle="tooltip" title="Detail"><i class="fa fa-file-text"></i></span>
+						            	<span class="edit_lists" data-toggle="tooltip" title="Edit"><i class="fa fa-pencil"></i></span>
+						            	<span class="remove_lists" data-toggle="tooltip" title="Delete"><i class="fa fa-trash"></i></span>
+						            </td>
+						        </tr>
+						    </tbody>
+						</table>
+					</div>
+
+				</div>
+			</section>
+		<!-- End right Side map view -->
+
+</div>
+<!-- End main Div -->
+
+
+
+
+
+<!--add new invoice popup -->
+<div class="add_new_user_popup" id="add_new_invoice_popup">
+	<div class="register_new_user">
+		<div class="title">
+			<span>Add New Invoice</span>
+			<i class="fa fa-remove"></i>
+		</div>
+
+		<form>
+			<div class="col-sm-12">
+				<div class="row">
+					<div class="col-sm-12 fld_area">
+						<span>Name</span>
+						<input type="text" placeholder="Name" required="required">
+					</div>
+					<div class="col-sm-12 fld_area">
+						<span>Type</span>
+						<select required="required">
+							<option>Fuel Consumption (Liters)</option>
+							<option>Maintenance</option>
+							<option>Others</option>
+						</select>
+					</div>
+					<div class="col-sm-12 fld_area">
+						<span>Price (QAR)</span>
+						<input type="text" placeholder="0" required="required">
+					</div>
+					<div class="col-sm-12 form_btn">
+						<input type="submit" value="save">
+						<div class="close_btn">close</div>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+
+
+
+<!--edit invoice popup -->
+<div class="add_new_user_popup" id="edit_invoice_popup">
+	<div class="register_new_user">
+		<div class="title">
+			<span>Edit Invoice</span>
+			<i class="fa fa-remove"></i>
+		</div>
+
+		<form>
+			<div class="col-sm-12">
+				<div class="row">
+					<div class="col-sm-12 fld_area">
+						<span>Name</span>
+						<input type="text" placeholder="Name" required="required">
+					</div>
+					<div class="col-sm-12 fld_area">
+						<span>Type</span>
+						<select required="required">
+							<option>Fuel Consumption (Liters)</option>
+							<option>Maintenance</option>
+							<option>Others</option>
+						</select>
+					</div>
+					<div class="col-sm-12 fld_area">
+						<span>Price (QAR)</span>
+						<input type="text" placeholder="0" required="required">
+					</div>
+					<div class="col-sm-12 form_btn">
+						<input type="submit" value="save">
+						<div class="close_btn">close</div>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+
+
+<!-- Invoice Detail Popup  -->
+<div class="add_new_user_popup" id="invoice_details_popup">
+	<div class="register_new_user">
+		<div class="title">
+			<span>Invoice information</span>
+			<i class="fa fa-remove"></i>
+		</div>
+
+		<div class="col-sm-12 driver_info">
+			<div class="row">
+				<div class="col-sm-6 detail_list">Reference Number: <span>000004</span></div>
+				<div class="col-sm-6 detail_list">Price (QAR): <span>500</span></div>
+				<div class="col-sm-6 detail_list">Name: <span>Fuel Vehicle - Changed Brake Oil</span></div>
+				<div class="col-sm-6 detail_list">Type: <span>Maintenance</span></div>
+				<div class="col-sm-6 detail_list">Created By: <span>Test Fuel</span></div>
+			</div>
+		</div>
+
+		<div class="col-sm-12 form_btn">
+			<div class="close_btn">close</div>
+		</div>
+	</div>
+</div>
+
+
+
+<!-- Top Alerts -->
+<div class="add_new_user_popup" id="topbar_alerts">
+	<div class="register_new_user">
+		<div class="title">
+			<span>Alerts</span>
+			<i class="fa fa-remove"></i>
+		</div>
+
+		<div class="vehcile_listings">
+			<table  class="display responsive nowrap" width="100%">
+			    <thead>
+			        <tr>
+			            <th>name</th>
+			            <th>plate number</th>
+			            <th>alert type</th>
+			            <th>importance</th>
+			            <th>created date</th>
+			            <th>created time</th>
+			            <th>message</th>
+			            <th>Actions</th>
+			        </tr>
+			    </thead>
+			    <tbody>
+			        <tr>
+			            <td>Demo Vehicle</td>
+			            <td>654122</td>
+			            <td>Speed Limit	</td>
+			            <td><span class="badge badge-warning">Medium</span></td>
+			            <td>01/04/2019</td>
+			            <td>10:41:56</td>
+			            <td>The vehicle "Demo Vehicle" has exceeded the speed limit at 110 KM/H.	</td>
+			            <td data-toggle="tooltip" title="Locate"><span class="locate_vehicle"><i class="fa fa-map-marker"></span></td>
+			        </tr>
+			          <tr>
+			            <td>Demo Vehicle</td>
+			            <td>654122</td>
+			            <td>Speed Limit	</td>
+			            <td><span class="badge badge-danger">high</span></td>
+			            <td>01/04/2019</td>
+			            <td>10:41:56</td>
+			            <td>The vehicle "Demo Vehicle" has exceeded the speed limit at 110 KM/H.	</td>
+			            <td data-toggle="tooltip" title="Locate"><span class="locate_vehicle"><i class="fa fa-map-marker"></span></td>
+			        </tr>
+			         <tr>
+			            <td>Demo Vehicle</td>
+			            <td>654122</td>
+			            <td>Speed Limit	</td>
+			            <td><span class="badge badge-warning">Medium</span></td>
+			            <td>01/04/2019</td>
+			            <td>10:41:56</td>
+			            <td>The vehicle "Demo Vehicle" has exceeded the speed limit at 110 KM/H.	</td>
+			            <td data-toggle="tooltip" title="Locate"><span class="locate_vehicle"><i class="fa fa-map-marker"></span></td>
+			        </tr>
+			         <tr>
+			            <td>Demo Vehicle</td>
+			            <td>654122</td>
+			            <td>Speed Limit	</td>
+			            <td><span class="badge badge-warning">Medium</span></td>
+			            <td>01/04/2019</td>
+			            <td>10:41:56</td>
+			            <td>The vehicle "Demo Vehicle" has exceeded the speed limit at 110 KM/H.	</td>
+			            <td data-toggle="tooltip" title="Locate"><span class="locate_vehicle"><i class="fa fa-map-marker"></span></td>
+			        </tr>
+			         <tr>
+			            <td>Demo Vehicle</td>
+			            <td>654122</td>
+			            <td>Speed Limit	</td>
+			            <td><span class="badge badge-warning">Medium</span></td>
+			            <td>01/04/2019</td>
+			            <td>10:41:56</td>
+			            <td>The vehicle "Demo Vehicle" has exceeded the speed limit at 110 KM/H.	</td>
+			            <td data-toggle="tooltip" title="Locate"><span class="locate_vehicle"><i class="fa fa-map-marker"></span></td>
+			        </tr>
+			         <tr>
+			            <td>Demo Vehicle</td>
+			            <td>654122</td>
+			            <td>Speed Limit	</td>
+			            <td><span class="badge badge-warning">Medium</span></td>
+			            <td>01/04/2019</td>
+			            <td>10:41:56</td>
+			            <td>The vehicle "Demo Vehicle" has exceeded the speed limit at 110 KM/H.	</td>
+			            <td data-toggle="tooltip" title="Locate"><span class="locate_vehicle"><i class="fa fa-map-marker"></span></td>
+			        </tr>
+			    </tbody>
+			</table>
+		</div>
+
+		<div class="col-sm-12 form_btn">
+			<div class="close_btn">close</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Top Maintenance -->
+<div class="add_new_user_popup" id="topbar_maintain">
+	<div class="register_new_user">
+		<div class="title">
+			<span>Maintenance</span>
+			<i class="fa fa-remove"></i>
+		</div>
+
+		<div class="vehcile_listings">
+			<table class="display responsive nowrap" width="100%">
+			    <thead>
+			        <tr>
+			            <th>name</th>
+			            <th>plate number</th>
+			            <th>Maintenance Type</th>
+			            <th>created date</th>
+			            <th>last change date</th>
+			            <th>message</th>
+			            <th>Actions</th>
+			        </tr>
+			    </thead>
+			    <tbody>
+			        <tr>
+			            <td>Demo Vehicle</td>
+			            <td>654122</td>
+			            <td>Oil Filter</td>
+			            <td>01/04/2019</td>
+			            <td>10:41:56</td>
+			            <td>Oil Filter change required</td>
+			            <td><span class="badge badge-success change">change</span> <span class="badge badge-warning new-reminder">new reminder</span></td>
+			        </tr>
+			        <tr>
+			            <td>Demo Vehicle</td>
+			            <td>654122</td>
+			            <td>Oil Filter</td>
+			            <td>01/04/2019</td>
+			            <td>10:41:56</td>
+			            <td>Oil Filter change required</td>
+			            <td><span class="badge badge-success change">change</span> <span class="badge badge-warning new-reminder">new reminder</span></td>
+			        </tr>
+			        <tr>
+			            <td>Demo Vehicle</td>
+			            <td>654122</td>
+			            <td>Oil Filter</td>
+			            <td>01/04/2019</td>
+			            <td>10:41:56</td>
+			            <td>Oil Filter change required</td>
+			            <td><span class="badge badge-success change">change</span> <span class="badge badge-warning new-reminder">new reminder</span></td>
+			        </tr>
+			        <tr>
+			            <td>Demo Vehicle</td>
+			            <td>654122</td>
+			            <td>Oil Filter</td>
+			            <td>01/04/2019</td>
+			            <td>10:41:56</td>
+			            <td>Oil Filter change required</td>
+			            <td><span class="badge badge-success change">change</span> <span class="badge badge-warning new-reminder">new reminder</span></td>
+			        </tr>
+			        <tr>
+			            <td>Demo Vehicle</td>
+			            <td>654122</td>
+			            <td>Oil Filter</td>
+			            <td>01/04/2019</td>
+			            <td>10:41:56</td>
+			            <td>Oil Filter change required</td>
+			            <td><span class="badge badge-success change">change</span> <span class="badge badge-warning new-reminder">new reminder</span></td>
+			        </tr>
+			    </tbody>
+			</table>
+		</div>
+
+		<div class="col-sm-12 form_btn">
+			<div class="close_btn">close</div>
+		</div>
+	</div>
+</div>
+
+
+<!--  change oil  -->
+<div class="add_new_user_popup" id="change_oil_filter">
+	<div class="register_new_user">
+		<div class="title">
+			<span>Change Oil Filter</span>
+			<i class="fa fa-remove"></i>
+		</div>
+
+		<form>
+		<div class="col-sm-12">
+			<div class="row">
+				<div class="col-sm-12 fld_area">
+					<span>Cost (Currency)</span>
+					<input type="text" placeholder="Cost (Currency)" required="required">
+				</div>
+				<div class="col-sm-12 fld_area">
+					<span>Change Date</span>
+					<input type="text" class="datepicker" placeholder="Change Date" required="required">
+				</div>
+				<div class="col-sm-12 form_btn">
+					<input type="submit" value="Update">
+					<div class="close_btn">close</div>
+				</div>
+			</div>
+		</div>
+		</form>
+	</div>
+</div>
+
+
+<!-- Top reminder -->
+<div class="add_new_user_popup" id="topbar_reminder">
+	<div class="register_new_user">
+		<div class="title">
+			<span>Triggered Reminders</span>
+			<i class="fa fa-remove"></i>
+		</div>
+
+		<div class="vehcile_listings">
+			<table class="display responsive nowrap" width="100%">
+			    <thead>
+			        <tr>
+			            <th>title</th>
+			            <th>Trigger Date</th>
+			            <th>Description</th>
+			            <th>Actions</th>
+			        </tr>
+			    </thead>
+			    <tbody>
+			        <tr>
+			            <td>Renew Driver License For Nader	</td>
+			            <td>10/05/2019</td>
+			            <td>dummy text</td>
+			            <td><span class="badge badge-success">Mark as read</span></td>
+			        </tr>
+			         <tr>
+			            <td>Renew Driver License For Nader	</td>
+			            <td>10/05/2019</td>
+			            <td>dummy text</td>
+			            <td><span class="badge badge-success">Mark as read</span></td>
+			        </tr>
+			         <tr>
+			            <td>Renew Driver License For Nader	</td>
+			            <td>10/05/2019</td>
+			            <td>dummy text</td>
+			            <td><span class="badge badge-success">Mark as read</span></td>
+			        </tr>
+			         <tr>
+			            <td>Renew Driver License For Nader	</td>
+			            <td>10/05/2019</td>
+			            <td>dummy text</td>
+			            <td><span class="badge badge-success">Mark as read</span></td>
+			        </tr>
+			         <tr>
+			            <td>Renew Driver License For Nader	</td>
+			            <td>10/05/2019</td>
+			            <td>dummy text</td>
+			            <td><span class="badge badge-success">Mark as read</span></td>
+			        </tr>
+			    </tbody>
+			</table>
+		</div>
+
+		<div class="col-sm-12 form_btn">
+			<div class="close_btn">close</div>
+		</div>
+	</div>
+</div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="assets/js/jquery-ui.js"></script>
+<script src="assets/js/jquery.timepicker.min.js"></script>
+<script src="assets/js/jquery.dataTables.min.js"></script>
+<script src="assets/js/dataTables.responsive.min.js"></script>
+<!-- table export -->
+<script src="assets/js/dataTables.buttons.min.js"></script>
+<script src="assets/js/jszip.min.js"></script>
+<script src="assets/js/pdfmake.min.js"></script>
+<script src="assets/js/vfs_fonts.js"></script>
+<script src="assets/js/buttons.html5.min.js"></script>
+<!-- table export -->
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/custom.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,2316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Ideal Solutions</title>
+<meta name="keywords" content="Ideal Solutions">
+<meta name="description" content="Ideal Solutions">
+<meta charset="UTF-8">
+<meta name="author" content="Ideal Solutions">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="assets/css/jquery.timepicker.min.css">
+<link rel="stylesheet" href="assets/css/jquery-ui.css">
+<link rel="stylesheet" href="assets/css/jquery.dataTables.min.css">
+<link rel="stylesheet" href="assets/css/responsive.dataTables.min.css">
+<link rel="stylesheet" href="assets/css/buttons.dataTables.min.css">
+<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+<div class="fixed_loading">
+	<div class="fixed_loading_inset">
+		<div class="sk-cube-grid">
+		  <div class="sk-cube sk-cube1"></div>
+		  <div class="sk-cube sk-cube2"></div>
+		  <div class="sk-cube sk-cube3"></div>
+		  <div class="sk-cube sk-cube4"></div>
+		  <div class="sk-cube sk-cube5"></div>
+		  <div class="sk-cube sk-cube6"></div>
+		  <div class="sk-cube sk-cube7"></div>
+		  <div class="sk-cube sk-cube8"></div>
+		  <div class="sk-cube sk-cube9"></div>
+		</div>
+	</div>
+</div>
+
+
+<!-- header start area -->
+<div class="col-sm-12 topbar">
+
+	<!-- left header start -->
+	<div class="top_bar_left">
+		<div class="main_logo">
+			<a href="map-view.html" title="ideal solutions" class="mob_logo"><img src="assets/images/mob-logo.png" alt="main logo"></a>
+		</div>
+		<div class="toggle_bar"><span></span></div>
+		<div class="map_and_dash">
+			<ul>
+				<li><a href="wizard.html">wizard</a></li>
+				<li><a href="map-view.html">map view</a></li>
+			</ul>
+		</div>
+		<div class="full_search_area">
+			<div class="search_inside">
+				<div class="searchicon"><img src="assets/images/search-icon.png" /></div>
+				<div class="searchfield"><input type="text" placeholder="Search"></div>
+				<div class="searchbtn"><input type="button" value="search"></div>
+			</div>
+			<div class="mobile_search_close"><img src="assets/images/clear.png"></div>
+		</div>
+		<div class="mobile_search_click"><img src="assets/images/search-icon.png" /></div>
+	</div>
+	<!-- left header end -->
+
+
+
+	<!-- right header start -->
+	<div class="right_top_bar">
+		<div class="setting_list">
+			<ul>
+				<li class="desk_search_click"><a href="#" data-toggle="tooltip" title="Search"><img src="assets/images/search-icon-white.png"></a></li>
+				<li class="topbar_reminder"><a href="#" data-toggle="tooltip" title="Triggered Reminder"><img src="assets/images/remin.png"></a></li>
+				<li class="topbar_maintain"><a href="#" data-toggle="tooltip" title="Maintenance"><img src="assets/images/mainten.png"></a></li>
+				<li class="topbar_alerts"><a href="#" data-toggle="tooltip" title="Alert"><img src="assets/images/alert.png"></a></li>
+				<!-- <li><a href="#" data-toggle="tooltip" title="Reports"><img src="assets/images/reports.png"></a></li> -->
+			</ul>
+			<div class="col-sm-12 user_profile">
+				<span><img src="assets/images/men.jpg"></span>
+				<h6>Odai Amer</h6>
+				<i class="fa fa-caret-down"></i>
+				<div class="user_popup">
+					<ul>
+						<li><i class="fa fa-power-off"></i> logout</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- right header end -->
+
+	<div class="mobile_click"><i class="fa fa-ellipsis-v"></i></div>
+</div>
+<!-- header end area -->
+
+
+
+<!-- Start main Div -->
+<div class="col-sm-12 all_main_area">
+
+		<!--Dashboard sidebar navigation-->
+			<aside class="sidebar">
+				<div class="side_logo"><a href="map-view.html" title="ideal solutions" class="desk_logo"><img src="assets/images/main-logo.png" alt="main logo" /></a></div>
+
+				<div class="side_nav">
+					<ul>
+						<li><a href="map-view.html"><span><img src="assets/images/dashboard.png"></span> Dashboard</a></li>
+						<li><a href="fleets.html"><span><img src="assets/images/fleets.png"></span> fleets</a></li>
+						<li><a href="drivers.html"><span><img src="assets/images/drivers.png"></span> drivers</a></li>
+						<li><a href="users.html"><span><img src="assets/images/users.png"></span> users</a></li>
+						<li><a href="vehicles.html"><span><img src="assets/images/nav-vehicle.png"></span> vehicles</a></li>
+						<li><a href="consumption.html"><span><img src="assets/images/consump-icon.png"></span> Consumptions</a></li>
+						<li><a href="fuel-tanks.html"><span><img src="assets/images/fuel.png"></span> fuel tanks</a></li>
+						<li><a href="geofences.html"><span><img src="assets/images/geofence.png"></span> geofences</a></li>
+						<li><a href="shifts.html"><span><img src="assets/images/shifts.png"></span> shifts</a></li>
+						<li><a href="maintenance.html"><span><img src="assets/images/maintenance.png"></span> maintenance</a></li>
+						<li><a href="landmarks.html"><span><img src="assets/images/landmark.png"></span> landmark</a></li>
+						<li><a href="point-of-interest.html"><span><img src="assets/images/point.png"></span> point of interest</a></li>
+						<li><a href="reminders.html"><span><img src="assets/images/remin.png"></span> reminder</a></li>
+						<li><a href="alerts.html"><span><img src="assets/images/alert.png"></span> Alerts</a></li>
+						<li><a href="invoices.html"><span><img src="assets/images/invoice.png"></span> invoice</a></li>
+						<li class="active_nav"><a href="report.html"><span><img src="assets/images/report.png"></span> report</a></li>
+					</ul>
+				</div>
+			</aside>
+	<!--End Dashboard sidebar -->
+
+
+
+
+		<!-- right Side map view -->
+			<section class="right_section" id="report_section">
+				<div class="scroll_bar_area">
+					<div class="col-sm-12 title_bar">
+						<div class="title_bar_left">
+							<div class="filter"><i class="fa fa-filter" data-toggle="tooltip" title="Filter"></i></div>
+							<div class="filter_by_fleet"><i class="fa fa-sitemap" data-toggle="tooltip" title="Filter By Fleet"></i></div>
+						</div>
+						<div class="title_bar_heading"><span><img src="assets/images/result.png"></span> Reports</div>
+						<div class="title_bar_right"><span class="play_back"><i class="fa fa-play"></i> playback</span></div>
+					</div>
+
+
+
+					<div class="col-sm-12 filter_part">
+						<div class="row">
+							<!-- Select options all -->
+							<div class="col-sm-12 top_select_field">
+								<select>
+									<option value="VehiclePositions">Vehicle Positions</option>
+									<option value="MileageExceeded">Mileage Exceeded</option>
+									<option value="VehicleStops">Vehicle Stops</option>
+									<option value="NonReportingVehicles">Non Reporting Vehicles</option>
+									<option value="TotalWorkingHours">Total Working Hours</option>
+									<option value="TotalMileagePerInterval">Total Mileage Per Interval</option>
+									<option value="VehicleEngine">Vehicle Engine</option>
+									<option value="VehicleTrips">Vehicle Trips</option>
+									<option value="VehicleAlerts">Vehicle Behavior</option>
+									<option value="FuelConsumption">Fuel Consumption</option>
+									<option value="MaintenanceHistory">Maintenance History</option>
+									<option value="MaintenanceCost">Maintenance Cost</option>
+									<option value="VehiclePerformanceHistory">Vehicle Performance History</option>
+									<option value="VehiclePerformanceHistoryMonthlyLog">Vehicle Performance Monthly Log</option>
+									<option value="Alerts">Alerts</option>
+									<option value="UserActivities">User Activities</option>
+									<option value="InstallationDetails">Installation Details</option>
+									<option value="DriverAlerts">Driver Behavior</option>
+									<option value="FuelMileage">Fuel Mileage</option>
+									<option value="SpeedViolation">Speed Violation</option>
+									<option value="HarshAcceleration">HarshAcceleration</option>
+									<option value="HarshRPM">Harsh RPM</option>
+									<option value="HarshCornering">Harsh Cornering</option>
+									<option value="ExceedIdle">Exceed Idle</option>
+									<option value="FuelConsumptionPerInterval">Fuel Consumption Per Interval</option>
+									<option value="FuelTheftDetection">Fuel Theft Detection</option>
+									<option value="VehiclePerformance">Vehicle Performance</option>
+									<option value="TripsBetweenLocations">Trips Between Locations</option>
+									<option value="TripsBetweenLandmarks">Trips Between Landmarks</option>
+									<option value="TripsBetweenGeofences">Trips Between Geofences</option>
+									<option value="VehiclesTotalMileage">Vehicles Total Mileage</option>
+								</select>
+							</div>
+							<!--End select options all -->
+
+						
+							<!-- form -->
+							<form id="VehiclePositions">
+								<div class="col-sm-4 input_field"><input type="text" placeholder="Vehicle Name"></div>
+								<div class="col-sm-4 input_field">
+									<div class="row">
+										<div class="col-sm-6"><input type="text" placeholder="Start Date" class="datepicker"></div>
+										<div class="col-sm-6"><input type="text" placeholder="Start Time" class="timepicker"></div>
+									</div>
+								</div>
+								<div class="col-sm-4 input_field">
+									<div class="row">
+										<div class="col-sm-6"><input type="text" placeholder="End Date" class="datepicker"></div>
+										<div class="col-sm-6"><input type="text" placeholder="End Time" class="timepicker"></div>
+									</div>
+								</div>
+								<div class="col-sm-12 filter_btn">
+									<input type="submit" value="Run">
+									<div class="close_filter">Close</div>
+								</div>
+							</form>
+							<!-- form -->
+
+							<!-- form -->
+							<form id="MileageExceeded">
+								<div class="col-sm-6 input_field"><input type="text" placeholder="Mileage (Km)"></div>
+								<div class="col-sm-12 filter_btn">
+									<input type="submit" value="Run">
+									<div class="close_filter">Close</div>
+								</div>
+							</form>
+							<!-- form -->
+
+							<!-- form -->
+							<form id="VehicleStops">
+								<div class="col-sm-6 input_field"><input type="text" placeholder="Vehicle Name"></div>
+								<div class="col-sm-6 input_field"><input type="text" placeholder="Stop Duration (In Minutes)"></div>
+								<div class="col-sm-6 input_field">
+									<div class="row">
+										<div class="col-sm-6"><input type="text" placeholder="Start Date" class="datepicker"></div>
+										<div class="col-sm-6"><input type="text" placeholder="Start Time" class="timepicker"></div>
+									</div>
+								</div>
+								<div class="col-sm-6 input_field">
+									<div class="row">
+										<div class="col-sm-6"><input type="text" placeholder="End Date" class="datepicker"></div>
+										<div class="col-sm-6"><input type="text" placeholder="End Time" class="timepicker"></div>
+									</div>
+								</div>
+								<div class="col-sm-12 filter_btn">
+									<input type="submit" value="Run">
+									<div class="close_filter">Close</div>
+								</div>
+							</form>
+							<!-- form -->
+
+							<!-- form -->
+							<form id="NonReportingVehicles">
+								<div class="col-sm-6 input_field">
+									<div class="row">
+										<div class="col-sm-6"><input type="text" placeholder="Start Date" class="datepicker"></div>
+										<div class="col-sm-6"><input type="text" placeholder="Start Time" class="timepicker"></div>
+									</div>
+								</div>
+								<div class="col-sm-6 input_field">
+									<div class="row">
+										<div class="col-sm-6"><input type="text" placeholder="End Date" class="datepicker"></div>
+										<div class="col-sm-6"><input type="text" placeholder="End Time" class="timepicker"></div>
+									</div>
+								</div>
+								<div class="col-sm-12 filter_btn">
+									<input type="submit" value="Run">
+									<div class="close_filter">Close</div>
+								</div>
+							</form>
+							<!-- form -->
+
+							<!-- form -->
+							<form id="TotalWorkingHours">
+								<div class="col-md-6">
+								<!----Start fleet section--------->
+									<div id="TotalWorkingHoursFleet" class="report_fl_box">
+										<div class="all_main_headlines">
+											<div class="box_title">Fleets</div>
+											<div class="inset_icons">
+												<div class="refresh" data-toggle="tooltip" title="Refresh"><i class="fa fa-refresh"></i></div>
+											</div>
+										</div>
+
+										<div class="main_search">
+											<div class="srh_input"><input type="text" placeholder="Search"></div>
+										</div>
+
+										<div class="fleets_setting">
+											<div class="accordians">
+												<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/fl_icon.png"></p> <span>logistic fleets</span></div>
+												<div class="all_type_list">
+													<div class="one-list">
+														<div class="unique_numbers">
+															<input type="checkbox" class="childCheckBox">
+															<h5><p><img src="assets/images/car.png"></p> 98724</h5>
+														</div>
+													</div>
+
+													<div class="one-list">
+														<div class="unique_numbers">
+															<input type="checkbox" class="childCheckBox">
+															<h5><p><img src="assets/images/car.png"></p> 46464</h5>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="accordians">
+												<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/fl_icon.png"></p> <span>Food Delivery Fleet</span> </div>
+												<div class="all_type_list">
+													<!-- inset accordian -->
+													<div class="accordians">
+														<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/car.png"></p> <span>Sedan Cars</span></div>
+														<div class="all_type_list">
+															<div class="one-list">
+																<div class="unique_numbers">
+																	<input type="checkbox" class="childCheckBox">
+																	<h5><p><img src="assets/images/car.png"></p> demo vehicle</h5>
+																</div>
+															</div>
+														</div>
+													</div>
+													<!-- end inset accordian -->
+												</div>
+											</div>
+
+
+											<div class="accordians">
+												<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/fl_icon.png"></p> <span>Master Fleet</span></div>
+												<div class="all_type_list">
+													<div class="one-list">
+														<div class="unique_numbers">
+															<input type="checkbox">
+															<h5><p><img src="assets/images/car.png"></p> Drivers</h5>
+														</div>
+													</div>
+
+													<!-- inner accordian -->
+														<div class="accordians">
+															<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/car.png"></p> <span>Technicians</span></div>
+															<div class="all_type_list">
+																<div class="one-list">
+																	<div class="unique_numbers">
+																		<input type="checkbox" class="childCheckBox">
+																		<h5><p><img src="assets/images/car.png"></p> Junior Staff</h5>
+																	</div>
+																</div>
+																<div class="one-list">
+																	<div class="unique_numbers">
+																		<input type="checkbox" class="childCheckBox">
+																		<h5><p><img src="assets/images/car.png"></p> Senior Staff</h5>
+																	</div>
+																</div>
+															</div>
+														</div>
+													<!-- inner accordian -->
+												</div>
+											</div>
+
+										</div>
+									</div>
+								<!----End fleet section--------->
+								</div>
+
+
+								<div class="col-md-6">
+									<div class="row">
+										<div class="col-sm-12 input_field"><input type="text" placeholder="Start Date" class="datepicker"></div>
+										<div class="col-sm-12 input_field"><input type="text" placeholder="Start Time" class="timepicker"></div>
+										<div class="col-sm-12 input_field"><input type="text" placeholder="End Date" class="datepicker"></div>
+										<div class="col-sm-12 input_field"><input type="text" placeholder="End Time" class="timepicker"></div>
+									</div>
+								</div>
+
+								<div class="col-sm-12 filter_btn">
+									<input type="submit" value="Run">
+									<div class="close_filter">Close</div>
+								</div>
+							</form>
+							<!-- form -->
+
+							<!-- form -->
+							<form id="TotalMileagePerInterval">
+								<div class="col-sm-6 input_field"><input type="text" placeholder="Vehicle Name"></div>
+								<div class="col-sm-6 input_field">
+									<div class="row">
+										<div class="col-sm-6"><input type="text" placeholder="Start Date" class="datepicker"></div>
+										<div class="col-sm-6"><input type="text" placeholder="Start Time" class="timepicker"></div>
+									</div>
+								</div>
+								<div class="col-sm-6 input_field">
+									<div class="row">
+										<div class="col-sm-6"><input type="text" placeholder="End Date" class="datepicker"></div>
+										<div class="col-sm-6"><input type="text" placeholder="End Time" class="timepicker"></div>
+									</div>
+								</div>
+								<div class="col-sm-6 select_field">
+									<select>
+										<option>Group By Interval</option>
+										<option>Day</option>
+										<option>Month</option>
+										<option>Year</option>
+									</select>
+								</div>
+								<div class="col-sm-12 filter_btn">
+									<input type="submit" value="Run">
+									<div class="close_filter">Close</div>
+								</div>
+							</form>
+							<!-- form -->
+
+							<!-- form -->
+							<form id="VehicleEngine">
+								<div class="col-sm-4 input_field"><input type="text" placeholder="Vehicle Name"></div>
+								<div class="col-sm-4 input_field">
+									<div class="row">
+										<div class="col-sm-6"><input type="text" placeholder="Start Date" class="datepicker"></div>
+										<div class="col-sm-6"><input type="text" placeholder="Start Time" class="timepicker"></div>
+									</div>
+								</div>
+								<div class="col-sm-4 input_field">
+									<div class="row">
+										<div class="col-sm-6"><input type="text" placeholder="End Date" class="datepicker"></div>
+										<div class="col-sm-6"><input type="text" placeholder="End Time" class="timepicker"></div>
+									</div>
+								</div>
+								<div class="col-sm-12 filter_btn">
+									<input type="submit" value="Run">
+									<div class="close_filter">Close</div>
+								</div>
+							</form>
+							<!-- form -->
+
+							<!-- form -->
+							<form id="VehicleTrips">
+								<div class="col-sm-4 input_field"><input type="text" placeholder="Vehicle Name"></div>
+								<div class="col-sm-4 input_field">
+									<div class="row">
+										<div class="col-sm-6"><input type="text" placeholder="Start Date" class="datepicker"></div>
+										<div class="col-sm-6"><input type="text" placeholder="Start Time" class="timepicker"></div>
+									</div>
+								</div>
+								<div class="col-sm-4 input_field">
+									<div class="row">
+										<div class="col-sm-6"><input type="text" placeholder="End Date" class="datepicker"></div>
+										<div class="col-sm-6"><input type="text" placeholder="End Time" class="timepicker"></div>
+									</div>
+								</div>
+								<div class="col-sm-12 filter_btn">
+									<input type="submit" value="Run">
+									<div class="close_filter">Close</div>
+								</div>
+							</form>
+							<!-- form -->
+
+							<!-- form -->
+							<form id="VehicleAlerts">
+								<div class="col-sm-6 input_field"><input type="text" placeholder="Vehicle Name"></div>
+								<div class="col-sm-6 input_field">
+									<div class="row">
+										<div class="col-sm-6"><input type="text" placeholder="Start Date" class="datepicker"></div>
+										<div class="col-sm-6"><input type="text" placeholder="Start Time" class="timepicker"></div>
+									</div>
+								</div>
+								<div class="col-sm-6 input_field">
+									<div class="row">
+										<div class="col-sm-6"><input type="text" placeholder="End Date" class="datepicker"></div>
+										<div class="col-sm-6"><input type="text" placeholder="End Time" class="timepicker"></div>
+									</div>
+								</div>
+								<div class="col-sm-6 select_field">
+									<select>
+										<option>Alert Type</option>
+										<option value="1">Geofence</option>
+										<option value="2">Geofence Speed</option>
+										<option value="3">LandMark</option>
+										<option value="5">Speed Limit</option>
+										<option value="6">Long Stop</option>
+										<option value="7">Exceed Idle</option>
+										<option value="8">Off Hours</option>
+										<option value="9">Late Start</option>
+										<option value="20">Low Fuel</option>
+										<option value="21">Low Battery</option>
+										<option value="22">Harsh Deceleration</option>
+										<option value="23">Harsh Acceleration</option>
+										<option value="29">Harsh RPM</option>
+										<option value="30">Harsh Cornering</option>
+										<option value="31">Seat Belt</option>
+										<option value="32">Unauthorized Driver</option>
+										<option value="24">High Engine Temperature</option>
+										<option value="25">Impact</option>
+										<option value="26">Removal Detection</option>
+										<option value="27">Attached Detection</option>
+										<option value="28">Panic Button</option>
+										<option value="33">Fuel Siphoning</option>
+									</select>
+								</div>
+								<div class="col-sm-12 filter_btn">
+									<input type="submit" value="Run">
+									<div class="close_filter">Close</div>
+								</div>
+							</form>
+							<!-- form -->
+
+							<!-- form -->
+							<form id="FuelConsumption">
+								<div class="col-md-6">
+								<!----Start fleet section--------->
+									<div id="FuelConsumptionFleet" class="report_fl_box">
+										<div class="all_main_headlines">
+											<div class="box_title">Fleets</div>
+											<div class="inset_icons">
+												<div class="refresh" data-toggle="tooltip" title="Refresh"><i class="fa fa-refresh"></i></div>
+											</div>
+										</div>
+
+										<div class="main_search">
+											<div class="srh_input"><input type="text" placeholder="Search"></div>
+										</div>
+
+										<div class="fleets_setting">
+											<div class="accordians">
+												<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/fl_icon.png"></p> <span>logistic fleets</span></div>
+												<div class="all_type_list">
+													<div class="one-list">
+														<div class="unique_numbers">
+															<input type="checkbox" class="childCheckBox">
+															<h5><p><img src="assets/images/car.png"></p> 98724</h5>
+														</div>
+													</div>
+
+													<div class="one-list">
+														<div class="unique_numbers">
+															<input type="checkbox" class="childCheckBox">
+															<h5><p><img src="assets/images/car.png"></p> 46464</h5>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="accordians">
+												<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/fl_icon.png"></p> <span>Food Delivery Fleet</span> </div>
+												<div class="all_type_list">
+													<!-- inset accordian -->
+													<div class="accordians">
+														<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/car.png"></p> <span>Sedan Cars</span></div>
+														<div class="all_type_list">
+															<div class="one-list">
+																<div class="unique_numbers">
+																	<input type="checkbox" class="childCheckBox">
+																	<h5><p><img src="assets/images/car.png"></p> demo vehicle</h5>
+																</div>
+															</div>
+														</div>
+													</div>
+													<!-- end inset accordian -->
+												</div>
+											</div>
+
+
+											<div class="accordians">
+												<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/fl_icon.png"></p> <span>Master Fleet</span></div>
+												<div class="all_type_list">
+													<div class="one-list">
+														<div class="unique_numbers">
+															<input type="checkbox">
+															<h5><p><img src="assets/images/car.png"></p> Drivers</h5>
+														</div>
+													</div>
+
+													<!-- inner accordian -->
+														<div class="accordians">
+															<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/car.png"></p> <span>Technicians</span></div>
+															<div class="all_type_list">
+																<div class="one-list">
+																	<div class="unique_numbers">
+																		<input type="checkbox" class="childCheckBox">
+																		<h5><p><img src="assets/images/car.png"></p> Junior Staff</h5>
+																	</div>
+																</div>
+																<div class="one-list">
+																	<div class="unique_numbers">
+																		<input type="checkbox" class="childCheckBox">
+																		<h5><p><img src="assets/images/car.png"></p> Senior Staff</h5>
+																	</div>
+																</div>
+															</div>
+														</div>
+													<!-- inner accordian -->
+												</div>
+											</div>
+
+										</div>
+									</div>
+								<!----End fleet section--------->
+								</div>
+
+
+								<div class="col-md-6">
+									<div class="row">
+										<div class="col-sm-12 input_field"><input type="text" placeholder="Start Date" class="datepicker"></div>
+										<div class="col-sm-12 input_field"><input type="text" placeholder="Start Time" class="timepicker"></div>
+										<div class="col-sm-12 input_field"><input type="text" placeholder="End Date" class="datepicker"></div>
+										<div class="col-sm-12 input_field"><input type="text" placeholder="End Time" class="timepicker"></div>
+									</div>
+								</div>
+
+								<div class="col-sm-12 filter_btn">
+									<input type="submit" value="Run">
+									<div class="close_filter">Close</div>
+								</div>
+							</form>
+							<!-- form -->
+
+							<!-- form -->
+							<form id="MaintenanceHistory">
+								<div class="col-sm-6 input_field"><input type="text" placeholder="Vehicle Name"></div>
+								<div class="col-sm-6 input_field">
+									<div class="row">
+										<div class="col-sm-6"><input type="text" placeholder="Start Date" class="datepicker"></div>
+										<div class="col-sm-6"><input type="text" placeholder="Start Time" class="timepicker"></div>
+									</div>
+								</div>
+								<div class="col-sm-6 input_field">
+									<div class="row">
+										<div class="col-sm-6"><input type="text" placeholder="End Date" class="datepicker"></div>
+										<div class="col-sm-6"><input type="text" placeholder="End Time" class="timepicker"></div>
+									</div>
+								</div>
+								<div class="col-sm-6 select_field">
+									<select>
+										<option>Maintenance Type</option>
+										<option value="1">All</option>
+										<option value="1">Engine Oil</option>
+										<option value="2">Oil Filter</option>
+										<option value="3">Air Filter</option>
+										<option value="4">Brake Oil</option>
+										<option value="5">Transmission Oil</option>
+										<option value="6">Battery</option>
+										<option value="7">Change Tire</option>
+									</select>
+								</div>
+								<div class="col-sm-12 filter_btn">
+									<input type="submit" value="Run">
+									<div class="close_filter">Close</div>
+								</div>
+							</form>
+							<!-- form -->
+
+							
+							<!-- form -->
+							<form id="MaintenanceCost">
+								<div class="col-md-6">
+									<!----Start fleet section--------->
+									<div id="MaintenanceCostFleet" class="draggable report_fl_box">
+										<div class="all_main_headlines">
+											<div class="box_title">Fleets</div>
+											<div class="inset_icons">
+												<div class="refresh" data-toggle="tooltip" title="Refresh"><i class="fa fa-refresh"></i></div>
+											</div>
+										</div>
+
+										<div class="main_search">
+											<div class="srh_input"><input type="text" placeholder="Search"></div>
+										</div>
+
+										<div class="fleets_setting">
+											<div class="accordians">
+												<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/fl_icon.png"></p> <span>logistic fleets</span></div>
+												<div class="all_type_list">
+													<div class="one-list">
+														<div class="unique_numbers">
+															<input type="checkbox" class="childCheckBox">
+															<h5><p><img src="assets/images/car.png"></p> 98724</h5>
+														</div>
+													</div>
+
+													<div class="one-list">
+														<div class="unique_numbers">
+															<input type="checkbox" class="childCheckBox">
+															<h5><p><img src="assets/images/car.png"></p> 46464</h5>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="accordians">
+												<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/fl_icon.png"></p> <span>Food Delivery Fleet</span> </div>
+												<div class="all_type_list">
+													<!-- inset accordian -->
+													<div class="accordians">
+														<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/car.png"></p> <span>Sedan Cars</span></div>
+														<div class="all_type_list">
+															<div class="one-list">
+																<div class="unique_numbers">
+																	<input type="checkbox" class="childCheckBox">
+																	<h5><p><img src="assets/images/car.png"></p> demo vehicle</h5>
+																</div>
+															</div>
+														</div>
+													</div>
+													<!-- end inset accordian -->
+												</div>
+											</div>
+
+
+											<div class="accordians">
+												<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/fl_icon.png"></p> <span>Master Fleet</span></div>
+												<div class="all_type_list">
+													<div class="one-list">
+														<div class="unique_numbers">
+															<input type="checkbox">
+															<h5><p><img src="assets/images/car.png"></p> Drivers</h5>
+														</div>
+													</div>
+
+													<!-- inner accordian -->
+														<div class="accordians">
+															<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/car.png"></p> <span>Technicians</span></div>
+															<div class="all_type_list">
+																<div class="one-list">
+																	<div class="unique_numbers">
+																		<input type="checkbox" class="childCheckBox">
+																		<h5><p><img src="assets/images/car.png"></p> Junior Staff</h5>
+																	</div>
+																</div>
+																<div class="one-list">
+																	<div class="unique_numbers">
+																		<input type="checkbox" class="childCheckBox">
+																		<h5><p><img src="assets/images/car.png"></p> Senior Staff</h5>
+																	</div>
+																</div>
+															</div>
+														</div>
+													<!-- inner accordian -->
+												</div>
+											</div>
+
+										</div>
+									</div>
+								<!----End fleet section--------->
+								</div>
+
+
+								<div class="col-md-6">
+									<div class="row">
+										<div class="col-sm-12 input_field"><input type="text" placeholder="Start Date" class="datepicker"></div>
+										<div class="col-sm-12 input_field"><input type="text" placeholder="Start Time" class="timepicker"></div>
+										<div class="col-sm-12 input_field"><input type="text" placeholder="End Date" class="datepicker"></div>
+										<div class="col-sm-12 input_field"><input type="text" placeholder="End Time" class="timepicker"></div>
+										<div class="col-sm-12 select_field">
+											<select>
+												<option>Maintenance Type</option>
+												<option value="1">All</option>
+												<option value="1">Engine Oil</option>
+												<option value="2">Oil Filter</option>
+												<option value="3">Air Filter</option>
+												<option value="4">Brake Oil</option>
+												<option value="5">Transmission Oil</option>
+												<option value="6">Battery</option>
+												<option value="7">Change Tire</option>
+											</select>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-sm-12 filter_btn">
+									<input type="submit" value="Run">
+									<div class="close_filter">Close</div>
+								</div>
+							</form>
+							<!-- form -->
+
+							<!-- form -->
+							<form id="VehiclePerformanceHistory">
+								<div class="col-md-6">
+									<!----Start fleet section--------->
+									<div id="VehiclePerformanceHistoryFleet" class="draggable report_fl_box">
+										<div class="all_main_headlines">
+											<div class="box_title">Fleets</div>
+											<div class="inset_icons">
+												<div class="refresh" data-toggle="tooltip" title="Refresh"><i class="fa fa-refresh"></i></div>
+											</div>
+										</div>
+
+										<div class="main_search">
+											<div class="srh_input"><input type="text" placeholder="Search"></div>
+										</div>
+
+										<div class="fleets_setting">
+											<div class="accordians">
+												<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/fl_icon.png"></p> <span>logistic fleets</span></div>
+												<div class="all_type_list">
+													<div class="one-list">
+														<div class="unique_numbers">
+															<input type="checkbox" class="childCheckBox">
+															<h5><p><img src="assets/images/car.png"></p> 98724</h5>
+														</div>
+													</div>
+
+													<div class="one-list">
+														<div class="unique_numbers">
+															<input type="checkbox" class="childCheckBox">
+															<h5><p><img src="assets/images/car.png"></p> 46464</h5>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="accordians">
+												<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/fl_icon.png"></p> <span>Food Delivery Fleet</span> </div>
+												<div class="all_type_list">
+													<!-- inset accordian -->
+													<div class="accordians">
+														<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/car.png"></p> <span>Sedan Cars</span></div>
+														<div class="all_type_list">
+															<div class="one-list">
+																<div class="unique_numbers">
+																	<input type="checkbox" class="childCheckBox">
+																	<h5><p><img src="assets/images/car.png"></p> demo vehicle</h5>
+																</div>
+															</div>
+														</div>
+													</div>
+													<!-- end inset accordian -->
+												</div>
+											</div>
+
+
+											<div class="accordians">
+												<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/fl_icon.png"></p> <span>Master Fleet</span></div>
+												<div class="all_type_list">
+													<div class="one-list">
+														<div class="unique_numbers">
+															<input type="checkbox">
+															<h5><p><img src="assets/images/car.png"></p> Drivers</h5>
+														</div>
+													</div>
+
+													<!-- inner accordian -->
+														<div class="accordians">
+															<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/car.png"></p> <span>Technicians</span></div>
+															<div class="all_type_list">
+																<div class="one-list">
+																	<div class="unique_numbers">
+																		<input type="checkbox" class="childCheckBox">
+																		<h5><p><img src="assets/images/car.png"></p> Junior Staff</h5>
+																	</div>
+																</div>
+																<div class="one-list">
+																	<div class="unique_numbers">
+																		<input type="checkbox" class="childCheckBox">
+																		<h5><p><img src="assets/images/car.png"></p> Senior Staff</h5>
+																	</div>
+																</div>
+															</div>
+														</div>
+													<!-- inner accordian -->
+												</div>
+											</div>
+
+										</div>
+									</div>
+								<!----End fleet section--------->
+								</div>
+
+								<div class="col-md-6">
+									<div class="row">
+										<div class="col-sm-12 input_field"><input type="text" placeholder="Start Date" class="datepicker"></div>
+										<div class="col-sm-12 input_field"><input type="text" placeholder="Start Time" class="timepicker"></div>
+										<div class="col-sm-12 input_field"><input type="text" placeholder="End Date" class="datepicker"></div>
+										<div class="col-sm-12 input_field"><input type="text" placeholder="End Time" class="timepicker"></div>
+									</div>
+								</div>
+
+								<div class="col-sm-12 filter_btn">
+									<input type="submit" value="Run">
+									<div class="close_filter">Close</div>
+								</div>
+							</form>
+							<!-- form -->
+
+							<!-- form -->
+							<form id="VehiclePerformanceHistoryMonthlyLog">
+								<div class="col-md-6">
+									<!----Start fleet section--------->
+									<div id="VehiclePerformanceHistoryMonthlyLogFleet" class="draggable report_fl_box">
+										<div class="all_main_headlines">
+											<div class="box_title">Fleets</div>
+											<div class="inset_icons">
+												<div class="refresh" data-toggle="tooltip" title="Refresh"><i class="fa fa-refresh"></i></div>
+											</div>
+										</div>
+
+										<div class="main_search">
+											<div class="srh_input"><input type="text" placeholder="Search"></div>
+										</div>
+
+										<div class="fleets_setting">
+											<div class="accordians">
+												<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/fl_icon.png"></p> <span>logistic fleets</span></div>
+												<div class="all_type_list">
+													<div class="one-list">
+														<div class="unique_numbers">
+															<input type="checkbox" class="childCheckBox">
+															<h5><p><img src="assets/images/car.png"></p> 98724</h5>
+														</div>
+													</div>
+
+													<div class="one-list">
+														<div class="unique_numbers">
+															<input type="checkbox" class="childCheckBox">
+															<h5><p><img src="assets/images/car.png"></p> 46464</h5>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="accordians">
+												<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/fl_icon.png"></p> <span>Food Delivery Fleet</span> </div>
+												<div class="all_type_list">
+													<!-- inset accordian -->
+													<div class="accordians">
+														<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/car.png"></p> <span>Sedan Cars</span></div>
+														<div class="all_type_list">
+															<div class="one-list">
+																<div class="unique_numbers">
+																	<input type="checkbox" class="childCheckBox">
+																	<h5><p><img src="assets/images/car.png"></p> demo vehicle</h5>
+																</div>
+															</div>
+														</div>
+													</div>
+													<!-- end inset accordian -->
+												</div>
+											</div>
+
+
+											<div class="accordians">
+												<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/fl_icon.png"></p> <span>Master Fleet</span></div>
+												<div class="all_type_list">
+													<div class="one-list">
+														<div class="unique_numbers">
+															<input type="checkbox">
+															<h5><p><img src="assets/images/car.png"></p> Drivers</h5>
+														</div>
+													</div>
+
+													<!-- inner accordian -->
+														<div class="accordians">
+															<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/car.png"></p> <span>Technicians</span></div>
+															<div class="all_type_list">
+																<div class="one-list">
+																	<div class="unique_numbers">
+																		<input type="checkbox" class="childCheckBox">
+																		<h5><p><img src="assets/images/car.png"></p> Junior Staff</h5>
+																	</div>
+																</div>
+																<div class="one-list">
+																	<div class="unique_numbers">
+																		<input type="checkbox" class="childCheckBox">
+																		<h5><p><img src="assets/images/car.png"></p> Senior Staff</h5>
+																	</div>
+																</div>
+															</div>
+														</div>
+													<!-- inner accordian -->
+												</div>
+											</div>
+
+										</div>
+									</div>
+								<!----End fleet section--------->
+								</div>
+
+								<div class="col-md-6">
+									<div class="row">
+										<div class="col-sm-12 select_field">
+											<select>
+												<option>Month</option>
+												<option value="1">January</option>
+												<option value="2">February</option>
+												<option value="3">March</option>
+												<option value="4">April</option>
+												<option value="5">May</option>
+												<option value="6">June</option>
+												<option value="7">July</option>
+												<option value="8">August</option>
+												<option value="9">September</option>
+												<option value="10">October</option>
+												<option value="11">November</option>
+												<option value="12">December</option>
+											</select>
+										</div>
+										<div class="col-sm-12 select_field">
+											<select>
+												<option>Year</option>
+												<option>2017</option>
+												<option>2018</option>
+												<option>2019</option>
+											</select>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-sm-12 filter_btn">
+									<input type="submit" value="Run">
+									<div class="close_filter">Close</div>
+								</div>
+							</form>
+							<!-- form -->
+
+							<!-- form -->
+							<form id="Alerts">
+								<div class="col-sm-4 input_field">
+									<div class="row">
+										<div class="col-sm-6"><input type="text" placeholder="Start Date" class="datepicker"></div>
+										<div class="col-sm-6"><input type="text" placeholder="Start Time" class="timepicker"></div>
+									</div>
+								</div>
+								<div class="col-sm-4 input_field">
+									<div class="row">
+										<div class="col-sm-6"><input type="text" placeholder="End Date" class="datepicker"></div>
+										<div class="col-sm-6"><input type="text" placeholder="End Time" class="timepicker"></div>
+									</div>
+								</div>
+								<div class="col-sm-4 select_field">
+									<select>
+										<option>Alert Type</option>
+										<option value="0">All</option>
+										<option value="1">Geofence</option>
+										<option value="2">Geofence Speed</option>
+										<option value="3">LandMark</option>
+										<option value="5">Speed Limit</option>
+										<option value="6">Long Stop</option>
+										<option value="7">Exceed Idle</option>
+										<option value="8">Off Hours</option>
+										<option value="9">Late Start</option>
+										<option value="20">Low Fuel</option>
+										<option value="21">Low Battery</option>
+										<option value="22">Harsh Deceleration</option>
+										<option value="23">Harsh Acceleration</option>
+										<option value="29">Harsh RPM</option>
+										<option value="30">Harsh Cornering</option>
+										<option value="31">Seat Belt</option>
+										<option value="32">Unauthorized Driver</option>
+										<option value="24">High Engine Temperature</option>
+										<option value="25">Impact</option>
+										<option value="26">Removal Detection</option>
+										<option value="27">Attached Detection</option>
+										<option value="28">Panic Button</option>
+										<option value="33">Fuel Siphoning</option>
+									</select>
+								</div>
+								<div class="col-sm-12 filter_btn">
+									<input type="submit" value="Run">
+									<div class="close_filter">Close</div>
+								</div>
+							</form>
+							<!-- form -->
+
+							<!-- form -->
+							<form id="UserActivities">
+								<div class="col-sm-4 input_field"><input type="text" placeholder="User Name"></div>
+								<div class="col-sm-4 input_field">
+									<div class="row">
+										<div class="col-sm-6"><input type="text" placeholder="Start Date" class="datepicker"></div>
+										<div class="col-sm-6"><input type="text" placeholder="Start Time" class="timepicker"></div>
+									</div>
+								</div>
+								<div class="col-sm-4 input_field">
+									<div class="row">
+										<div class="col-sm-6"><input type="text" placeholder="End Date" class="datepicker"></div>
+										<div class="col-sm-6"><input type="text" placeholder="End Time" class="timepicker"></div>
+									</div>
+								</div>
+								<div class="col-sm-12 filter_btn">
+									<input type="submit" value="Run">
+									<div class="close_filter">Close</div>
+								</div>
+							</form>
+							<!-- form -->
+
+							<!-- form -->
+							<form id="InstallationDetails">
+								<div class="col-sm-4 input_field"><input type="text" placeholder="User Name"></div>
+								<div class="col-sm-4 input_field">
+									<div class="row">
+										<div class="col-sm-6"><input type="text" placeholder="Start Date" class="datepicker"></div>
+										<div class="col-sm-6"><input type="text" placeholder="Start Time" class="timepicker"></div>
+									</div>
+								</div>
+								<div class="col-sm-4 input_field">
+									<div class="row">
+										<div class="col-sm-6"><input type="text" placeholder="End Date" class="datepicker"></div>
+										<div class="col-sm-6"><input type="text" placeholder="End Time" class="timepicker"></div>
+									</div>
+								</div>
+								<div class="col-sm-12 filter_btn">
+									<input type="submit" value="Run">
+									<div class="close_filter">Close</div>
+								</div>
+							</form>
+							<!-- form -->
+
+							<!-- form -->
+							<form id="DriverAlerts">
+								<div class="col-sm-6 input_field"><input type="text" placeholder="Driver Name"></div>
+								<div class="col-sm-6 input_field">
+									<div class="row">
+										<div class="col-sm-6"><input type="text" placeholder="Start Date" class="datepicker"></div>
+										<div class="col-sm-6"><input type="text" placeholder="Start Time" class="timepicker"></div>
+									</div>
+								</div>
+								<div class="col-sm-6 input_field">
+									<div class="row">
+										<div class="col-sm-6"><input type="text" placeholder="End Date" class="datepicker"></div>
+										<div class="col-sm-6"><input type="text" placeholder="End Time" class="timepicker"></div>
+									</div>
+								</div>
+								<div class="col-sm-6 select_field">
+									<select>
+										<option>Alert Type</option>
+										<option value="0">All</option>
+										<option value="1">Geofence</option>
+										<option value="2">Geofence Speed</option>
+										<option value="3">LandMark</option>
+										<option value="5">Speed Limit</option>
+										<option value="6">Long Stop</option>
+										<option value="7">Exceed Idle</option>
+										<option value="8">Off Hours</option>
+										<option value="9">Late Start</option>
+										<option value="20">Low Fuel</option>
+										<option value="21">Low Battery</option>
+										<option value="22">Harsh Deceleration</option>
+										<option value="23">Harsh Acceleration</option>
+										<option value="29">Harsh RPM</option>
+										<option value="30">Harsh Cornering</option>
+										<option value="31">Seat Belt</option>
+										<option value="32">Unauthorized Driver</option>
+										<option value="24">High Engine Temperature</option>
+										<option value="25">Impact</option>
+										<option value="26">Removal Detection</option>
+										<option value="27">Attached Detection</option>
+										<option value="28">Panic Button</option>
+										<option value="33">Fuel Siphoning</option>
+									</select>
+								</div>
+								<div class="col-sm-12 filter_btn">
+									<input type="submit" value="Run">
+									<div class="close_filter">Close</div>
+								</div>
+							</form>
+							<!-- form -->
+
+							<!-- form -->
+							<form id="FuelMileage">
+								<div class="col-sm-4 input_field"><input type="text" placeholder="Vehicle Name"></div>
+								<div class="col-sm-4 input_field">
+									<div class="row">
+										<div class="col-sm-6"><input type="text" placeholder="Start Date" class="datepicker"></div>
+										<div class="col-sm-6"><input type="text" placeholder="Start Time" class="timepicker"></div>
+									</div>
+								</div>
+								<div class="col-sm-4 input_field">
+									<div class="row">
+										<div class="col-sm-6"><input type="text" placeholder="End Date" class="datepicker"></div>
+										<div class="col-sm-6"><input type="text" placeholder="End Time" class="timepicker"></div>
+									</div>
+								</div>
+								<div class="col-sm-12 filter_btn">
+									<input type="submit" value="Run">
+									<div class="close_filter">Close</div>
+								</div>
+							</form>
+							<!-- form -->
+
+							<!-- form -->
+							<form id="SpeedViolation">
+								<div class="col-sm-4 input_field"><input type="text" placeholder="Max Speed"></div>
+								<div class="col-sm-4 input_field">
+									<div class="row">
+										<div class="col-sm-6"><input type="text" placeholder="Start Date" class="datepicker"></div>
+										<div class="col-sm-6"><input type="text" placeholder="Start Time" class="timepicker"></div>
+									</div>
+								</div>
+								<div class="col-sm-4 input_field">
+									<div class="row">
+										<div class="col-sm-6"><input type="text" placeholder="End Date" class="datepicker"></div>
+										<div class="col-sm-6"><input type="text" placeholder="End Time" class="timepicker"></div>
+									</div>
+								</div>
+								<div class="col-sm-12 filter_btn">
+									<input type="submit" value="Run">
+									<div class="close_filter">Close</div>
+								</div>
+							</form>
+							<!-- form -->
+
+							<!-- form -->
+							<form id="HarshAcceleration">
+								<div class="col-sm-4 input_field"><input type="text" placeholder="Vehicle Name"></div>
+								<div class="col-sm-4 input_field">
+									<div class="row">
+										<div class="col-sm-6"><input type="text" placeholder="Start Date" class="datepicker"></div>
+										<div class="col-sm-6"><input type="text" placeholder="Start Time" class="timepicker"></div>
+									</div>
+								</div>
+								<div class="col-sm-4 input_field">
+									<div class="row">
+										<div class="col-sm-6"><input type="text" placeholder="End Date" class="datepicker"></div>
+										<div class="col-sm-6"><input type="text" placeholder="End Time" class="timepicker"></div>
+									</div>
+								</div>
+								<div class="col-sm-12 filter_btn">
+									<input type="submit" value="Run">
+									<div class="close_filter">Close</div>
+								</div>
+							</form>
+							<!-- form -->
+
+							<!-- form -->
+							<form id="HarshRPM">
+								<div class="col-sm-4 input_field"><input type="text" placeholder="Vehicle Name"></div>
+								<div class="col-sm-4 input_field">
+									<div class="row">
+										<div class="col-sm-6"><input type="text" placeholder="Start Date" class="datepicker"></div>
+										<div class="col-sm-6"><input type="text" placeholder="Start Time" class="timepicker"></div>
+									</div>
+								</div>
+								<div class="col-sm-4 input_field">
+									<div class="row">
+										<div class="col-sm-6"><input type="text" placeholder="End Date" class="datepicker"></div>
+										<div class="col-sm-6"><input type="text" placeholder="End Time" class="timepicker"></div>
+									</div>
+								</div>
+								<div class="col-sm-12 filter_btn">
+									<input type="submit" value="Run">
+									<div class="close_filter">Close</div>
+								</div>
+							</form>
+							<!-- form -->
+
+							<!-- form -->
+							<form id="HarshCornering">
+								<div class="col-sm-4 input_field"><input type="text" placeholder="Vehicle Name"></div>
+								<div class="col-sm-4 input_field">
+									<div class="row">
+										<div class="col-sm-6"><input type="text" placeholder="Start Date" class="datepicker"></div>
+										<div class="col-sm-6"><input type="text" placeholder="Start Time" class="timepicker"></div>
+									</div>
+								</div>
+								<div class="col-sm-4 input_field">
+									<div class="row">
+										<div class="col-sm-6"><input type="text" placeholder="End Date" class="datepicker"></div>
+										<div class="col-sm-6"><input type="text" placeholder="End Time" class="timepicker"></div>
+									</div>
+								</div>
+								<div class="col-sm-12 filter_btn">
+									<input type="submit" value="Run">
+									<div class="close_filter">Close</div>
+								</div>
+							</form>
+							<!-- form -->
+
+							<!-- form -->
+							<form id="ExceedIdle">
+								<div class="col-sm-6 input_field"><input type="text" placeholder="Vehicle Name"></div>
+								<div class="col-sm-6 input_field"><input type="text" placeholder="Stop Duration (In Minutes)"></div>
+								<div class="col-sm-6 input_field">
+									<div class="row">
+										<div class="col-sm-6"><input type="text" placeholder="Start Date" class="datepicker"></div>
+										<div class="col-sm-6"><input type="text" placeholder="Start Time" class="timepicker"></div>
+									</div>
+								</div>
+								<div class="col-sm-6 input_field">
+									<div class="row">
+										<div class="col-sm-6"><input type="text" placeholder="End Date" class="datepicker"></div>
+										<div class="col-sm-6"><input type="text" placeholder="End Time" class="timepicker"></div>
+									</div>
+								</div>
+								<div class="col-sm-12 filter_btn">
+									<input type="submit" value="Run">
+									<div class="close_filter">Close</div>
+								</div>
+							</form>
+							<!-- form -->
+
+							<!-- form -->
+							<form id="FuelConsumptionPerInterval">
+								<div class="col-sm-6 input_field"><input type="text" placeholder="Vehicle Name"></div>
+								<div class="col-sm-6 input_field">
+									<div class="row">
+										<div class="col-sm-6"><input type="text" placeholder="Start Date" class="datepicker"></div>
+										<div class="col-sm-6"><input type="text" placeholder="Start Time" class="timepicker"></div>
+									</div>
+								</div>
+								<div class="col-sm-6 input_field">
+									<div class="row">
+										<div class="col-sm-6"><input type="text" placeholder="End Date" class="datepicker"></div>
+										<div class="col-sm-6"><input type="text" placeholder="End Time" class="timepicker"></div>
+									</div>
+								</div>
+								<div class="col-sm-6 select_field">
+									<select>
+										<option>Group By Interval</option>
+										<option value="0">Day</option>
+										<option value="1">Month</option>
+										<option value="2">Year</option>
+									</select>
+								</div>
+								<div class="col-sm-12 filter_btn">
+									<input type="submit" value="Run">
+									<div class="close_filter">Close</div>
+								</div>
+							</form>
+							<!-- form -->
+
+							<!-- form -->
+							<form id="FuelTheftDetection">
+								<div class="col-sm-4 input_field"><input type="text" placeholder="Vehicle Name"></div>
+								<div class="col-sm-4 input_field">
+									<div class="row">
+										<div class="col-sm-6"><input type="text" placeholder="Start Date" class="datepicker"></div>
+										<div class="col-sm-6"><input type="text" placeholder="Start Time" class="timepicker"></div>
+									</div>
+								</div>
+								<div class="col-sm-4 input_field">
+									<div class="row">
+										<div class="col-sm-6"><input type="text" placeholder="End Date" class="datepicker"></div>
+										<div class="col-sm-6"><input type="text" placeholder="End Time" class="timepicker"></div>
+									</div>
+								</div>
+								<div class="col-sm-12 filter_btn">
+									<input type="submit" value="Run">
+									<div class="close_filter">Close</div>
+								</div>
+							</form>
+							<!-- form -->
+
+							<!-- form -->
+							<form id="VehiclePerformance">
+								<div class="col-md-6">
+									<!----Start fleet section--------->
+									<div id="VehiclePerformanceFleet" class="draggable report_fl_box">
+										<div class="all_main_headlines">
+											<div class="box_title">Fleets</div>
+											<div class="inset_icons">
+												<div class="refresh" data-toggle="tooltip" title="Refresh"><i class="fa fa-refresh"></i></div>
+											</div>
+										</div>
+
+										<div class="main_search">
+											<div class="srh_input"><input type="text" placeholder="Search"></div>
+										</div>
+
+										<div class="fleets_setting">
+											<div class="accordians">
+												<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/fl_icon.png"></p> <span>logistic fleets</span></div>
+												<div class="all_type_list">
+													<div class="one-list">
+														<div class="unique_numbers">
+															<input type="checkbox" class="childCheckBox">
+															<h5><p><img src="assets/images/car.png"></p> 98724</h5>
+														</div>
+													</div>
+
+													<div class="one-list">
+														<div class="unique_numbers">
+															<input type="checkbox" class="childCheckBox">
+															<h5><p><img src="assets/images/car.png"></p> 46464</h5>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="accordians">
+												<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/fl_icon.png"></p> <span>Food Delivery Fleet</span> </div>
+												<div class="all_type_list">
+													<!-- inset accordian -->
+													<div class="accordians">
+														<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/car.png"></p> <span>Sedan Cars</span></div>
+														<div class="all_type_list">
+															<div class="one-list">
+																<div class="unique_numbers">
+																	<input type="checkbox" class="childCheckBox">
+																	<h5><p><img src="assets/images/car.png"></p> demo vehicle</h5>
+																</div>
+															</div>
+														</div>
+													</div>
+													<!-- end inset accordian -->
+												</div>
+											</div>
+
+
+											<div class="accordians">
+												<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/fl_icon.png"></p> <span>Master Fleet</span></div>
+												<div class="all_type_list">
+													<div class="one-list">
+														<div class="unique_numbers">
+															<input type="checkbox">
+															<h5><p><img src="assets/images/car.png"></p> Drivers</h5>
+														</div>
+													</div>
+
+													<!-- inner accordian -->
+														<div class="accordians">
+															<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/car.png"></p> <span>Technicians</span></div>
+															<div class="all_type_list">
+																<div class="one-list">
+																	<div class="unique_numbers">
+																		<input type="checkbox" class="childCheckBox">
+																		<h5><p><img src="assets/images/car.png"></p> Junior Staff</h5>
+																	</div>
+																</div>
+																<div class="one-list">
+																	<div class="unique_numbers">
+																		<input type="checkbox" class="childCheckBox">
+																		<h5><p><img src="assets/images/car.png"></p> Senior Staff</h5>
+																	</div>
+																</div>
+															</div>
+														</div>
+													<!-- inner accordian -->
+												</div>
+											</div>
+
+										</div>
+									</div>
+								<!----End fleet section--------->
+								</div>
+
+								<div class="col-md-6">
+									<div class="row">
+										<div class="col-sm-12 input_field"><input type="text" placeholder="Start Date" class="datepicker"></div>
+										<div class="col-sm-12 input_field"><input type="text" placeholder="Start Time" class="timepicker"></div>
+										<div class="col-sm-12 input_field"><input type="text" placeholder="End Date" class="datepicker"></div>
+										<div class="col-sm-12 input_field"><input type="text" placeholder="End Time" class="timepicker"></div>
+										<div class="col-sm-12 select_field">
+											<select>
+												<option>Alert Type</option>
+												<option value="0">All</option>
+												<option value="1">Geofence</option>
+												<option value="2">Geofence Speed</option>
+												<option value="3">LandMark</option>
+												<option value="5">Speed Limit</option>
+												<option value="6">Long Stop</option>
+												<option value="7">Exceed Idle</option>
+												<option value="8">Off Hours</option>
+												<option value="9">Late Start</option>
+												<option value="20">Low Fuel</option>
+												<option value="21">Low Battery</option>
+												<option value="22">Harsh Deceleration</option>
+												<option value="23">Harsh Acceleration</option>
+												<option value="29">Harsh RPM</option>
+												<option value="30">Harsh Cornering</option>
+												<option value="31">Seat Belt</option>
+												<option value="32">Unauthorized Driver</option>
+												<option value="24">High Engine Temperature</option>
+												<option value="25">Impact</option>
+												<option value="26">Removal Detection</option>
+												<option value="27">Attached Detection</option>
+												<option value="28">Panic Button</option>
+												<option value="33">Fuel Siphoning</option>
+											</select>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-sm-12 filter_btn">
+									<input type="submit" value="Run">
+									<div class="close_filter">Close</div>
+								</div>
+							</form>
+							<!-- form -->
+
+							<!-- form -->
+							<form id="TripsBetweenLocations">
+								<div class="col-md-6">
+									<!----Start fleet section--------->
+									<div id="TripsBetweenLocationsFleet" class="draggable report_fl_box">
+										<div class="all_main_headlines">
+											<div class="box_title">Fleets</div>
+											<div class="inset_icons">
+												<div class="refresh" data-toggle="tooltip" title="Refresh"><i class="fa fa-refresh"></i></div>
+											</div>
+										</div>
+
+										<div class="main_search">
+											<div class="srh_input"><input type="text" placeholder="Search"></div>
+										</div>
+
+										<div class="fleets_setting">
+											<div class="accordians">
+												<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/fl_icon.png"></p> <span>logistic fleets</span></div>
+												<div class="all_type_list">
+													<div class="one-list">
+														<div class="unique_numbers">
+															<input type="checkbox" class="childCheckBox">
+															<h5><p><img src="assets/images/car.png"></p> 98724</h5>
+														</div>
+													</div>
+
+													<div class="one-list">
+														<div class="unique_numbers">
+															<input type="checkbox" class="childCheckBox">
+															<h5><p><img src="assets/images/car.png"></p> 46464</h5>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="accordians">
+												<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/fl_icon.png"></p> <span>Food Delivery Fleet</span> </div>
+												<div class="all_type_list">
+													<!-- inset accordian -->
+													<div class="accordians">
+														<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/car.png"></p> <span>Sedan Cars</span></div>
+														<div class="all_type_list">
+															<div class="one-list">
+																<div class="unique_numbers">
+																	<input type="checkbox" class="childCheckBox">
+																	<h5><p><img src="assets/images/car.png"></p> demo vehicle</h5>
+																</div>
+															</div>
+														</div>
+													</div>
+													<!-- end inset accordian -->
+												</div>
+											</div>
+
+
+											<div class="accordians">
+												<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/fl_icon.png"></p> <span>Master Fleet</span></div>
+												<div class="all_type_list">
+													<div class="one-list">
+														<div class="unique_numbers">
+															<input type="checkbox">
+															<h5><p><img src="assets/images/car.png"></p> Drivers</h5>
+														</div>
+													</div>
+
+													<!-- inner accordian -->
+														<div class="accordians">
+															<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/car.png"></p> <span>Technicians</span></div>
+															<div class="all_type_list">
+																<div class="one-list">
+																	<div class="unique_numbers">
+																		<input type="checkbox" class="childCheckBox">
+																		<h5><p><img src="assets/images/car.png"></p> Junior Staff</h5>
+																	</div>
+																</div>
+																<div class="one-list">
+																	<div class="unique_numbers">
+																		<input type="checkbox" class="childCheckBox">
+																		<h5><p><img src="assets/images/car.png"></p> Senior Staff</h5>
+																	</div>
+																</div>
+															</div>
+														</div>
+													<!-- inner accordian -->
+												</div>
+											</div>
+
+										</div>
+									</div>
+								<!----End fleet section--------->
+								</div>
+
+								<div class="col-md-6">
+									<div class="row">
+										<div class="col-sm-12 input_field"><input type="text" placeholder="Start Date" class="datepicker"></div>
+										<div class="col-sm-12 input_field"><input type="text" placeholder="Start Time" class="timepicker"></div>
+										<div class="col-sm-12 input_field"><input type="text" placeholder="End Date" class="datepicker"></div>
+										<div class="col-sm-12 input_field"><input type="text" placeholder="End Time" class="timepicker"></div>
+										<div class="col-sm-12 select_field">
+											<select>
+												<option>Alert Type</option>
+												<option value="0">All</option>
+												<option value="1">Geofence</option>
+												<option value="2">Geofence Speed</option>
+												<option value="3">LandMark</option>
+												<option value="5">Speed Limit</option>
+												<option value="6">Long Stop</option>
+												<option value="7">Exceed Idle</option>
+												<option value="8">Off Hours</option>
+												<option value="9">Late Start</option>
+												<option value="20">Low Fuel</option>
+												<option value="21">Low Battery</option>
+												<option value="22">Harsh Deceleration</option>
+												<option value="23">Harsh Acceleration</option>
+												<option value="29">Harsh RPM</option>
+												<option value="30">Harsh Cornering</option>
+												<option value="31">Seat Belt</option>
+												<option value="32">Unauthorized Driver</option>
+												<option value="24">High Engine Temperature</option>
+												<option value="25">Impact</option>
+												<option value="26">Removal Detection</option>
+												<option value="27">Attached Detection</option>
+												<option value="28">Panic Button</option>
+												<option value="33">Fuel Siphoning</option>
+											</select>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-sm-12 filter_btn">
+									<input type="submit" value="Run">
+									<div class="close_filter">Close</div>
+								</div>
+							</form>
+							<!-- form -->
+
+							<!-- form -->
+							<form id="TripsBetweenLandmarks">
+								<div class="col-sm-6 input_field"><input type="text" placeholder="Vehicle Name"></div>
+								<div class="col-sm-6 input_field"><input type="text" placeholder="First Landmark Name"></div>
+								<div class="col-sm-6 input_field"><input type="text" placeholder="Second Landmark Name"></div>
+								<div class="col-sm-6 input_field">
+									<div class="row">
+										<div class="col-sm-6"><input type="text" placeholder="Start Date" class="datepicker"></div>
+										<div class="col-sm-6"><input type="text" placeholder="Start Time" class="timepicker"></div>
+									</div>
+								</div>
+								<div class="col-sm-6 input_field">
+									<div class="row">
+										<div class="col-sm-6"><input type="text" placeholder="End Date" class="datepicker"></div>
+										<div class="col-sm-6"><input type="text" placeholder="End Time" class="timepicker"></div>
+									</div>
+								</div>
+								<div class="col-sm-12 filter_btn">
+									<input type="submit" value="Run">
+									<div class="close_filter">Close</div>
+								</div>
+							</form>
+							<!-- form -->
+
+							<!-- form -->
+							<form id="TripsBetweenGeofences">
+								<div class="col-sm-6 input_field"><input type="text" placeholder="Vehicle Name"></div>
+								<div class="col-sm-6 input_field"><input type="text" placeholder="First Geofence Name"></div>
+								<div class="col-sm-6 input_field"><input type="text" placeholder="Second Geofence Name"></div>
+								<div class="col-sm-6 input_field">
+									<div class="row">
+										<div class="col-sm-6"><input type="text" placeholder="Start Date" class="datepicker"></div>
+										<div class="col-sm-6"><input type="text" placeholder="Start Time" class="timepicker"></div>
+									</div>
+								</div>
+								<div class="col-sm-6 input_field">
+									<div class="row">
+										<div class="col-sm-6"><input type="text" placeholder="End Date" class="datepicker"></div>
+										<div class="col-sm-6"><input type="text" placeholder="End Time" class="timepicker"></div>
+									</div>
+								</div>
+								<div class="col-sm-12 filter_btn">
+									<input type="submit" value="Run">
+									<div class="close_filter">Close</div>
+								</div>
+							</form>
+							<!-- form -->
+
+							<!-- form -->
+							<form id="VehiclesTotalMileage">
+								<div class="col-md-6">
+									<!----Start fleet section--------->
+									<div id="VehiclesTotalMileageFleet" class="draggable report_fl_box">
+										<div class="all_main_headlines">
+											<div class="box_title">Fleets</div>
+											<div class="inset_icons">
+												<div class="refresh" data-toggle="tooltip" title="Refresh"><i class="fa fa-refresh"></i></div>
+											</div>
+										</div>
+
+										<div class="main_search">
+											<div class="srh_input"><input type="text" placeholder="Search"></div>
+										</div>
+
+										<div class="fleets_setting">
+											<div class="accordians">
+												<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/fl_icon.png"></p> <span>logistic fleets</span></div>
+												<div class="all_type_list">
+													<div class="one-list">
+														<div class="unique_numbers">
+															<input type="checkbox" class="childCheckBox">
+															<h5><p><img src="assets/images/car.png"></p> 98724</h5>
+														</div>
+													</div>
+
+													<div class="one-list">
+														<div class="unique_numbers">
+															<input type="checkbox" class="childCheckBox">
+															<h5><p><img src="assets/images/car.png"></p> 46464</h5>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="accordians">
+												<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/fl_icon.png"></p> <span>Food Delivery Fleet</span> </div>
+												<div class="all_type_list">
+													<!-- inset accordian -->
+													<div class="accordians">
+														<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/car.png"></p> <span>Sedan Cars</span></div>
+														<div class="all_type_list">
+															<div class="one-list">
+																<div class="unique_numbers">
+																	<input type="checkbox" class="childCheckBox">
+																	<h5><p><img src="assets/images/car.png"></p> demo vehicle</h5>
+																</div>
+															</div>
+														</div>
+													</div>
+													<!-- end inset accordian -->
+												</div>
+											</div>
+
+
+											<div class="accordians">
+												<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/fl_icon.png"></p> <span>Master Fleet</span></div>
+												<div class="all_type_list">
+													<div class="one-list">
+														<div class="unique_numbers">
+															<input type="checkbox">
+															<h5><p><img src="assets/images/car.png"></p> Drivers</h5>
+														</div>
+													</div>
+
+													<!-- inner accordian -->
+														<div class="accordians">
+															<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/car.png"></p> <span>Technicians</span></div>
+															<div class="all_type_list">
+																<div class="one-list">
+																	<div class="unique_numbers">
+																		<input type="checkbox" class="childCheckBox">
+																		<h5><p><img src="assets/images/car.png"></p> Junior Staff</h5>
+																	</div>
+																</div>
+																<div class="one-list">
+																	<div class="unique_numbers">
+																		<input type="checkbox" class="childCheckBox">
+																		<h5><p><img src="assets/images/car.png"></p> Senior Staff</h5>
+																	</div>
+																</div>
+															</div>
+														</div>
+													<!-- inner accordian -->
+												</div>
+											</div>
+
+										</div>
+									</div>
+								<!----End fleet section--------->
+								</div>
+
+								<div class="col-md-6">
+									<div class="row">
+										<div class="col-sm-12 input_field"><input type="text" placeholder="Start Date" class="datepicker"></div>
+										<div class="col-sm-12 input_field"><input type="text" placeholder="Start Time" class="timepicker"></div>
+										<div class="col-sm-12 input_field"><input type="text" placeholder="End Date" class="datepicker"></div>
+										<div class="col-sm-12 input_field"><input type="text" placeholder="End Time" class="timepicker"></div>
+									</div>
+								</div>
+
+								<div class="col-sm-12 filter_btn">
+									<input type="submit" value="Run">
+									<div class="close_filter">Close</div>
+								</div>
+							</form>
+							<!-- form -->
+
+						</div>
+					</div>
+
+
+
+
+
+
+					<div class="col-sm-12 page_table_part">
+						<table id="report_section_table" class="display responsive nowrap" width="100%">
+						    <thead>
+						        <tr>
+						            <th >Vehicle Name</th>
+						            <th>Plate Number</th>
+						            <th>Fleet</th>
+						            <th>Driver Name</th>
+						            <th>Heading</th>
+						            <th>Speed</th>
+						            <th>Ignition</th>
+						            <th>Milege (m)</th>
+						            <th>Server Date</th>
+						            <th>Server Time</th>
+						            <th>GPS Date</th>
+						            <th>GPS Time</th>
+						            <th>GPS Status</th>
+						            <th>Address</th>
+						        </tr>
+						    </thead>
+						    <tbody>
+						        <tr>
+						            <td >Demo Vehicle</td>
+						            <td class="sorting_1">25053</td>
+						            <td>Mini Truck</td>
+						            <td>John Doe</td>
+						            <td>234</td>
+						            <td>0</td>
+						            <td><div class="badge badge-danger">off</div></td>
+						            <td>0</td>
+						            <td>01/04/2019</td>
+						            <td>12:18 AM</td>
+						            <td>01/04/2019</td>
+						            <td>12:16 AM</td>
+						            <td>Fixed</td>
+						            <td>Street 203، Ar-Rayyan, Qatar</td>
+						        </tr>
+						        <tr>
+						            <td>Demo Vehicle</td>
+						            <td>25053</td>
+						            <td>Suzuki Cars</td>
+						            <td>John Doe</td>
+						            <td>234</td>
+						            <td>0</td>
+						            <td><div class="badge badge-danger">off</div></td>
+						            <td>0</td>
+						            <td>01/04/2019</td>
+						            <td>12:18 AM</td>
+						            <td>01/04/2019</td>
+						            <td>12:16 AM</td>
+						            <td>Fixed</td>
+						            <td>Street 203، Ar-Rayyan, Qatar</td>
+						        </tr>
+						        <tr>
+						            <td>Demo Vehicle</td>
+						            <td>25053</td>
+						            <td>Sedan Cars</td>
+						            <td>John Doe</td>
+						            <td>234</td>
+						            <td>0</td>
+						            <td><div class="badge badge-danger">off</div></td>
+						            <td>0</td>
+						            <td>01/04/2019</td>
+						            <td>12:18 AM</td>
+						            <td>01/04/2019</td>
+						            <td>12:16 AM</td>
+						            <td>Fixed</td>
+						            <td>Street 203، Ar-Rayyan, Qatar</td>
+						        </tr>
+						        <tr>
+						            <td>Demo Vehicle</td>
+						            <td>25053</td>
+						            <td>Mini Truck</td>
+						            <td>John Doe</td>
+						            <td>234</td>
+						            <td>0</td>
+						            <td><div class="badge badge-danger">off</div></td>
+						            <td>0</td>
+						            <td>01/04/2019</td>
+						            <td>12:18 AM</td>
+						            <td>01/04/2019</td>
+						            <td>12:16 AM</td>
+						            <td>Fixed</td>
+						            <td>Street 203، Ar-Rayyan, Qatar</td>
+						        </tr>
+						        <tr>
+						            <td>Demo Vehicle</td>
+						            <td>25053</td>
+						            <td>Suzuki Cars</td>
+						            <td>John Doe</td>
+						            <td>234</td>
+						            <td>0</td>
+						            <td><div class="badge badge-danger">off</div></td>
+						            <td>0</td>
+						            <td>01/04/2019</td>
+						            <td>12:18 AM</td>
+						            <td>01/04/2019</td>
+						            <td>12:16 AM</td>
+						            <td>Fixed</td>
+						            <td>Street 203، Ar-Rayyan, Qatar</td>
+						        </tr>
+						        <tr>
+						            <td>Demo Vehicle</td>
+						            <td>25053</td>
+						            <td>Sedan Cars</td>
+						            <td>John Doe</td>
+						            <td>234</td>
+						            <td>0</td>
+						            <td><div class="badge badge-danger">off</div></td>
+						            <td>0</td>
+						            <td>01/04/2019</td>
+						            <td>12:18 AM</td>
+						            <td>01/04/2019</td>
+						            <td>12:16 AM</td>
+						            <td>Fixed</td>
+						            <td>Street 203، Ar-Rayyan, Qatar</td>
+						        </tr>
+						        <tr>
+						            <td>Demo Vehicle</td>
+						            <td>25053</td>
+						            <td>Mini Truck</td>
+						            <td>John Doe</td>
+						            <td>234</td>
+						            <td>0</td>
+						            <td><div class="badge badge-danger">off</div></td>
+						            <td>0</td>
+						            <td>01/04/2019</td>
+						            <td>12:18 AM</td>
+						            <td>01/04/2019</td>
+						            <td>12:16 AM</td>
+						            <td>Fixed</td>
+						            <td>Street 203، Ar-Rayyan, Qatar</td>
+						        </tr>
+						        <tr>
+						            <td>Demo Vehicle</td>
+						            <td>25053</td>
+						            <td>Suzuki Cars</td>
+						            <td>John Doe</td>
+						            <td>234</td>
+						            <td>0</td>
+						            <td><div class="badge badge-danger">off</div></td>
+						            <td>0</td>
+						            <td>01/04/2019</td>
+						            <td>12:18 AM</td>
+						            <td>01/04/2019</td>
+						            <td>12:16 AM</td>
+						            <td>Fixed</td>
+						            <td>Street 203، Ar-Rayyan, Qatar</td>
+						        </tr>
+						        <tr>
+						            <td>Demo Vehicle</td>
+						            <td>25053</td>
+						            <td>Sedan Cars</td>
+						            <td>John Doe</td>
+						            <td>234</td>
+						            <td>0</td>
+						            <td><div class="badge badge-danger">off</div></td>
+						            <td>0</td>
+						            <td>01/04/2019</td>
+						            <td>12:18 AM</td>
+						            <td>01/04/2019</td>
+						            <td>12:16 AM</td>
+						            <td>Fixed</td>
+						            <td>Street 203، Ar-Rayyan, Qatar</td>
+						        </tr>
+						    </tbody>
+						</table>
+					</div>
+
+				</div>
+			</section>
+		<!-- End right Side map view -->
+
+</div>
+<!-- End main Div -->
+
+
+
+<!-- playback popup -->
+<div class="add_new_user_popup" id="playback_popup">
+	<div class="register_new_user">
+		<div class="title">
+			<span>Playback</span>
+			<i class="fa fa-remove"></i>
+		</div>
+
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462562.84785662167!2d54.947543798340256!3d25.075707331290925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1568150832775!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+	</div>
+</div>
+
+
+<!-- fleet popup -->
+<div class="add_new_user_popup" id="report_fleet_setting_sections">
+	<div class="register_new_user">
+		<div class="title">
+			<span>Search By Fleet</span>
+			<i class="fa fa-remove"></i>
+		</div>
+
+		<div class="search_by_fleets">
+			<div class="single_fl_box">
+				<div class="headings"><input type="checkbox" class="fl_parent_input"> <span><img src="assets/images/fl_icon.png"></span> logistic fleet</div>
+				<div class="main_search">
+					<div class="srh_input"><input type="text" placeholder="Search"></div>
+				</div>
+				<div class="fl_lists">
+					<ul>
+						<li><span><sup><input type="checkbox"></sup> <p><img src="assets/images/car.png"> 98724</p></span></li>
+						<li><span><sup><input type="checkbox"></sup> <p><img src="assets/images/car.png"> 46464</p></span></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="single_fl_box">
+				<div class="headings"><input type="checkbox" class="fl_parent_input"> <span><img src="assets/images/fl_icon.png"></span> food delivery fleet</div>
+				<div class="main_search">
+					<div class="srh_input"><input type="text" placeholder="Search"></div>
+				</div>
+				<div class="fl_lists">
+					<ul>
+						<li>
+							<span><sup><input type="checkbox"></sup> <p><img src="assets/images/car.png"> sedan cars</p></span>
+							<div class="dropdown_fl">
+								<ul>
+									<li><span><sup><input type="checkbox"></sup> <p><img src="assets/images/car.png"> Demo Vehicle</p></span></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+
+			<div class="single_fl_box">
+				<div class="headings"><input type="checkbox" class="fl_parent_input"> <span><img src="assets/images/fl_icon.png"></span> master fleet</div>
+				<div class="main_search">
+					<div class="srh_input"><input type="text" placeholder="Search"></div>
+				</div>
+				<div class="fl_lists">
+					<ul>
+						<li><span><sup><input type="checkbox"></sup> <p><img src="assets/images/car.png"> Drivers</p></span></li>
+						<li>
+							<span><sup><input type="checkbox"></sup> <p><img src="assets/images/car.png"> Technicians</p></span>
+							<div class="dropdown_fl">
+								<ul>
+									<li><span><sup><input type="checkbox"></sup> <p><img src="assets/images/car.png"> junior staff</p></span></li>
+									<li><span><sup><input type="checkbox"></sup> <p><img src="assets/images/car.png"> senior staff</p></span></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="col-sm-12 form_btn">
+			<input type="submit" value="Apply">
+			<div class="close_btn">close</div>
+		</div>
+	</div>
+</div>
+
+
+
+<!-- Top Alerts -->
+<div class="add_new_user_popup" id="topbar_alerts">
+	<div class="register_new_user">
+		<div class="title">
+			<span>Alerts</span>
+			<i class="fa fa-remove"></i>
+		</div>
+
+		<div class="vehcile_listings">
+			<table  class="display responsive nowrap" width="100%">
+			    <thead>
+			        <tr>
+			            <th>name</th>
+			            <th>plate number</th>
+			            <th>alert type</th>
+			            <th>importance</th>
+			            <th>created date</th>
+			            <th>created time</th>
+			            <th>message</th>
+			            <th>Actions</th>
+			        </tr>
+			    </thead>
+			    <tbody>
+			        <tr>
+			            <td>Demo Vehicle</td>
+			            <td>654122</td>
+			            <td>Speed Limit	</td>
+			            <td><span class="badge badge-warning">Medium</span></td>
+			            <td>01/04/2019</td>
+			            <td>10:41:56</td>
+			            <td>The vehicle "Demo Vehicle" has exceeded the speed limit at 110 KM/H.	</td>
+			            <td data-toggle="tooltip" title="Locate"><span class="locate_vehicle"><i class="fa fa-map-marker"></span></td>
+			        </tr>
+			          <tr>
+			            <td>Demo Vehicle</td>
+			            <td>654122</td>
+			            <td>Speed Limit	</td>
+			            <td><span class="badge badge-danger">high</span></td>
+			            <td>01/04/2019</td>
+			            <td>10:41:56</td>
+			            <td>The vehicle "Demo Vehicle" has exceeded the speed limit at 110 KM/H.	</td>
+			            <td data-toggle="tooltip" title="Locate"><span class="locate_vehicle"><i class="fa fa-map-marker"></span></td>
+			        </tr>
+			         <tr>
+			            <td>Demo Vehicle</td>
+			            <td>654122</td>
+			            <td>Speed Limit	</td>
+			            <td><span class="badge badge-warning">Medium</span></td>
+			            <td>01/04/2019</td>
+			            <td>10:41:56</td>
+			            <td>The vehicle "Demo Vehicle" has exceeded the speed limit at 110 KM/H.	</td>
+			            <td data-toggle="tooltip" title="Locate"><span class="locate_vehicle"><i class="fa fa-map-marker"></span></td>
+			        </tr>
+			         <tr>
+			            <td>Demo Vehicle</td>
+			            <td>654122</td>
+			            <td>Speed Limit	</td>
+			            <td><span class="badge badge-warning">Medium</span></td>
+			            <td>01/04/2019</td>
+			            <td>10:41:56</td>
+			            <td>The vehicle "Demo Vehicle" has exceeded the speed limit at 110 KM/H.	</td>
+			            <td data-toggle="tooltip" title="Locate"><span class="locate_vehicle"><i class="fa fa-map-marker"></span></td>
+			        </tr>
+			         <tr>
+			            <td>Demo Vehicle</td>
+			            <td>654122</td>
+			            <td>Speed Limit	</td>
+			            <td><span class="badge badge-warning">Medium</span></td>
+			            <td>01/04/2019</td>
+			            <td>10:41:56</td>
+			            <td>The vehicle "Demo Vehicle" has exceeded the speed limit at 110 KM/H.	</td>
+			            <td data-toggle="tooltip" title="Locate"><span class="locate_vehicle"><i class="fa fa-map-marker"></span></td>
+			        </tr>
+			         <tr>
+			            <td>Demo Vehicle</td>
+			            <td>654122</td>
+			            <td>Speed Limit	</td>
+			            <td><span class="badge badge-warning">Medium</span></td>
+			            <td>01/04/2019</td>
+			            <td>10:41:56</td>
+			            <td>The vehicle "Demo Vehicle" has exceeded the speed limit at 110 KM/H.	</td>
+			            <td data-toggle="tooltip" title="Locate"><span class="locate_vehicle"><i class="fa fa-map-marker"></span></td>
+			        </tr>
+			    </tbody>
+			</table>
+		</div>
+
+		<div class="col-sm-12 form_btn">
+			<div class="close_btn">close</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Top Maintenance -->
+<div class="add_new_user_popup" id="topbar_maintain">
+	<div class="register_new_user">
+		<div class="title">
+			<span>Maintenance</span>
+			<i class="fa fa-remove"></i>
+		</div>
+
+		<div class="vehcile_listings">
+			<table class="display responsive nowrap" width="100%">
+			    <thead>
+			        <tr>
+			            <th>name</th>
+			            <th>plate number</th>
+			            <th>Maintenance Type</th>
+			            <th>created date</th>
+			            <th>last change date</th>
+			            <th>message</th>
+			            <th>Actions</th>
+			        </tr>
+			    </thead>
+			    <tbody>
+			        <tr>
+			            <td>Demo Vehicle</td>
+			            <td>654122</td>
+			            <td>Oil Filter</td>
+			            <td>01/04/2019</td>
+			            <td>10:41:56</td>
+			            <td>Oil Filter change required</td>
+			            <td><span class="badge badge-success change">change</span> <span class="badge badge-warning new-reminder">new reminder</span></td>
+			        </tr>
+			        <tr>
+			            <td>Demo Vehicle</td>
+			            <td>654122</td>
+			            <td>Oil Filter</td>
+			            <td>01/04/2019</td>
+			            <td>10:41:56</td>
+			            <td>Oil Filter change required</td>
+			            <td><span class="badge badge-success change">change</span> <span class="badge badge-warning new-reminder">new reminder</span></td>
+			        </tr>
+			        <tr>
+			            <td>Demo Vehicle</td>
+			            <td>654122</td>
+			            <td>Oil Filter</td>
+			            <td>01/04/2019</td>
+			            <td>10:41:56</td>
+			            <td>Oil Filter change required</td>
+			            <td><span class="badge badge-success change">change</span> <span class="badge badge-warning new-reminder">new reminder</span></td>
+			        </tr>
+			        <tr>
+			            <td>Demo Vehicle</td>
+			            <td>654122</td>
+			            <td>Oil Filter</td>
+			            <td>01/04/2019</td>
+			            <td>10:41:56</td>
+			            <td>Oil Filter change required</td>
+			            <td><span class="badge badge-success change">change</span> <span class="badge badge-warning new-reminder">new reminder</span></td>
+			        </tr>
+			        <tr>
+			            <td>Demo Vehicle</td>
+			            <td>654122</td>
+			            <td>Oil Filter</td>
+			            <td>01/04/2019</td>
+			            <td>10:41:56</td>
+			            <td>Oil Filter change required</td>
+			            <td><span class="badge badge-success change">change</span> <span class="badge badge-warning new-reminder">new reminder</span></td>
+			        </tr>
+			    </tbody>
+			</table>
+		</div>
+
+		<div class="col-sm-12 form_btn">
+			<div class="close_btn">close</div>
+		</div>
+	</div>
+</div>
+
+
+<!--  change oil  -->
+<div class="add_new_user_popup" id="change_oil_filter">
+	<div class="register_new_user">
+		<div class="title">
+			<span>Change Oil Filter</span>
+			<i class="fa fa-remove"></i>
+		</div>
+
+		<form>
+		<div class="col-sm-12">
+			<div class="row">
+				<div class="col-sm-12 fld_area">
+					<span>Cost (Currency)</span>
+					<input type="text" placeholder="Cost (Currency)" required="required">
+				</div>
+				<div class="col-sm-12 fld_area">
+					<span>Change Date</span>
+					<input type="text" class="datepicker" placeholder="Change Date" required="required">
+				</div>
+				<div class="col-sm-12 form_btn">
+					<input type="submit" value="Update">
+					<div class="close_btn">close</div>
+				</div>
+			</div>
+		</div>
+		</form>
+	</div>
+</div>
+
+
+<!-- Top reminder -->
+<div class="add_new_user_popup" id="topbar_reminder">
+	<div class="register_new_user">
+		<div class="title">
+			<span>Triggered Reminders</span>
+			<i class="fa fa-remove"></i>
+		</div>
+
+		<div class="vehcile_listings">
+			<table class="display responsive nowrap" width="100%">
+			    <thead>
+			        <tr>
+			            <th>title</th>
+			            <th>Trigger Date</th>
+			            <th>Description</th>
+			            <th>Actions</th>
+			        </tr>
+			    </thead>
+			    <tbody>
+			        <tr>
+			            <td>Renew Driver License For Nader	</td>
+			            <td>10/05/2019</td>
+			            <td>dummy text</td>
+			            <td><span class="badge badge-success">Mark as read</span></td>
+			        </tr>
+			         <tr>
+			            <td>Renew Driver License For Nader	</td>
+			            <td>10/05/2019</td>
+			            <td>dummy text</td>
+			            <td><span class="badge badge-success">Mark as read</span></td>
+			        </tr>
+			         <tr>
+			            <td>Renew Driver License For Nader	</td>
+			            <td>10/05/2019</td>
+			            <td>dummy text</td>
+			            <td><span class="badge badge-success">Mark as read</span></td>
+			        </tr>
+			         <tr>
+			            <td>Renew Driver License For Nader	</td>
+			            <td>10/05/2019</td>
+			            <td>dummy text</td>
+			            <td><span class="badge badge-success">Mark as read</span></td>
+			        </tr>
+			         <tr>
+			            <td>Renew Driver License For Nader	</td>
+			            <td>10/05/2019</td>
+			            <td>dummy text</td>
+			            <td><span class="badge badge-success">Mark as read</span></td>
+			        </tr>
+			    </tbody>
+			</table>
+		</div>
+
+		<div class="col-sm-12 form_btn">
+			<div class="close_btn">close</div>
+		</div>
+	</div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="assets/js/jquery-ui.js"></script>
+<script src="assets/js/jquery.timepicker.min.js"></script>
+<script src="assets/js/jquery.dataTables.min.js"></script>
+<script src="assets/js/dataTables.responsive.min.js"></script>
+<!-- table export -->
+<script src="assets/js/dataTables.buttons.min.js"></script>
+<script src="assets/js/jszip.min.js"></script>
+<script src="assets/js/pdfmake.min.js"></script>
+<script src="assets/js/vfs_fonts.js"></script>
+<script src="assets/js/buttons.html5.min.js"></script>
+<!-- table export -->
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/custom.js"></script>
+
+</body>
+</html>

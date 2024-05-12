@@ -1,0 +1,3229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Ideal Solutions</title>
+<meta name="keywords" content="Ideal Solutions">
+<meta name="description" content="Ideal Solutions">
+<meta charset="UTF-8">
+<meta name="author" content="Ideal Solutions">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="assets/css/jquery.timepicker.min.css">
+<link rel="stylesheet" href="assets/css/jquery-ui.css">
+<link rel="stylesheet" href="assets/css/jquery.dataTables.min.css">
+<link rel="stylesheet" href="assets/css/responsive.dataTables.min.css">
+<link rel="stylesheet" href="assets/css/buttons.dataTables.min.css">
+<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+<div class="fixed_loading">
+	<div class="fixed_loading_inset">
+		<div class="sk-cube-grid">
+		  <div class="sk-cube sk-cube1"></div>
+		  <div class="sk-cube sk-cube2"></div>
+		  <div class="sk-cube sk-cube3"></div>
+		  <div class="sk-cube sk-cube4"></div>
+		  <div class="sk-cube sk-cube5"></div>
+		  <div class="sk-cube sk-cube6"></div>
+		  <div class="sk-cube sk-cube7"></div>
+		  <div class="sk-cube sk-cube8"></div>
+		  <div class="sk-cube sk-cube9"></div>
+		</div>
+	</div>
+</div>
+
+
+<!-- header start area -->
+<div class="col-sm-12 topbar">
+
+	<!-- left header start -->
+	<div class="top_bar_left">
+		<div class="main_logo">
+			<a href="map-view.html" title="ideal solutions" class="mob_logo"><img src="assets/images/mob-logo.png" alt="main logo"></a>
+		</div>
+		<div class="toggle_bar"><a href="map-view.html" class="go_back"><i class="fa fa-long-arrow-left"></i></a></div>
+		<div class="map_and_dash">
+			<ul>
+				<li class="active"><a href="wizard.html">wizard</a></li>
+				<li><a href="map-view.html">map view</a></li>
+			</ul>
+		</div>
+		<div class="full_search_area">
+			<div class="search_inside">
+				<div class="searchicon"><img src="assets/images/search-icon.png" /></div>
+				<div class="searchfield"><input type="text" placeholder="Search"></div>
+				<div class="searchbtn"><input type="button" value="search"></div>
+			</div>
+			<div class="mobile_search_close"><img src="assets/images/clear.png"></div>
+		</div>
+		<div class="mobile_search_click"><img src="assets/images/search-icon.png" /></div>
+	</div>
+	<!-- left header end -->
+
+
+
+	<!-- right header start -->
+	<div class="right_top_bar">
+		<div class="setting_list">
+			<ul>
+				<li class="desk_search_click"><a href="#" data-toggle="tooltip" title="Search"><img src="assets/images/search-icon-white.png"></a></li>
+				<li class="topbar_reminder"><a href="#" data-toggle="tooltip" title="Triggered Reminder"><img src="assets/images/remin.png"></a></li>
+				<li class="topbar_maintain"><a href="#" data-toggle="tooltip" title="Maintenance"><img src="assets/images/mainten.png"></a></li>
+				<li class="topbar_alerts"><a href="#" data-toggle="tooltip" title="Alert"><img src="assets/images/alert.png"></a></li>
+				<!-- <li><a href="#" data-toggle="tooltip" title="Reports"><img src="assets/images/reports.png"></a></li> -->
+			</ul>
+			<div class="col-sm-12 user_profile">
+				<span><img src="assets/images/men.jpg"></span>
+				<h6>Odai Amer</h6>
+				<i class="fa fa-caret-down"></i>
+				<div class="user_popup">
+					<ul>
+						<li><i class="fa fa-power-off"></i> logout</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- right header end -->
+
+	<div class="mobile_click"><i class="fa fa-ellipsis-v"></i></div>
+</div>
+<!-- header end area -->
+
+
+
+	<section class="wizard">
+		<div class="title_lists">
+			<ul>
+				<li class="active_span"><span class="wizard_department">1</span> <p>departments</p></li>
+				<li><span class="wizard_users">2</span> <p>users</p></li>
+				<li><span class="wizard_fleets">3</span> <p>fleets</p></li>
+				<li><span class="wizard_shifts">4</span> <p>shifts</p></li>
+				<li><span class="wizard_drivers">5</span> <p>drivers</p></li>
+				<li><span class="wizard_vehicles">6</span> <p>vehicles</p></li>
+			</ul>
+		</div>
+	</section>
+
+
+	<!-- department section start -->
+	<section class="similar_section" id="wizard_department">
+		<div class="top_bar_title">
+			<div class="heading_name"><i class="fa fa-flag"></i> Departments</div>
+			<div class="heading_cta"><span class="add_new_depart">add new department</span></div>
+		</div>
+
+		<div class="wizard_data">
+			<div class="row">
+				<div class="col-md-6 col-lg-4 depart_box">
+					<div class="inset">
+						<div class="name">Name: <span>AVL Operations</span></div>
+						<div class="action">
+							<ul>
+								<li class="depart_empl" data-toggle="tooltip" title="Employees"><i class="fa fa-user"></i></li>
+								<li class="depart_edit" data-toggle="tooltip" title="Edit"><i class="fa fa-pencil"></i></li>
+								<li class="depart_del" data-toggle="tooltip" title="Delete"><i class="fa fa-trash"></i></li>
+							</ul>
+						</div>
+						<div class="check_area"><i class="fa fa-check"></i></div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-4 depart_box">
+					<div class="inset">
+						<div class="name">Name: <span>Department 2</span></div>
+						<div class="action">
+							<ul>
+								<li class="depart_empl" data-toggle="tooltip" title="Employees"><i class="fa fa-user"></i></li>
+								<li class="depart_edit" data-toggle="tooltip" title="Edit"><i class="fa fa-pencil"></i></li>
+								<li class="depart_del" data-toggle="tooltip" title="Delete"><i class="fa fa-trash"></i></li>
+							</ul>
+						</div>
+						<div class="check_area"><i class="fa fa-check"></i></div>
+					</div>
+				</div>
+
+
+
+				<div class="col-md-6 col-lg-4 depart_box">
+					<div class="inset">
+						<div class="name">Name: <span>Department 3</span></div>
+						<div class="action">
+							<ul>
+								<li class="depart_empl" data-toggle="tooltip" title="Employees"><i class="fa fa-user"></i></li>
+								<li class="depart_edit" data-toggle="tooltip" title="Edit"><i class="fa fa-pencil"></i></li>
+								<li class="depart_del" data-toggle="tooltip" title="Delete"><i class="fa fa-trash"></i></li>
+							</ul>
+						</div>
+						<div class="check_area"><i class="fa fa-check"></i></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- edit depart -->
+		<div class="add_new_user_popup" id="depart_edit">
+			<div class="register_new_user">
+				<div class="title">
+					<span>Edit Department</span>
+					<i class="fa fa-remove"></i>
+				</div>
+
+				<form>
+					<div class="col-sm-12">
+						<div class="row">
+							<div class="col-sm-10 fld_area">
+								<span>Name</span>
+								<input type="text" placeholder="Name" required="required">
+							</div>
+							<div class="col-sm-2 fld_area">
+								<span>Colour</span>
+								<input type="color" required="required">
+							</div>
+							
+							<div class="col-sm-12 form_btn">
+								<input type="submit" value="save">
+								<div class="close_btn">close</div>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<!-- new depart -->
+		<div class="add_new_user_popup" id="add_new_depart">
+			<div class="register_new_user">
+				<div class="title">
+					<span>New Department</span>
+					<i class="fa fa-remove"></i>
+				</div>
+
+				<form>
+					<div class="col-sm-12">
+						<div class="row">
+							<div class="col-sm-10 fld_area">
+								<span>Name</span>
+								<input type="text" placeholder="Name" required="required">
+							</div>
+							<div class="col-sm-2 fld_area">
+								<span>Colour</span>
+								<input type="color" required="required">
+							</div>
+							
+							<div class="col-sm-12 form_btn">
+								<input type="submit" value="save">
+								<div class="close_btn">close</div>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+
+
+		<!-- assigned employes -->
+		<div class="add_new_user_popup" id="depart_empl">
+			<div class="register_new_user">
+				<div class="title">
+					<span>Assigned Employees</span>
+					<i class="fa fa-remove"></i>
+				</div>
+
+				<div class="wiz_pop_table">
+					<table class="display responsive nowrap" width="100%">
+					    <thead>
+					        <tr>
+					            <th>Full Name</th>
+					            <th>Email</th>
+					            <th>Phone Number</th>
+					            <th>Actions</th>
+					        </tr>
+					    </thead>
+					    <tbody>
+					        <tr>
+					            <td>Demo Admin</td>
+					            <td>demo@idealsolutions.com</td>
+					            <td>65478912</td>
+					            <td>
+					            	<span class="remove_lists" data-toggle="tooltip" title="Delete"><i class="fa fa-trash"></i></span>
+					            </td>
+					        </tr>
+					          <tr>
+					            <td>Demo Admin</td>
+					            <td>demo@idealsolutions.com</td>
+					            <td>65478912</td>
+					            <td>
+					            	<span class="remove_lists" data-toggle="tooltip" title="Delete"><i class="fa fa-trash"></i></span>
+					            </td>
+					        </tr>
+					          <tr>
+					            <td>Demo Admin</td>
+					            <td>demo@idealsolutions.com</td>
+					            <td>65478912</td>
+					            <td>
+					            	<span class="remove_lists" data-toggle="tooltip" title="Delete"><i class="fa fa-trash"></i></span>
+					            </td>
+					        </tr>
+					    </tbody>
+					</table>
+				</div>
+
+				<div class="col-sm-12 form_btn">
+					<input type="submit" value="save">
+					<div class="close_btn">close</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<!-- User section start -->
+	<section class="similar_section" id="wizard_users">
+		<div class="top_bar_title">
+			<div class="heading_name"><i class="fa fa-users"></i> Users</div>
+			<div class="heading_cta"><span class="wizard_add_new_user">add new user</span></div>
+		</div>
+
+		<div class="col-sm-12 all_users_box">
+		<div class="row">
+			<div class="col-md-6 col-lg-4">
+				<div class="user_box active_user">
+					<div class="user_dividers">
+						<div class="pic_user"><img src="assets/images/user.png"></div>
+						<div class="user_details">
+							<div class="u-name">Name: <span>john doe</span></div>
+							<div class="u-email">Email: <span>johndoe001@gmail.com</span></div>
+							<div class="u-mob">Mobile no: <span>5646464998</span></div>
+							<div class="u-info">
+								<p>Created: <span class="u-date">25/02/2019</span><span class="u-time">18:10:48</span></p>
+								<p>Role: <span>Administrator</span></p>
+							</div>
+						</div>
+					</div>
+					<div class="user_all_icons">
+						<div class="user_status" data-toggle="tooltip" title="Disable/Enable">
+							<label class="switch">
+							  <input type="checkbox" checked="checked">
+							  <span class="slider"></span>
+							</label>
+						</div>
+						<div class="wizard_edit_user u_edit"  data-toggle="tooltip" title="Edit User"><i class="fa fa-pencil-square-o"></i></div>
+						<div class="wizard_change_password u_password"  data-toggle="tooltip" title="Reset Password"><i class="fa fa-unlock-alt"></i></div>
+						<div class="wizard_logout u_logout"  data-toggle="tooltip" title="Force Logout"><i class="fa fa-power-off"></i></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-6 col-lg-4">
+				<div class="user_box inactive_user">
+					<div class="user_dividers">
+						<div class="pic_user"><img src="assets/images/user.png"></div>
+						<div class="user_details">
+							<div class="u-name">Name: <span>john doe</span></div>
+							<div class="u-email">Email: <span>johndoe001@gmail.com</span></div>
+							<div class="u-mob">Mobile no: <span>5646464998</span></div>
+							<div class="u-info">
+								<p>Created: <span class="u-date">25/02/2019</span><span class="u-time">18:10:48</span></p>
+								<p>Role: <span>Administrator</span></p>
+							</div>
+						</div>
+					</div>
+					<div class="user_all_icons">
+						<div class="user_status" data-toggle="tooltip" title="Disable/Enable">
+							<label class="switch">
+							  <input type="checkbox" checked="checked">
+							  <span class="slider"></span>
+							</label>
+						</div>
+						<div class="wizard_edit_user u_edit"  data-toggle="tooltip" title="Edit User"><i class="fa fa-pencil-square-o"></i></div>
+						<div class="wizard_change_password u_password"  data-toggle="tooltip" title="Reset Password"><i class="fa fa-unlock-alt"></i></div>
+						<div class="wizard_logout u_logout"  data-toggle="tooltip" title="Force Logout"><i class="fa fa-power-off"></i></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-6 col-lg-4">
+				<div class="user_box inactive_user">
+					<div class="user_dividers">
+						<div class="pic_user"><img src="assets/images/user.png"></div>
+						<div class="user_details">
+							<div class="u-name">Name: <span>john doe</span></div>
+							<div class="u-email">Email: <span>johndoe001@gmail.com</span></div>
+							<div class="u-mob">Mobile no: <span>5646464998</span></div>
+							<div class="u-info">
+								<p>Created: <span class="u-date">25/02/2019</span><span class="u-time">18:10:48</span></p>
+								<p>Role: <span>Administrator</span></p>
+							</div>
+						</div>
+					</div>
+					<div class="user_all_icons">
+						<div class="user_status" data-toggle="tooltip" title="Disable/Enable">
+							<label class="switch">
+							  <input type="checkbox" checked="checked">
+							  <span class="slider"></span>
+							</label>
+						</div>
+						<div class="wizard_edit_user u_edit"  data-toggle="tooltip" title="Edit User"><i class="fa fa-pencil-square-o"></i></div>
+						<div class="wizard_change_password u_password"  data-toggle="tooltip" title="Reset Password"><i class="fa fa-unlock-alt"></i></div>
+						<div class="wizard_logout u_logout"  data-toggle="tooltip" title="Force Logout"><i class="fa fa-power-off"></i></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+
+
+		<!--add new user popup -->
+			<div class="add_new_user_popup" id="wizard_add_new_user">
+				<div class="register_new_user">
+					<div class="title">
+						<span>register new user</span>
+						<i class="fa fa-remove"></i>
+					</div>
+
+					<form>
+					<div class="col-sm-12">
+						<div class="row">
+							<div class="col-sm-12 fld_area choose_profile">
+								<div class="choose_inner_div">
+									<span>choose Your profile picture</span>
+									<input type="file">
+								</div>
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>first name</span>
+								<input type="text" placeholder="First Name" required="required">
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>Last name</span>
+								<input type="text" placeholder="Last Name" required="required">
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>Email</span>
+								<input type="email" placeholder="Email" required="required">
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>Phone</span>
+								<input type="text" placeholder="Phone" required="required">
+							</div>
+							<hr>
+							<div class="col-sm-6 fld_area">
+								<span>Password</span>
+								<input type="text" placeholder="Password" required="required">
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>Confirm Password</span>
+								<input type="text" placeholder="Confirm Password" required="required">
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>Role</span>
+								<select required="required">
+									<option>super administrator</option>
+									<option>administrator</option>
+									<option>user</option>
+									<option>viewer</option>
+									<option>customer</option>
+									<option>customer administrator</option>
+								</select>
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>Department</span>
+								<select required="required">
+									<option>AVL Operations</option>
+								</select>
+							</div>
+							<div class="col-sm-12 fld_area">
+								<span>Time Zone</span>
+								<select required="required">
+										<option>(GMT-12:00) International Date Line West</option>
+										<option>(GMT-11:00) Midway Island, Samoa</option>
+										<option>(GMT-10:00) Hawaii</option>
+										<option>(GMT-09:00) Alaska</option>
+										<option>(GMT-08:00) Pacific Time (US & Canada)</option>
+										<option>(GMT-08:00) Tijuana, Baja California</option>
+										<option>(GMT-07:00) Arizona</option>
+										<option>(GMT-07:00) Chihuahua, La Paz, Mazatlan</option>
+										<option>(GMT-07:00) Mountain Time (US & Canada)</option>
+										<option>(GMT-06:00) Central America</option>
+										<option>(GMT-06:00) Central Time (US & Canada)</option>
+										<option>(GMT-06:00) Guadalajara, Mexico City, Monterrey</option>
+										<option>(GMT-06:00) Saskatchewan</option>
+										<option>(GMT-05:00) Bogota, Lima, Quito, Rio Branco</option>
+										<option>(GMT-05:00) Eastern Time (US & Canada)</option>
+										<option>(GMT-05:00) Indiana (East)</option>
+										<option>(GMT-04:00) Atlantic Time (Canada)</option>
+										<option>(GMT-04:00) Caracas, La Paz</option>
+										<option>(GMT-04:00) Manaus</option>
+										<option>(GMT-04:00) Santiago</option>
+										<option>(GMT-03:30) Newfoundland</option>
+										<option>(GMT-03:00) Brasilia</option>
+										<option>(GMT-03:00) Buenos Aires, Georgetown</option>
+										<option>(GMT-03:00) Greenland</option>
+										<option>(GMT-03:00) Montevideo</option>
+										<option>(GMT-02:00) Mid-Atlantic</option>
+										<option>(GMT-01:00) Cape Verde Is.</option>
+										<option>(GMT-01:00) Azores</option>
+										<option>(GMT+00:00) Casablanca, Monrovia, Reykjavik</option>
+										<option>(GMT+00:00) Greenwich Mean Time : Dublin, Edinburgh, Lisbon, London</option>
+										<option>(GMT+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna</option>
+										<option>(GMT+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague</option>
+										<option>(GMT+01:00) Brussels, Copenhagen, Madrid, Paris</option>
+										<option>(GMT+01:00) Sarajevo, Skopje, Warsaw, Zagreb</option>
+										<option>(GMT+01:00) West Central Africa</option>
+										<option>(GMT+02:00) Amman</option>
+										<option>(GMT+02:00) Athens, Bucharest, Istanbul</option>
+										<option>(GMT+02:00) Beirut</option>
+										<option>(GMT+02:00) Cairo</option>
+										<option>(GMT+02:00) Harare, Pretoria</option>
+										<option>(GMT+02:00) Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius</option>
+										<option>(GMT+02:00) Jerusalem</option>
+										<option>(GMT+02:00) Minsk</option>
+										<option>(GMT+02:00) Windhoek</option>
+										<option>(GMT+03:00) Kuwait, Riyadh, Baghdad</option>
+										<option>(GMT+03:00) Moscow, St. Petersburg, Volgograd</option>
+										<option>(GMT+03:00) Nairobi</option>
+										<option>(GMT+03:00) Tbilisi</option>
+										<option>(GMT+03:30) Tehran</option>
+										<option>(GMT+04:00) Abu Dhabi, Muscat</option>
+										<option>(GMT+04:00) Baku</option>
+										<option>(GMT+04:00) Yerevan</option>
+										<option>(GMT+04:30) Kabul</option>
+										<option>(GMT+05:00) Yekaterinburg</option>
+										<option>(GMT+05:00) Islamabad, Karachi, Tashkent</option>
+										<option>(GMT+05:30) Sri Jayawardenapura</option>
+										<option>(GMT+05:30) Chennai, Kolkata, Mumbai, New Delhi</option>
+										<option>(GMT+05:45) Kathmandu</option>
+										<option>(GMT+06:00) Almaty, Novosibirsk</option>
+										<option>(GMT+06:00) Astana, Dhaka</option>
+										<option>(GMT+06:30) Yangon (Rangoon)</option>
+										<option>(GMT+07:00) Bangkok, Hanoi, Jakarta</option>
+										<option>(GMT+07:00) Krasnoyarsk</option>
+										<option>(GMT+08:00) Beijing, Chongqing, Hong Kong, Urumqi</option>
+										<option>(GMT+08:00) Kuala Lumpur, Singapore</option>
+										<option>(GMT+08:00) Irkutsk, Ulaan Bataar</option>
+										<option>(GMT+08:00) Perth</option>
+										<option>(GMT+08:00) Taipei</option>
+										<option>(GMT+09:00) Osaka, Sapporo, Tokyo</option>
+										<option>(GMT+09:00) Seoul</option>
+										<option>(GMT+09:00) Yakutsk</option>
+										<option>(GMT+09:30) Adelaide</option>
+										<option>(GMT+09:30) Darwin</option>
+										<option>(GMT+10:00) Brisbane</option>
+										<option>(GMT+10:00) Canberra, Melbourne, Sydney</option>
+										<option>(GMT+10:00) Hobart</option>
+										<option>(GMT+10:00) Guam, Port Moresby</option>
+										<option>(GMT+10:00) Vladivostok</option>
+										<option>(GMT+11:00) Magadan, Solomon Is., New Caledonia</option>
+										<option>(GMT+12:00) Auckland, Wellington</option>
+										<option>(GMT+12:00) Fiji, Kamchatka, Marshall Is.</option>
+										<option>(GMT+13:00) Nuku'alofa</option>
+								</select>
+							</div>
+
+							<div class="col-sm-12 form_btn">
+								<input type="submit" value="save">
+								<div class="close_btn">close</div>
+							</div>
+						</div>
+					</div>
+					</form>
+				</div>
+			</div>
+
+
+			<!--edit current user  -->
+			<div class="add_new_user_popup" id="wizard_edit_current_user">
+				<div class="register_new_user">
+					<div class="title">
+						<span>Edit user</span>
+						<i class="fa fa-remove"></i>
+					</div>
+
+					<form>
+					<div class="col-sm-12">
+						<div class="row">
+							<div class="col-sm-12 fld_area choose_profile">
+								<div class="choose_inner_div">
+									<span>choose Your profile picture</span>
+									<input type="file">
+								</div>
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>first name</span>
+								<input type="text" placeholder="First Name" required="required">
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>Last name</span>
+								<input type="text" placeholder="Last Name" required="required">
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>Email</span>
+								<input type="email" placeholder="Email" required="required">
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>Phone</span>
+								<input type="text" placeholder="Phone" required="required">
+							</div>
+							<hr>
+							<div class="col-sm-6 fld_area">
+								<span>Role</span>
+								<select required="required">
+									<option>super administrator</option>
+									<option>administrator</option>
+									<option>user</option>
+									<option>viewer</option>
+									<option>customer</option>
+									<option>customer administrator</option>
+								</select>
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>Department</span>
+								<select required="required">
+									<option>AVL Operations</option>
+								</select>
+							</div>
+							<div class="col-sm-12 fld_area">
+								<span>Time Zone</span>
+								<select required="required">
+										<option>(GMT-12:00) International Date Line West</option>
+										<option>(GMT-11:00) Midway Island, Samoa</option>
+										<option>(GMT-10:00) Hawaii</option>
+										<option>(GMT-09:00) Alaska</option>
+										<option>(GMT-08:00) Pacific Time (US & Canada)</option>
+										<option>(GMT-08:00) Tijuana, Baja California</option>
+										<option>(GMT-07:00) Arizona</option>
+										<option>(GMT-07:00) Chihuahua, La Paz, Mazatlan</option>
+										<option>(GMT-07:00) Mountain Time (US & Canada)</option>
+										<option>(GMT-06:00) Central America</option>
+										<option>(GMT-06:00) Central Time (US & Canada)</option>
+										<option>(GMT-06:00) Guadalajara, Mexico City, Monterrey</option>
+										<option>(GMT-06:00) Saskatchewan</option>
+										<option>(GMT-05:00) Bogota, Lima, Quito, Rio Branco</option>
+										<option>(GMT-05:00) Eastern Time (US & Canada)</option>
+										<option>(GMT-05:00) Indiana (East)</option>
+										<option>(GMT-04:00) Atlantic Time (Canada)</option>
+										<option>(GMT-04:00) Caracas, La Paz</option>
+										<option>(GMT-04:00) Manaus</option>
+										<option>(GMT-04:00) Santiago</option>
+										<option>(GMT-03:30) Newfoundland</option>
+										<option>(GMT-03:00) Brasilia</option>
+										<option>(GMT-03:00) Buenos Aires, Georgetown</option>
+										<option>(GMT-03:00) Greenland</option>
+										<option>(GMT-03:00) Montevideo</option>
+										<option>(GMT-02:00) Mid-Atlantic</option>
+										<option>(GMT-01:00) Cape Verde Is.</option>
+										<option>(GMT-01:00) Azores</option>
+										<option>(GMT+00:00) Casablanca, Monrovia, Reykjavik</option>
+										<option>(GMT+00:00) Greenwich Mean Time : Dublin, Edinburgh, Lisbon, London</option>
+										<option>(GMT+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna</option>
+										<option>(GMT+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague</option>
+										<option>(GMT+01:00) Brussels, Copenhagen, Madrid, Paris</option>
+										<option>(GMT+01:00) Sarajevo, Skopje, Warsaw, Zagreb</option>
+										<option>(GMT+01:00) West Central Africa</option>
+										<option>(GMT+02:00) Amman</option>
+										<option>(GMT+02:00) Athens, Bucharest, Istanbul</option>
+										<option>(GMT+02:00) Beirut</option>
+										<option>(GMT+02:00) Cairo</option>
+										<option>(GMT+02:00) Harare, Pretoria</option>
+										<option>(GMT+02:00) Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius</option>
+										<option>(GMT+02:00) Jerusalem</option>
+										<option>(GMT+02:00) Minsk</option>
+										<option>(GMT+02:00) Windhoek</option>
+										<option>(GMT+03:00) Kuwait, Riyadh, Baghdad</option>
+										<option>(GMT+03:00) Moscow, St. Petersburg, Volgograd</option>
+										<option>(GMT+03:00) Nairobi</option>
+										<option>(GMT+03:00) Tbilisi</option>
+										<option>(GMT+03:30) Tehran</option>
+										<option>(GMT+04:00) Abu Dhabi, Muscat</option>
+										<option>(GMT+04:00) Baku</option>
+										<option>(GMT+04:00) Yerevan</option>
+										<option>(GMT+04:30) Kabul</option>
+										<option>(GMT+05:00) Yekaterinburg</option>
+										<option>(GMT+05:00) Islamabad, Karachi, Tashkent</option>
+										<option>(GMT+05:30) Sri Jayawardenapura</option>
+										<option>(GMT+05:30) Chennai, Kolkata, Mumbai, New Delhi</option>
+										<option>(GMT+05:45) Kathmandu</option>
+										<option>(GMT+06:00) Almaty, Novosibirsk</option>
+										<option>(GMT+06:00) Astana, Dhaka</option>
+										<option>(GMT+06:30) Yangon (Rangoon)</option>
+										<option>(GMT+07:00) Bangkok, Hanoi, Jakarta</option>
+										<option>(GMT+07:00) Krasnoyarsk</option>
+										<option>(GMT+08:00) Beijing, Chongqing, Hong Kong, Urumqi</option>
+										<option>(GMT+08:00) Kuala Lumpur, Singapore</option>
+										<option>(GMT+08:00) Irkutsk, Ulaan Bataar</option>
+										<option>(GMT+08:00) Perth</option>
+										<option>(GMT+08:00) Taipei</option>
+										<option>(GMT+09:00) Osaka, Sapporo, Tokyo</option>
+										<option>(GMT+09:00) Seoul</option>
+										<option>(GMT+09:00) Yakutsk</option>
+										<option>(GMT+09:30) Adelaide</option>
+										<option>(GMT+09:30) Darwin</option>
+										<option>(GMT+10:00) Brisbane</option>
+										<option>(GMT+10:00) Canberra, Melbourne, Sydney</option>
+										<option>(GMT+10:00) Hobart</option>
+										<option>(GMT+10:00) Guam, Port Moresby</option>
+										<option>(GMT+10:00) Vladivostok</option>
+										<option>(GMT+11:00) Magadan, Solomon Is., New Caledonia</option>
+										<option>(GMT+12:00) Auckland, Wellington</option>
+										<option>(GMT+12:00) Fiji, Kamchatka, Marshall Is.</option>
+										<option>(GMT+13:00) Nuku'alofa</option>
+								</select>
+							</div>
+
+							<div class="col-sm-12 form_btn">
+								<input type="submit" value="save">
+								<div class="close_btn">close</div>
+							</div>
+						</div>
+					</div>
+					</form>
+				</div>
+			</div>
+
+
+			<!--  Change password  -->
+			<div class="add_new_user_popup" id="wizard_change_password">
+				<div class="register_new_user">
+					<div class="title">
+						<span>Change Password</span>
+						<i class="fa fa-remove"></i>
+					</div>
+
+					<form>
+					<div class="col-sm-12">
+						<div class="row">
+							<div class="col-sm-12 fld_area">
+								<span>New password</span>
+								<input type="password" placeholder="New Password" required="required">
+							</div>
+							<div class="col-sm-12 fld_area">
+								<span>Confirm password</span>
+								<input type="password" placeholder="Confirm Password" required="required">
+							</div>
+							<div class="col-sm-12 form_btn">
+								<input type="submit" value="Update">
+								<div class="close_btn">close</div>
+							</div>
+						</div>
+					</div>
+					</form>
+				</div>
+			</div>
+	</section>
+
+
+
+	<!-- Fleet section start -->
+	<section class="similar_section" id="wizard_fleets">
+		<div class="top_bar_title">
+			<div class="heading_name"><img src="assets/images/fleet-title.png"> fleets</div>
+			<div class="heading_cta"><span class="wizard_add_new_fleet">add new fleet</span></div>
+		</div>
+
+		<!-- All fleets -->
+			<div class="col-sm-12 all_fleets">
+				<!-- ======Single Fleet Box======= -->
+				<div class="fleet_tree_box">
+					<div class="fleet_tree_heading">
+						<div class="nme"><span><img src="assets/images/fl_icon.png"></span> logistic fleet</div>
+						<div class="icons">
+							<span class="fl_filter" data-toggle="tooltip" title="Filter"><i class="fa fa-filter"></i></span>
+							<span class="add_new_list" data-toggle="tooltip" title="Add New Item"><i class="fa fa-plus"></i></span>
+							<span class="remove_box" data-toggle="tooltip" title="Remove Fleet"><i class="fa fa-trash"></i></span>
+						</div>
+					</div>
+
+					<!-- fleet boxes filter start -->
+						<div class="fl_filter_popup">
+							<form>
+							<div class="in-put"><input type="text" placeholder="Vehicle Name"></div>
+							<div class="fl_btns">
+								<div class="fl-apply"><input type="submit" value="apply"></div>
+								<div class="fl-close"><input type="button" value="close"></div>
+							</div>
+							</form>
+						</div>
+					<!-- fleet boxes filter end -->
+
+
+					<!-- start fleet one list -->
+					<div class="fleet_list">
+						<!-- without dropdown fleet list -->
+						<div class="fleet_item">
+							<div class="fleet_area">
+								<span><p><img src="assets/images/car.png"></p> 98724</span>	
+								<div class="all_actions">
+									<i class="fa fa-ellipsis-v view_pop"></i>
+									<i class="fa fa-ellipsis-v hide_pop"></i>
+									<div class="pop_action">
+										<ul>
+											<li class="add_child_fleet"><img src="assets/images/add_fleet.png"> <p>Add Child Fleet</p></li>
+											<li class="assign_vehicle"><img src="assets/images/assign-vehicle.png"> <p>Assign Vehicle</p></li>
+											<li class="assign_user"><img src="assets/images/assign-user.png"> <p>Assign User</p></li>
+											<li class="edit_current_fleet"><img src="assets/images/edit_fleet.png"> <p>Edit Fleet</p></li>
+											<li class="delete_fleet"><img src="assets/images/delete.png"> <p>Delete Fleet</p></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="inset_dropdowns"></div>
+						</div>
+						<!-- without dropdown fleet list -->
+						<!-- without dropdown fleet list -->
+						<div class="fleet_item">
+							<div class="fleet_area">
+								<span><p><img src="assets/images/car.png"></p> 46464</span>	
+								<div class="all_actions">
+									<i class="fa fa-ellipsis-v view_pop"></i>
+									<i class="fa fa-ellipsis-v hide_pop"></i>
+									<div class="pop_action">
+										<ul>
+											<li class="add_child_fleet"><img src="assets/images/add_fleet.png"> <p>Add Child Fleet</p></li>
+											<li class="assign_vehicle"><img src="assets/images/assign-vehicle.png"> <p>Assign Vehicle</p></li>
+											<li class="assign_user"><img src="assets/images/assign-user.png"> <p>Assign User</p></li>
+											<li class="edit_current_fleet"><img src="assets/images/edit_fleet.png"> <p>Edit Fleet</p></li>
+											<li class="delete_fleet"><img src="assets/images/delete.png"> <p>Delete Fleet</p></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="inset_dropdowns"></div>
+						</div>
+						<!-- without dropdown fleet list -->
+					</div>
+					<!-- fleet one list -->
+				</div>
+				<!-- =======Single Fleet Box======= -->
+
+
+				<!-- ======Single fleet box======= -->
+				<div class="fleet_tree_box">
+					<div class="fleet_tree_heading">
+						<div class="nme"><span><img src="assets/images/fl_icon.png"></span> Food Delivery fleet</div>
+						<div class="icons">
+							<span class="fl_filter" data-toggle="tooltip" title="Filter"><i class="fa fa-filter"></i></span>
+							<span class="add_new_list" data-toggle="tooltip" title="Add New Item"><i class="fa fa-plus"></i></span>
+							<span class="remove_box" data-toggle="tooltip" title="Remove Fleet"><i class="fa fa-trash"></i></span>
+						</div>
+					</div>
+
+					<!-- fleet boxes filter start -->
+						<div class="fl_filter_popup">
+							<form>
+							<div class="in-put"><input type="text" placeholder="Vehicle Name"></div>
+							<div class="fl_btns">
+								<div class="fl-apply"><input type="submit" value="apply"></div>
+								<div class="fl-close"><input type="button" value="close"></div>
+							</div>
+							</form>
+						</div>
+					<!-- fleet boxes filter end -->
+
+					<!-- start fleet one list -->
+					<div class="fleet_list">
+						<!-- with dropdown fleet list -->
+						<div class="fleet_item">
+							<div class="fleet_area">
+								<span><p><img src="assets/images/car.png"></p> Sedan Cars</span>	
+								<div class="all_actions">
+									<i class="fa fa-ellipsis-v view_pop"></i>
+									<i class="fa fa-ellipsis-v hide_pop"></i>
+									<div class="pop_action">
+										<ul>
+											<li class="add_child_fleet"><img src="assets/images/add_fleet.png"> <p>Add Child Fleet</p></li>
+											<li class="assign_vehicle"><img src="assets/images/assign-vehicle.png"> <p>Assign Vehicle</p></li>
+											<li class="assign_user"><img src="assets/images/assign-user.png"> <p>Assign User</p></li>
+											<li class="edit_current_fleet"><img src="assets/images/edit_fleet.png"> <p>Edit Fleet</p></li>
+											<li class="delete_fleet"><img src="assets/images/delete.png"> <p>Delete Fleet</p></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+							<!-- fleet boxes filter start -->
+								<div class="fl_filter_popup">
+									<form>
+									<div class="in-put"><input type="text" placeholder="Vehicle Name"></div>
+									<div class="fl_btns">
+										<div class="fl-apply"><input type="submit" value="apply"></div>
+										<div class="fl-close"><input type="button" value="close"></div>
+									</div>
+									</form>
+								</div>
+							<!-- fleet boxes filter end -->
+
+								<div class="inset_dropdowns">
+									<div class="fleet_item">
+										<div class="fleet_area">
+											<span><p><img src="assets/images/car.png"></p> demo vehicle</span>	
+											<div class="all_actions">
+												<i class="fa fa-ellipsis-v view_pop"></i>
+												<i class="fa fa-ellipsis-v hide_pop"></i>
+												<div class="pop_action">
+													<ul>
+														<li class="add_child_fleet"><img src="assets/images/add_fleet.png"> <p>Add Child Fleet</p></li>
+														<li class="assign_vehicle"><img src="assets/images/assign-vehicle.png"> <p>Assign Vehicle</p></li>
+														<li class="assign_user"><img src="assets/images/assign-user.png"> <p>Assign User</p></li>
+														<li class="edit_current_fleet"><img src="assets/images/edit_fleet.png"> <p>Edit Fleet</p></li>
+														<li class="delete_fleet"><img src="assets/images/delete.png"> <p>Delete Fleet</p></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+
+										<div class="inset_dropdowns"></div>
+									</div>
+								</div>
+						</div>
+						<!-- with dropdown fleet list -->
+					</div>
+					<!-- fleet one list -->
+				</div>
+				<!-- =======Single Fleet BOx======= -->
+
+
+				<!-- ======Single fleet box======= -->
+				<div class="fleet_tree_box">
+					<div class="fleet_tree_heading">
+						<div class="nme"><span><img src="assets/images/fl_icon.png"></span> master fleet</div>
+						<div class="icons">
+							<span class="fl_filter" data-toggle="tooltip" title="Filter"><i class="fa fa-filter"></i></span>
+							<span class="add_new_list" data-toggle="tooltip" title="Add New Item"><i class="fa fa-plus"></i></span>
+							<span class="remove_box" data-toggle="tooltip" title="Remove Fleet"><i class="fa fa-trash"></i></span>
+						</div>
+					</div>
+
+					<!-- fleet boxes filter start -->
+						<div class="fl_filter_popup">
+							<form>
+							<div class="in-put"><input type="text" placeholder="Vehicle Name"></div>
+							<div class="fl_btns">
+								<div class="fl-apply"><input type="submit" value="apply"></div>
+								<div class="fl-close"><input type="button" value="close"></div>
+							</div>
+							</form>
+						</div>
+					<!-- fleet boxes filter end -->
+
+					<!-- start fleet one list -->
+					<div class="fleet_list">
+						<!-- without dropdown fleet list -->
+						<div class="fleet_item">
+							<div class="fleet_area">
+								<span><p><img src="assets/images/car.png"></p> drivers</span>	
+								<div class="all_actions">
+									<i class="fa fa-ellipsis-v view_pop"></i>
+									<i class="fa fa-ellipsis-v hide_pop"></i>
+									<div class="pop_action">
+										<ul>
+											<li class="add_child_fleet"><img src="assets/images/add_fleet.png"> <p>Add Child Fleet</p></li>
+											<li class="assign_vehicle"><img src="assets/images/assign-vehicle.png"> <p>Assign Vehicle</p></li>
+											<li class="assign_user"><img src="assets/images/assign-user.png"> <p>Assign User</p></li>
+											<li class="edit_current_fleet"><img src="assets/images/edit_fleet.png"> <p>Edit Fleet</p></li>
+											<li class="delete_fleet"><img src="assets/images/delete.png"> <p>Delete Fleet</p></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+							<div class="inset_dropdowns"></div>
+						</div>
+						<!-- without dropdown fleet list -->
+
+						<!-- with dropdown fleet list -->
+						<div class="fleet_item">
+							<div class="fleet_area">
+								<span><p><img src="assets/images/car.png"></p> technicians</span>	
+								<div class="all_actions">
+									<i class="fa fa-ellipsis-v view_pop"></i>
+									<i class="fa fa-ellipsis-v hide_pop"></i>
+									<div class="pop_action">
+										<ul>
+											<li class="add_child_fleet"><img src="assets/images/add_fleet.png"> <p>Add Child Fleet</p></li>
+											<li class="assign_vehicle"><img src="assets/images/assign-vehicle.png"> <p>Assign Vehicle</p></li>
+											<li class="assign_user"><img src="assets/images/assign-user.png"> <p>Assign User</p></li>
+											<li class="edit_current_fleet"><img src="assets/images/edit_fleet.png"> <p>Edit Fleet</p></li>
+											<li class="delete_fleet"><img src="assets/images/delete.png"> <p>Delete Fleet</p></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+							<!-- fleet boxes filter start -->
+								<div class="fl_filter_popup">
+									<form>
+									<div class="in-put"><input type="text" placeholder="Vehicle Name"></div>
+									<div class="fl_btns">
+										<div class="fl-apply"><input type="submit" value="apply"></div>
+										<div class="fl-close"><input type="button" value="close"></div>
+									</div>
+									</form>
+								</div>
+							<!-- fleet boxes filter end -->
+
+								<div class="inset_dropdowns">
+									<div class="fleet_item">
+										<div class="fleet_area">
+											<span><p><img src="assets/images/car.png"></p> junior staff</span>	
+											<div class="all_actions">
+												<i class="fa fa-ellipsis-v view_pop"></i>
+												<i class="fa fa-ellipsis-v hide_pop"></i>
+												<div class="pop_action">
+													<ul>
+														<li class="add_child_fleet"><img src="assets/images/add_fleet.png"> <p>Add Child Fleet</p></li>
+														<li class="assign_vehicle"><img src="assets/images/assign-vehicle.png"> <p>Assign Vehicle</p></li>
+														<li class="assign_user"><img src="assets/images/assign-user.png"> <p>Assign User</p></li>
+														<li class="edit_current_fleet"><img src="assets/images/edit_fleet.png"> <p>Edit Fleet</p></li>
+														<li class="delete_fleet"><img src="assets/images/delete.png"> <p>Delete Fleet</p></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+
+										<div class="inset_dropdowns"></div>
+									</div>
+
+									<div class="fleet_item">
+										<div class="fleet_area">
+											<span><p><img src="assets/images/car.png"></p> senior staff</span>	
+											<div class="all_actions">
+												<i class="fa fa-ellipsis-v view_pop"></i>
+												<i class="fa fa-ellipsis-v hide_pop"></i>
+												<div class="pop_action">
+													<ul>
+														<li class="add_child_fleet"><img src="assets/images/add_fleet.png"> <p>Add Child Fleet</p></li>
+														<li class="assign_vehicle"><img src="assets/images/assign-vehicle.png"> <p>Assign Vehicle</p></li>
+														<li class="assign_user"><img src="assets/images/assign-user.png"> <p>Assign User</p></li>
+														<li class="edit_current_fleet"><img src="assets/images/edit_fleet.png"> <p>Edit Fleet</p></li>
+														<li class="delete_fleet"><img src="assets/images/delete.png"> <p>Delete Fleet</p></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+
+										<div class="inset_dropdowns"></div>
+									</div>
+								</div>
+						</div>
+						<!-- with dropdown fleet list -->
+					</div>
+					<!-- fleet one list -->
+				</div>
+				<!-- ======Single fleet box======= -->
+			</div>
+
+
+			<!-- add new fleet -->
+			<div class="add_new_user_popup" id="wizard_add_new_fleet">
+				<div class="register_new_user">
+					<div class="title">
+						<span>Add New fleet</span>
+						<i class="fa fa-remove"></i>
+					</div>
+
+					<form>
+					<div class="col-sm-12">
+						<div class="row">
+							<div class="col-sm-12 fld_area">
+								<span>Fleet name</span>
+								<input type="text" placeholder="Name" required="required">
+							</div>
+							<div class="col-sm-12 fld_area">
+								<span>Department</span>
+								<select required="required">
+									<option>AVL Operations</option>
+								</select>
+							</div>
+							<div class="col-sm-12 form_btn">
+								<input type="submit" value="save">
+								<div class="close_btn">close</div>
+							</div>
+						</div>
+					</div>
+					</form>
+				</div>
+			</div>
+
+			<!-- Add Fleet list item -->
+			<div class="add_new_user_popup" id="wizard_add_new_fleet_list">
+				<div class="register_new_user">
+					<div class="title">
+						<span>Add New Item</span>
+						<i class="fa fa-remove"></i>
+					</div>
+
+					<form>
+					<div class="col-sm-12">
+						<div class="row">
+							<div class="col-sm-12 fld_area">
+								<span>Fleet name</span>
+								<input type="text" placeholder="Name" required="required">
+							</div>
+							<div class="col-sm-12 fld_area">
+								<span>Department</span>
+								<select required="required">
+									<option>AVL Operations</option>
+								</select>
+							</div>
+							<div class="col-sm-12 form_btn">
+								<input type="submit" value="save">
+								<div class="close_btn">close</div>
+							</div>
+						</div>
+					</div>
+					</form>
+				</div>
+			</div>
+
+
+			<!-- Add Child Fleet -->
+			<div class="add_new_user_popup" id="wizard_add_child_fleet">
+				<div class="register_new_user">
+					<div class="title">
+						<span>Add Child Fleet</span>
+						<i class="fa fa-remove"></i>
+					</div>
+
+					<form>
+					<div class="col-sm-12">
+						<div class="row">
+							<div class="col-sm-12 fld_area">
+								<span>Fleet name</span>
+								<input type="text" placeholder="Name" required="required">
+							</div>
+							<div class="col-sm-12 fld_area">
+								<span>Department</span>
+								<select required="required">
+									<option>AVL Operations</option>
+								</select>
+							</div>
+							<div class="col-sm-12 form_btn">
+								<input type="submit" value="save">
+								<div class="close_btn">close</div>
+							</div>
+						</div>
+					</div>
+					</form>
+				</div>
+			</div>
+
+
+			<!-- edit current fleet -->
+			<div class="add_new_user_popup" id="wizard_edit_current_fleet">
+				<div class="register_new_user">
+					<div class="title">
+						<span>Edit Fleet</span>
+						<i class="fa fa-remove"></i>
+					</div>
+
+					<form>
+					<div class="col-sm-12">
+						<div class="row">
+							<div class="col-sm-12 fld_area">
+								<span>Fleet name</span>
+								<input type="text" placeholder="Name" required="required">
+							</div>
+							<div class="col-sm-12 fld_area">
+								<span>Department</span>
+								<select required="required">
+									<option>AVL Operations</option>
+								</select>
+							</div>
+							<div class="col-sm-12 form_btn">
+								<input type="submit" value="save">
+								<div class="close_btn">close</div>
+							</div>
+						</div>
+					</div>
+					</form>
+				</div>
+			</div>
+
+
+			<!-- Assign User -->
+			<div class="add_new_user_popup" id="wizard_assign_users">
+				<div class="register_new_user">
+					<div class="title">
+						<span>Assign / Unassign user</span>
+						<i class="fa fa-remove"></i>
+					</div>
+
+					<div class="col-sm-12 pop_up_tabs">
+						<ul>
+							<li class="assinged_lists active">Assigned user</li>
+							<li class="unassinged_lists">Unassigned user</li>
+						</ul>
+					</div>
+
+					<div class="vehcile_listings assinged_item">
+						<table class="display responsive nowrap" width="100%">
+						    <thead>
+						        <tr>
+						            <th>first name</th>
+						            <th>last name</th>
+						            <th>email</th>
+						            <th>phone number</th>
+						            <th>role</th>
+						            <th>created date</th>
+						            <th>created time</th>
+						            <th>enabled</th>
+						        </tr>
+						    </thead>
+						    <tbody>
+						        <tr>
+						            <td>demo</td>
+						            <td>admin</td>
+						            <td>demo@idealsolutions.com	</td>
+						            <td>65478912</td>
+						            <td>Super Administrator	</td>
+						            <td>25/02/2019</td>
+						            <td>18:10:48</td>
+						            <td><span>yes</span></td>
+						        </tr>
+						        <tr>
+						            <td>demo</td>
+						            <td>admin</td>
+						            <td>demo@idealsolutions.com	</td>
+						            <td>65478912</td>
+						            <td>Super Administrator	</td>
+						            <td>25/02/2019</td>
+						            <td>18:10:48</td>
+						            <td><span>yes</span></td>
+						        </tr>
+						        <tr>
+						            <td>demo</td>
+						            <td>admin</td>
+						            <td>demo@idealsolutions.com	</td>
+						            <td>65478912</td>
+						            <td>Super Administrator	</td>
+						            <td>25/02/2019</td>
+						            <td>18:10:48</td>
+						            <td><span>yes</span></td>
+						        </tr>
+						        <tr>
+						            <td>demo</td>
+						            <td>admin</td>
+						            <td>demo@idealsolutions.com	</td>
+						            <td>65478912</td>
+						            <td>Super Administrator	</td>
+						            <td>25/02/2019</td>
+						            <td>18:10:48</td>
+						            <td><span>yes</span></td>
+						        </tr>
+						        <tr>
+						            <td>demo</td>
+						            <td>admin</td>
+						            <td>demo@idealsolutions.com	</td>
+						            <td>65478912</td>
+						            <td>Super Administrator	</td>
+						            <td>25/02/2019</td>
+						            <td>18:10:48</td>
+						            <td><span>yes</span></td>
+						        </tr>
+						        <tr>
+						            <td>demo</td>
+						            <td>admin</td>
+						            <td>demo@idealsolutions.com	</td>
+						            <td>65478912</td>
+						            <td>Super Administrator	</td>
+						            <td>25/02/2019</td>
+						            <td>18:10:48</td>
+						            <td><span>yes</span></td>
+						        </tr>
+						    </tbody>
+						</table>
+					</div>
+
+					<div class="vehcile_listings unassinged_item">
+						<table class="display responsive nowrap" width="100%">
+						    <thead>
+						        <tr>
+						            <th>first name</th>
+						            <th>last name</th>
+						            <th>email</th>
+						            <th>phone number</th>
+						            <th>role</th>
+						            <th>created date</th>
+						            <th>created time</th>
+						            <th>enabled</th>
+						        </tr>
+						    </thead>
+						    <tbody>
+						        <tr>
+						            <td>demo</td>
+						            <td>admin</td>
+						            <td>demo@idealsolutions.com	</td>
+						            <td>65478912</td>
+						            <td>Super Administrator	</td>
+						            <td>25/02/2019</td>
+						            <td>18:10:48</td>
+						            <td><span>yes</span></td>
+						        </tr>
+						        <tr>
+						            <td>demo</td>
+						            <td>admin</td>
+						            <td>demo@idealsolutions.com	</td>
+						            <td>65478912</td>
+						            <td>Super Administrator	</td>
+						            <td>25/02/2019</td>
+						            <td>18:10:48</td>
+						            <td><span>yes</span></td>
+						        </tr>
+						        <tr>
+						            <td>demo</td>
+						            <td>admin</td>
+						            <td>demo@idealsolutions.com	</td>
+						            <td>65478912</td>
+						            <td>Super Administrator	</td>
+						            <td>25/02/2019</td>
+						            <td>18:10:48</td>
+						            <td><span>yes</span></td>
+						        </tr>
+						        <tr>
+						            <td>demo</td>
+						            <td>admin</td>
+						            <td>demo@idealsolutions.com	</td>
+						            <td>65478912</td>
+						            <td>Super Administrator	</td>
+						            <td>25/02/2019</td>
+						            <td>18:10:48</td>
+						            <td><span>yes</span></td>
+						        </tr>
+						        <tr>
+						            <td>demo</td>
+						            <td>admin</td>
+						            <td>demo@idealsolutions.com	</td>
+						            <td>65478912</td>
+						            <td>Super Administrator	</td>
+						            <td>25/02/2019</td>
+						            <td>18:10:48</td>
+						            <td><span>yes</span></td>
+						        </tr>
+						        <tr>
+						            <td>demo</td>
+						            <td>admin</td>
+						            <td>demo@idealsolutions.com	</td>
+						            <td>65478912</td>
+						            <td>Super Administrator	</td>
+						            <td>25/02/2019</td>
+						            <td>18:10:48</td>
+						            <td><span>yes</span></td>
+						        </tr>
+						    </tbody>
+						</table>
+					</div>
+
+					<div class="col-sm-12 form_btn">
+						<div class="close_btn">close</div>
+					</div>
+				</div>
+			</div>
+
+
+			<!-- Assign Vehicle -->
+			<div class="add_new_user_popup" id="wizard_assign_vehicle">
+					<div class="register_new_user">
+						<div class="title">
+							<span>Assign / Unassign Vehicle</span>
+							<i class="fa fa-remove"></i>
+						</div>
+
+						<div class="col-sm-12 pop_up_tabs">
+							<ul>
+								<li class="assinged_lists active">Assigned vehicle</li>
+								<li class="unassinged_lists">Unassigned vehicle</li>
+							</ul>
+						</div>
+
+						<div class="vehcile_listings assinged_item">
+							<table class="display responsive nowrap" width="100%">
+							    <thead>
+							        <tr>
+							            <th>name</th>
+							            <th>plate number</th>
+							            <th>model</th>
+							            <th>year of make</th>
+							            <th>plate type</th>
+							            <th>odometer</th>
+							        </tr>
+							    </thead>
+							    <tbody>
+							        <tr>
+							            <td>RFID Test</td>
+							            <td>654122</td>
+							            <td>Acura - MDX</td>
+							            <td>2017</td>
+							            <td>Private</td>
+							            <td>6305</td>
+							        </tr>
+							         <tr>
+							            <td>RFID Test</td>
+							            <td>654122</td>
+							            <td>Acura - MDX</td>
+							            <td>2017</td>
+							            <td>Private</td>
+							            <td>6305</td>
+							        </tr>
+							         <tr>
+							            <td>RFID Test</td>
+							            <td>654122</td>
+							            <td>Acura - MDX</td>
+							            <td>2017</td>
+							            <td>Private</td>
+							            <td>6305</td>
+							        </tr>
+							         <tr>
+							            <td>RFID Test</td>
+							            <td>654122</td>
+							            <td>Acura - MDX</td>
+							            <td>2017</td>
+							            <td>Private</td>
+							            <td>6305</td>
+							        </tr>
+							         <tr>
+							            <td>RFID Test</td>
+							            <td>654122</td>
+							            <td>Acura - MDX</td>
+							            <td>2017</td>
+							            <td>Private</td>
+							            <td>6305</td>
+							        </tr>
+							         <tr>
+							            <td>RFID Test</td>
+							            <td>654122</td>
+							            <td>Acura - MDX</td>
+							            <td>2017</td>
+							            <td>Private</td>
+							            <td>6305</td>
+							        </tr>
+							    </tbody>
+							</table>
+						</div>
+
+						<div class="vehcile_listings unassinged_item">
+							<table class="display responsive nowrap" width="100%">
+							    <thead>
+							        <tr>
+							            <th>name</th>
+							            <th>plate number</th>
+							            <th>model</th>
+							            <th>year of make</th>
+							            <th>plate type</th>
+							            <th>odometer</th>
+							        </tr>
+							    </thead>
+							    <tbody>
+							        <tr>
+							            <td>RFID Test</td>
+							            <td>654122</td>
+							            <td>Acura - MDX</td>
+							            <td>2017</td>
+							            <td>Private</td>
+							            <td>6305</td>
+							        </tr>
+							         <tr>
+							            <td>RFID Test</td>
+							            <td>654122</td>
+							            <td>Acura - MDX</td>
+							            <td>2017</td>
+							            <td>Private</td>
+							            <td>6305</td>
+							        </tr>
+							         <tr>
+							            <td>RFID Test</td>
+							            <td>654122</td>
+							            <td>Acura - MDX</td>
+							            <td>2017</td>
+							            <td>Private</td>
+							            <td>6305</td>
+							        </tr>
+							         <tr>
+							            <td>RFID Test</td>
+							            <td>654122</td>
+							            <td>Acura - MDX</td>
+							            <td>2017</td>
+							            <td>Private</td>
+							            <td>6305</td>
+							        </tr>
+							         <tr>
+							            <td>RFID Test</td>
+							            <td>654122</td>
+							            <td>Acura - MDX</td>
+							            <td>2017</td>
+							            <td>Private</td>
+							            <td>6305</td>
+							        </tr>
+							         <tr>
+							            <td>RFID Test</td>
+							            <td>654122</td>
+							            <td>Acura - MDX</td>
+							            <td>2017</td>
+							            <td>Private</td>
+							            <td>6305</td>
+							        </tr>
+							    </tbody>
+							</table>
+						</div>
+
+						<div class="col-sm-12 form_btn">
+							<div class="close_btn">close</div>
+						</div>
+					</div>
+				</div>
+		</section>
+
+
+	<!-- Shifts Section Start -->
+	<section class="similar_section" id="wizard_shifts">
+		<div class="top_bar_title">
+			<div class="heading_name"><img src="assets/images/shift.png"> shifts</div>
+			<div class="heading_cta"><span class="wizard_add_new_shift">add new shift</span></div>
+		</div>
+
+		<div class="col-sm-12 wizard_shift_table">
+			<table class="display responsive nowrap" width="100%">
+			    <thead>
+			        <tr>
+			            <th>name</th>
+			            <th>start time</th>
+			            <th>end time</th>
+			            <th>break interval (In Minutes)</th>
+			            <th>Departments</th>
+			            <th>actions</th>
+			        </tr>
+			    </thead>
+			    <tbody>
+			        <tr>
+			            <td>Morning Shifts</td>
+			            <td>7:20 AM</td>
+			            <td>1:00 PM</td>
+			            <td>40</td>
+			            <td>Technicians</td>
+			            <td>
+			            	<span class="edit_lists" data-toggle="tooltip" title="Edit"><i class="fa fa-pencil"></i></span>
+			            	<span class="remove_lists" data-toggle="tooltip" title="Delete"><i class="fa fa-trash"></i></span>
+			            </td>
+			        </tr>
+			         <tr>
+			            <td>Afternoon Shifts</td>
+			            <td>1:00 AM</td>
+			            <td>5:00 PM</td>
+			            <td>40</td>
+			            <td>Drivers</td>
+			            <td>
+			            	<span class="edit_lists" data-toggle="tooltip" title="Edit"><i class="fa fa-pencil"></i></span>
+			            	<span class="remove_lists" data-toggle="tooltip" title="Delete"><i class="fa fa-trash"></i></span>
+			            </td>
+			        </tr>
+			         <tr>
+			            <td>Evening Shifts</td>
+			            <td>5:00 AM</td>
+			            <td>11:00 PM</td>
+			            <td>40</td>
+			            <td>Technicians</td>
+			            <td>
+			            	<span class="edit_lists" data-toggle="tooltip" title="Edit"><i class="fa fa-pencil"></i></span>
+			            	<span class="remove_lists" data-toggle="tooltip" title="Delete"><i class="fa fa-trash"></i></span>
+			            </td>
+			        </tr>
+			         <tr>
+			            <td>Night Shifts</td>
+			            <td>11:00 AM</td>
+			            <td>3:00 PM</td>
+			            <td>40</td>
+			            <td>Drivers</td>
+			            <td>
+			            	<span class="edit_lists" data-toggle="tooltip" title="Edit"><i class="fa fa-pencil"></i></span>
+			            	<span class="remove_lists" data-toggle="tooltip" title="Delete"><i class="fa fa-trash"></i></span>
+			            </td>
+			        </tr>
+			    </tbody>
+			</table>
+		</div>
+
+
+		<!--add new user popup -->
+			<div class="add_new_user_popup" id="wizard_new_shift_popup">
+				<div class="register_new_user">
+					<div class="title">
+						<span>Add New Shift</span>
+						<i class="fa fa-remove"></i>
+					</div>
+
+					<form>
+						<div class="col-sm-12">
+							<div class="row">
+								<div class="col-sm-12 fld_area">
+									<span>Shift Name</span>
+									<input type="text" placeholder="Shift Name" required="required">
+								</div>
+
+								<div class="col-sm-6 fld_area">
+									<span>Start Time</span>
+									<input type="text" placeholder="Start Time" class="timepicker" required="required">
+								</div>
+								<div class="col-sm-6 fld_area">
+									<span>End Time</span>
+									<input type="text" placeholder="End Time" class="timepicker" required="required">
+								</div>
+
+								<div class="col-sm-6 fld_area">
+									<span>Break Interval (In Minutes)</span>
+									<input type="text" placeholder="0" required="required">
+								</div>
+								<div class="col-sm-6 fld_area">
+									<span>Period (In Hours)</span>
+									<input type="text" placeholder="0" required="required">
+								</div>
+
+								<div class="col-sm-12 form_btn">
+									<input type="submit" value="save">
+									<div class="close_btn">close</div>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+
+
+		<!--Edit Shift popup -->
+			<div class="add_new_user_popup" id="wizard_edit_shift_popup">
+				<div class="register_new_user">
+					<div class="title">
+						<span>Edit Shift</span>
+						<i class="fa fa-remove"></i>
+					</div>
+
+					<form>
+						<div class="col-sm-12">
+							<div class="row">
+								<div class="col-sm-12 fld_area">
+									<span>Shift Name</span>
+									<input type="text" placeholder="Shift Name" required="required">
+								</div>
+
+								<div class="col-sm-6 fld_area">
+									<span>Start Time</span>
+									<input type="text" placeholder="Start Time" class="timepicker" required="required">
+								</div>
+								<div class="col-sm-6 fld_area">
+									<span>End Time</span>
+									<input type="text" placeholder="End Time" class="timepicker" required="required">
+								</div>
+
+								<div class="col-sm-6 fld_area">
+									<span>Break Interval (In Minutes)</span>
+									<input type="text" placeholder="0" required="required">
+								</div>
+								<div class="col-sm-6 fld_area">
+									<span>Period (In Hours)</span>
+									<input type="text" placeholder="0" required="required">
+								</div>
+
+								<div class="col-sm-12 form_btn">
+									<input type="submit" value="save">
+									<div class="close_btn">close</div>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+	</section>
+
+
+	<!-- Driver Section Start -->
+	<section class="similar_section" id="wizard_drivers">
+		<div class="top_bar_title">
+			<div class="heading_name"><img src="assets/images/driver.png"> drivers</div>
+			<div class="heading_cta"><span class="wizard_add_new_driver">add new driver</span></div>
+		</div>
+
+		<div class="col-sm-12 all_users_box all_drivers">
+			<div class="user_box">
+				<div class="pic_user"><img src="assets/images/driver-men.png"></div>
+				<div class="user_details">
+					<div class="u-name">Name: <span>john doe</span></div>
+					<div class="u-email">Email: <span>johndoe001@gmail.com</span></div>
+					<div class="u-mob">Mobile no: <span>5646464998</span></div>	
+					<div class="driver_cta">
+						<span class="dtl_btn" data-toggle="tooltip" title="Details"><i class="fa fa-file"></i></span>
+						<span class="edit_driver" data-toggle="tooltip" title="Edit Profile"><i class="fa fa-pencil"></i></span>
+						<span class="remove_driver" data-toggle="tooltip" title="Delete Profile"><i class="fa fa-trash"></i></span>
+					</div>					
+					<div class="driver_details">
+						<ul>
+							<li class="id_card">ID card</li>
+							<li class="driver_license">driver license</li>
+							<li class="insurance">health insurance</li>
+							<li class="rfid">RFID</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="user_box">
+				<div class="pic_user"><img src="assets/images/driver-men.png"></div>
+				<div class="user_details">
+					<div class="u-name">Name: <span>john doe</span></div>
+					<div class="u-email">Email: <span>johndoe001@gmail.com</span></div>
+					<div class="u-mob">Mobile no: <span>5646464998</span></div>	
+					<div class="driver_cta">
+						<span class="dtl_btn" data-toggle="tooltip" title="Details"><i class="fa fa-file"></i></span>
+						<span class="edit_driver" data-toggle="tooltip" title="Edit Profile"><i class="fa fa-pencil"></i></span>
+						<span class="remove_driver" data-toggle="tooltip" title="Delete Profile"><i class="fa fa-trash"></i></span>
+					</div>					
+					<div class="driver_details">
+						<ul>
+							<li class="id_card">ID card</li>
+							<li class="driver_license">driver license</li>
+							<li class="insurance">health insurance</li>
+							<li class="rfid">RFID</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="user_box">
+				<div class="pic_user"><img src="assets/images/driver-men.png"></div>
+				<div class="user_details">
+					<div class="u-name">Name: <span>john doe</span></div>
+					<div class="u-email">Email: <span>johndoe001@gmail.com</span></div>
+					<div class="u-mob">Mobile no: <span>5646464998</span></div>	
+					<div class="driver_cta">
+						<span class="dtl_btn" data-toggle="tooltip" title="Details"><i class="fa fa-file"></i></span>
+						<span class="edit_driver" data-toggle="tooltip" title="Edit Profile"><i class="fa fa-pencil"></i></span>
+						<span class="remove_driver" data-toggle="tooltip" title="Delete Profile"><i class="fa fa-trash"></i></span>
+					</div>					
+					<div class="driver_details">
+						<ul>
+							<li class="id_card">ID card</li>
+							<li class="driver_license">driver license</li>
+							<li class="insurance">health insurance</li>
+							<li class="rfid">RFID</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="user_box">
+				<div class="pic_user"><img src="assets/images/driver-men.png"></div>
+				<div class="user_details">
+					<div class="u-name">Name: <span>john doe</span></div>
+					<div class="u-email">Email: <span>johndoe001@gmail.com</span></div>
+					<div class="u-mob">Mobile no: <span>5646464998</span></div>	
+					<div class="driver_cta">
+						<span class="dtl_btn" data-toggle="tooltip" title="Details"><i class="fa fa-file"></i></span>
+						<span class="edit_driver" data-toggle="tooltip" title="Edit Profile"><i class="fa fa-pencil"></i></span>
+						<span class="remove_driver" data-toggle="tooltip" title="Delete Profile"><i class="fa fa-trash"></i></span>
+					</div>					
+					<div class="driver_details">
+						<ul>
+							<li class="id_card">ID card</li>
+							<li class="driver_license">driver license</li>
+							<li class="insurance">health insurance</li>
+							<li class="rfid">RFID</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+
+		<!--add new user popup -->
+			<div class="add_new_user_popup" id="wizard_add_new_driver">
+				<div class="register_new_user">
+					<div class="title">
+						<span>Add New Driver</span>
+						<i class="fa fa-remove"></i>
+					</div>
+
+					<form>
+					<div class="col-sm-12">
+						<div class="row">
+							<div class="col-sm-12 fld_area choose_profile">
+								<div class="choose_inner_div">
+									<span>choose Your profile picture</span>
+									<input type="file">
+								</div>
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>first name</span>
+								<input type="text" placeholder="First Name" required="required">
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>Last name</span>
+								<input type="text" placeholder="Last Name" required="required">
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>email</span>
+								<input type="text" placeholder="Email" required="required">
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>Phone number</span>
+								<input type="text" placeholder="Phone Number" required="required">
+							</div>
+							<hr>
+							<div class="col-sm-6 fld_area">
+								<span>Employee Number</span>
+								<input type="text" placeholder="Employee Number" required="required">
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>Department Name</span>
+								<select required="required">
+									<option>AVL Operations</option>
+								</select>
+							</div>
+
+							<div class="col-sm-6 fld_area">
+								<div class="row">
+									<div class="col-sm-12"><span>ID card</span></div>
+									<div class="col-sm-6"><input type="file" required="required"></div>
+									<div class="col-sm-6"><input type="text" placeholder="Expiry Date" class="datepicker" required="required"></div>
+								</div>
+							</div>
+
+							<div class="col-sm-6 fld_area">
+								<div class="row">
+									<div class="col-sm-12"><span>Driver License</span></div>
+									<div class="col-sm-6"><input type="file" required="required"></div>
+									<div class="col-sm-6"><input type="text" placeholder="Expiry Date" class="datepicker" required="required"></div>
+								</div>
+							</div>
+
+							<div class="col-sm-6 fld_area">
+								<div class="row">
+									<div class="col-sm-12"><span>Health Insurance</span></div>
+									<div class="col-sm-6"><input type="file" required="required"></div>
+									<div class="col-sm-6"><input type="text" placeholder="Expiry Date" class="datepicker" required="required"></div>
+								</div>
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>RFID</span>
+								<input type="text" placeholder="RFID" required="required">
+							</div>
+
+
+							<div class="col-sm-12 popup_title">sponser information (Optional)</div>
+							<div class="col-sm-6 fld_area">
+								<span>Sponser Name</span>
+								<input type="text" placeholder="Sponser Name">
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>Sponsor ID Number</span>
+								<input type="text" placeholder="Sponsor ID Number">
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>Sponsor Phone Number</span>
+								<input type="text" placeholder="Sponsor Phone Number">
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>Sponsor Email</span>
+								<input type="text" placeholder="Sponsor Email">
+							</div>
+
+							<div class="col-sm-12 form_btn">
+								<input type="submit" value="save">
+								<div class="close_btn">close</div>
+							</div>
+							
+						</div>
+					</div>
+					</form>
+				</div>
+			</div>
+
+
+
+			<!--Edit Driver  -->
+			<div class="add_new_user_popup" id="wizard_edit_current_driver">
+				<div class="register_new_user">
+					<div class="title">
+						<span>Edit Current Driver</span>
+						<i class="fa fa-remove"></i>
+					</div>
+
+					<form>
+					<div class="col-sm-12">
+						<div class="row">
+							<div class="col-sm-12 fld_area choose_profile">
+								<div class="choose_inner_div">
+									<span>choose Your profile picture</span>
+									<input type="file">
+								</div>
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>first name</span>
+								<input type="text" placeholder="First Name" required="required">
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>Last name</span>
+								<input type="text" placeholder="Last Name" required="required">
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>email</span>
+								<input type="text" placeholder="Email" required="required">
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>Phone number</span>
+								<input type="text" placeholder="Phone Number" required="required">
+							</div>
+							<hr>
+							<div class="col-sm-6 fld_area">
+								<span>Employee Number</span>
+								<input type="text" placeholder="Employee Number" required="required">
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>Department Name</span>
+								<select required="required">
+									<option>AVL Operations</option>
+								</select>
+							</div>
+
+							<div class="col-sm-6 fld_area">
+								<div class="row">
+									<div class="col-sm-12"><span>ID card</span></div>
+									<div class="col-sm-6"><input type="file" required="required"></div>
+									<div class="col-sm-6"><input type="text" placeholder="Expiry Date" class="datepicker" required="required"></div>
+								</div>
+							</div>
+
+							<div class="col-sm-6 fld_area">
+								<div class="row">
+									<div class="col-sm-12"><span>Driver License</span></div>
+									<div class="col-sm-6"><input type="file" required="required"></div>
+									<div class="col-sm-6"><input type="text" placeholder="Expiry Date" class="datepicker" required="required"></div>
+								</div>
+							</div>
+
+							<div class="col-sm-6 fld_area">
+								<div class="row">
+									<div class="col-sm-12"><span>Health Insurance</span></div>
+									<div class="col-sm-6"><input type="file" required="required"></div>
+									<div class="col-sm-6"><input type="text" placeholder="Expiry Date" class="datepicker" required="required"></div>
+								</div>
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>RFID</span>
+								<input type="text" placeholder="RFID" required="required">
+							</div>
+
+
+							<div class="col-sm-12 popup_title">sponser information (Optional)</div>
+							<div class="col-sm-6 fld_area">
+								<span>Sponser Name</span>
+								<input type="text" placeholder="Sponser Name">
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>Sponsor ID Number</span>
+								<input type="text" placeholder="Sponsor ID Number">
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>Sponsor Phone Number</span>
+								<input type="text" placeholder="Sponsor Phone Number">
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>Sponsor Email</span>
+								<input type="text" placeholder="Sponsor Email">
+							</div>
+
+							<div class="col-sm-12 form_btn">
+								<input type="submit" value="save">
+								<div class="close_btn">close</div>
+							</div>
+							
+						</div>
+					</div>
+					</form>
+				</div>
+			</div>
+
+
+
+
+
+			<!-- Driver ID Card  -->
+			<div class="add_new_user_popup" id="wizard_drive_id_card">
+				<div class="register_new_user">
+					<div class="title">
+						<span>ID Card</span>
+						<i class="fa fa-remove"></i>
+					</div>
+
+					<div class="col-sm-12 fld_area">
+						<span>ID Card Expiry Date</span>
+						<input type="text" placeholder="10/10/2019" disabled="disabled">
+					</div>
+
+					<div class="col-sm-12 doc_view">
+						<img src="assets/images/license.jpg">
+					</div>
+
+					<div class="col-sm-12 form_btn">
+						<div class="close_btn">close</div>
+					</div>
+						
+				</div>
+			</div>
+
+
+
+
+			<!-- Driver ID Card  -->
+			<div class="add_new_user_popup" id="wizard_driver_license">
+				<div class="register_new_user">
+					<div class="title">
+						<span>Driver License</span>
+						<i class="fa fa-remove"></i>
+					</div>
+
+					<div class="col-sm-12 fld_area">
+						<span>Driver License Expiry Date</span>
+						<input type="text" placeholder="10/10/2019" disabled="disabled">
+					</div>
+
+					<div class="col-sm-12 doc_view">
+						<img src="assets/images/id_card.jpg">
+					</div>
+
+					<div class="col-sm-12 form_btn">
+						<div class="close_btn">close</div>
+					</div>
+						
+				</div>
+			</div>
+
+
+
+			<!-- Health Insurance  -->
+			<div class="add_new_user_popup" id="wizard_health_insurance">
+				<div class="register_new_user">
+					<div class="title">
+						<span>Health Insurance</span>
+						<i class="fa fa-remove"></i>
+					</div>
+
+					<div class="col-sm-12 fld_area">
+						<span>Health Insurance Expiry Date</span>
+						<input type="text" placeholder="10/10/2019" disabled="disabled">
+					</div>
+
+					<div class="col-sm-12 doc_view">
+						<img src="assets/images/hlt-report.jpg">
+					</div>
+
+					<div class="col-sm-12 form_btn">
+						<div class="close_btn">close</div>
+					</div>
+						
+				</div>
+			</div>
+
+
+
+
+			<!-- Health Insurance  -->
+			<div class="add_new_user_popup" id="wizard_rfid_number">
+				<div class="register_new_user">
+					<div class="title">
+						<span>RFID</span>
+						<i class="fa fa-remove"></i>
+					</div>
+
+					<div class="col-sm-12 fld_area">
+						<span>RFID Number</span>
+						<input type="text" placeholder="RFID Number">
+					</div>
+
+
+					<div class="col-sm-12 form_btn">
+						<input type="submit" value="save">
+						<div class="close_btn">close</div>
+					</div>
+						
+				</div>
+			</div>
+
+
+
+
+			<!-- Driver Detail Popup  -->
+			<div class="add_new_user_popup" id="wizard_driver_detail_popup">
+				<div class="register_new_user">
+					<div class="title">
+						<span>Details</span>
+						<i class="fa fa-remove"></i>
+					</div>
+
+					<div class="vehcile_listings">
+						<div class="col-sm-12 heading">assigned vehicle</div>
+						<table id="assign_driver_vehcle" class="display responsive nowrap" width="100%">
+						    <thead>
+						        <tr>
+						            <th>vehicle name</th>
+						            <th>plate number</th>
+						            <th>model</th>
+						            <th>shift</th>
+						        </tr>
+						    </thead>
+						    <tbody>
+						        <tr>
+						            <td>RFID Test</td>
+						            <td>654122</td>
+						            <td>Acura - MDX</td>
+						            <td>morning shift</td>
+						        </tr>
+						         <tr>
+						            <td>RFID Test</td>
+						            <td>654122</td>
+						            <td>Acura - MDX</td>
+						            <td>morning shift</td>
+						        </tr>
+						         <tr>
+						            <td>RFID Test</td>
+						            <td>654122</td>
+						            <td>Acura - MDX</td>
+						            <td>morning shift</td>
+						        </tr>
+						    </tbody>
+						</table>
+					</div>
+
+					<div class="col-sm-12 driver_info">
+						<div class="col-sm-12 heading">driver information</div>
+						<div class="row">
+							<div class="col-sm-6 detail_list">Full Name: <span>Nader Samir</span></div>
+							<div class="col-sm-6 detail_list">Email: <span>Nader.Samir@isc.qa</span></div>
+							<div class="col-sm-6 detail_list">Phone Number: <span>65464646485</span></div>
+							<div class="col-sm-6 detail_list">Department: <span>AVL Operations</span></div>
+						</div>
+
+						<div class="col-sm-12 heading">Sponsor Information</div>
+						<div class="row">
+							<div class="col-sm-6 detail_list">Sponsor Name: <span>john smith</span></div>
+							<div class="col-sm-6 detail_list">Sponsor ID Number: <span>654646545</span></div>
+							<div class="col-sm-6 detail_list">Sponsor Phone Number: <span>879879879</span></div>
+							<div class="col-sm-6 detail_list">Sponsor Email: <span>dummyemail@gmail.com</span></div>
+						</div>
+					</div>
+
+					<div class="col-sm-12 form_btn">
+						<div class="close_btn">close</div>
+					</div>
+				</div>
+			</div>
+	</section>
+
+
+	<!-- vehicle section -->
+	<section class="similar_section" id="wizard_vehicles">
+		<div class="top_bar_title">
+			<div class="heading_name"><i class="fa fa-car"></i> vehicles</div>
+			<div class="heading_cta"><span class="wizard_add_new_vehicle">add new vehicle</span></div>
+		</div>
+
+		<div class="col-sm-12 all_users_box all_vehicles">
+			<div class="user_box inactive" data-toggle="tooltip" title="Inactive">
+						<div class="vehicle_up_box">
+							<div class="pic_user" ><img src="assets/images/truck.jpg"></div>
+							<div class="user_details">
+								<div class="u-name">Name: <span>Demo vehicle</span></div>
+								<div class="u-email">Plate Number: <span>654654648</span></div>
+								<div class="u-mob">Odometer: <span>231313</span></div>
+								<div class="u-mob">GPS Date: <span>15/04/2019 10:00 AM</span></div>
+								<div class="u-mob">Server Date: <span>15/04/2019 10:00 AM</span></div>
+								<div class="u-mob">Status: <span>Inactive</span></div>
+							</div>
+						</div>
+						<div class="vehicle_icons">
+							<div class="left_veh_icons">
+								<ul>
+									<li class="v-detail" data-toggle="tooltip" title="Details"><i class="fa fa-file"></i></li>
+									<li class="v-odometer" data-toggle="tooltip" title="Edit Odometer"><i class="fa fa-tachometer"></i></li>
+									<li class="v-edit" data-toggle="tooltip" title="Edit"><i class="fa fa-pencil"></i></li>
+									<li class="v-registration" data-toggle="tooltip" title="Registration"><i class="fa fa-id-card"></i></li>
+									<li class="v-insurance" data-toggle="tooltip" title="Insurance"><i class="fa fa-file-text"></i></li>
+									<li class="v-assign" data-toggle="tooltip" title="Assign Fleet"><i class="fa fa-cab"></i></li>
+									<li class="v-delete" data-toggle="tooltip" title="Delete"><i class="fa fa-trash"></i></li>
+								</ul>
+								<div class="other_actions">
+									<ul>
+										<li class="v-driver" data-toggle="tooltip" title="Drivers"><i class="fa fa-user"></i> drivers</li>
+										<li class="v-near" data-toggle="tooltip" title="Nearest Vehicle"><i class="fa fa-car"></i> nearest vehicle</li>
+										<li class="v-status" data-toggle="tooltip" title="Update Status"><i class="fa fa-pencil-square-o"></i> update status</li>
+									</ul>
+								</div>
+							</div>
+							<div class="right_veh_icons"><i class="fa fa-ellipsis-v"></i></div>
+						</div>
+					</div>
+
+
+					<div class="user_box" data-toggle="tooltip" title="Active">
+						<div class="vehicle_up_box">
+							<div class="pic_user"><img src="assets/images/truck.jpg"></div>
+							<div class="user_details">
+								<div class="u-name">Name: <span>Demo vehicle</span></div>
+								<div class="u-email">Plate Number: <span>654654648</span></div>
+								<div class="u-mob">Odometer: <span>231313</span></div>
+								<div class="u-mob">GPS Date: <span>15/04/2019 10:00 AM</span></div>
+								<div class="u-mob">Server Date: <span>15/04/2019 10:00 AM</span></div>
+								<div class="u-mob">Status: <span>Active</span></div>
+							</div>
+						</div>
+						<div class="vehicle_icons">
+							<div class="left_veh_icons">
+								<ul>
+									<li class="v-detail" data-toggle="tooltip" title="Details"><i class="fa fa-file"></i></li>
+									<li class="v-odometer" data-toggle="tooltip" title="Edit Odometer"><i class="fa fa-tachometer"></i></li>
+									<li class="v-edit" data-toggle="tooltip" title="Edit"><i class="fa fa-pencil"></i></li>
+									<li class="v-registration" data-toggle="tooltip" title="Registration"><i class="fa fa-id-card"></i></li>
+									<li class="v-insurance" data-toggle="tooltip" title="Insurance"><i class="fa fa-file-text"></i></li>
+									<li class="v-assign" data-toggle="tooltip" title="Assign Fleet"><i class="fa fa-cab"></i></li>
+									<li class="v-delete" data-toggle="tooltip" title="Delete"><i class="fa fa-trash"></i></li>
+								</ul>
+								<div class="other_actions">
+									<ul>
+										<li class="v-driver" data-toggle="tooltip" title="Drivers"><i class="fa fa-user"></i> drivers</li>
+										<li class="v-near" data-toggle="tooltip" title="Nearest Vehicle"><i class="fa fa-car"></i> nearest vehicle</li>
+										<li class="v-status" data-toggle="tooltip" title="Update Status"><i class="fa fa-pencil-square-o"></i> update status</li>
+									</ul>
+								</div>
+							</div>
+							<div class="right_veh_icons"><i class="fa fa-ellipsis-v"></i></div>
+						</div>
+					</div>
+
+
+					<div class="user_box maintenance" data-toggle="tooltip" title="Maintenance">
+						<div class="vehicle_up_box">
+							<div class="pic_user"><img src="assets/images/truck.jpg"></div>
+							<div class="user_details">
+								<div class="u-name">Name: <span>Demo vehicle</span></div>
+								<div class="u-email">Plate Number: <span>654654648</span></div>
+								<div class="u-mob">Odometer: <span>231313</span></div>
+								<div class="u-mob">GPS Date: <span>15/04/2019 10:00 AM</span></div>
+								<div class="u-mob">Server Date: <span>15/04/2019 10:00 AM</span></div>
+								<div class="u-mob">Status: <span>maintenance</span></div>
+							</div>
+						</div>
+						<div class="vehicle_icons">
+							<div class="left_veh_icons">
+								<ul>
+									<li class="v-detail" data-toggle="tooltip" title="Details"><i class="fa fa-file"></i></li>
+									<li class="v-odometer" data-toggle="tooltip" title="Edit Odometer"><i class="fa fa-tachometer"></i></li>
+									<li class="v-edit" data-toggle="tooltip" title="Edit"><i class="fa fa-pencil"></i></li>
+									<li class="v-registration" data-toggle="tooltip" title="Registration"><i class="fa fa-id-card"></i></li>
+									<li class="v-insurance" data-toggle="tooltip" title="Insurance"><i class="fa fa-file-text"></i></li>
+									<li class="v-assign" data-toggle="tooltip" title="Assign Fleet"><i class="fa fa-cab"></i></li>
+									<li class="v-delete" data-toggle="tooltip" title="Delete"><i class="fa fa-trash"></i></li>
+								</ul>
+								<div class="other_actions">
+									<ul>
+										<li class="v-driver" data-toggle="tooltip" title="Drivers"><i class="fa fa-user"></i> drivers</li>
+										<li class="v-near" data-toggle="tooltip" title="Nearest Vehicle"><i class="fa fa-car"></i> nearest vehicle</li>
+										<li class="v-status" data-toggle="tooltip" title="Update Status"><i class="fa fa-pencil-square-o"></i> update status</li>
+									</ul>
+								</div>
+							</div>
+							<div class="right_veh_icons"><i class="fa fa-ellipsis-v"></i></div>
+						</div>
+					</div>
+
+
+					<div class="user_box maintenance" data-toggle="tooltip" title="Maintenance">
+						<div class="vehicle_up_box">
+							<div class="pic_user"><img src="assets/images/truck.jpg"></div>
+							<div class="user_details">
+								<div class="u-name">Name: <span>Demo vehicle</span></div>
+								<div class="u-email">Plate Number: <span>654654648</span></div>
+								<div class="u-mob">Odometer: <span>231313</span></div>
+								<div class="u-mob">GPS Date: <span>15/04/2019 10:00 AM</span></div>
+								<div class="u-mob">Server Date: <span>15/04/2019 10:00 AM</span></div>
+								<div class="u-mob">Status: <span>maintenance</span></div>
+							</div>
+						</div>
+						<div class="vehicle_icons">
+							<div class="left_veh_icons">
+								<ul>
+									<li class="v-detail" data-toggle="tooltip" title="Details"><i class="fa fa-file"></i></li>
+									<li class="v-odometer" data-toggle="tooltip" title="Edit Odometer"><i class="fa fa-tachometer"></i></li>
+									<li class="v-edit" data-toggle="tooltip" title="Edit"><i class="fa fa-pencil"></i></li>
+									<li class="v-registration" data-toggle="tooltip" title="Registration"><i class="fa fa-id-card"></i></li>
+									<li class="v-insurance" data-toggle="tooltip" title="Insurance"><i class="fa fa-file-text"></i></li>
+									<li class="v-assign" data-toggle="tooltip" title="Assign Fleet"><i class="fa fa-cab"></i></li>
+									<li class="v-delete" data-toggle="tooltip" title="Delete"><i class="fa fa-trash"></i></li>
+								</ul>
+								<div class="other_actions">
+									<ul>
+										<li class="v-driver" data-toggle="tooltip" title="Drivers"><i class="fa fa-user"></i> drivers</li>
+										<li class="v-near" data-toggle="tooltip" title="Nearest Vehicle"><i class="fa fa-car"></i> nearest vehicle</li>
+										<li class="v-status" data-toggle="tooltip" title="Update Status"><i class="fa fa-pencil-square-o"></i> update status</li>
+									</ul>
+								</div>
+							</div>
+							<div class="right_veh_icons"><i class="fa fa-ellipsis-v"></i></div>
+						</div>
+					</div>
+
+					<div class="user_box maintenance" data-toggle="tooltip" title="Maintenance">
+						<div class="vehicle_up_box">
+							<div class="pic_user"><img src="assets/images/truck.jpg"></div>
+							<div class="user_details">
+								<div class="u-name">Name: <span>Demo vehicle</span></div>
+								<div class="u-email">Plate Number: <span>654654648</span></div>
+								<div class="u-mob">Odometer: <span>231313</span></div>
+								<div class="u-mob">GPS Date: <span>15/04/2019 10:00 AM</span></div>
+								<div class="u-mob">Server Date: <span>15/04/2019 10:00 AM</span></div>
+								<div class="u-mob">Status: <span>maintenance</span></div>
+							</div>
+						</div>
+						<div class="vehicle_icons">
+							<div class="left_veh_icons">
+								<ul>
+									<li class="v-detail" data-toggle="tooltip" title="Details"><i class="fa fa-file"></i></li>
+									<li class="v-odometer" data-toggle="tooltip" title="Edit Odometer"><i class="fa fa-tachometer"></i></li>
+									<li class="v-edit" data-toggle="tooltip" title="Edit"><i class="fa fa-pencil"></i></li>
+									<li class="v-registration" data-toggle="tooltip" title="Registration"><i class="fa fa-id-card"></i></li>
+									<li class="v-insurance" data-toggle="tooltip" title="Insurance"><i class="fa fa-file-text"></i></li>
+									<li class="v-assign" data-toggle="tooltip" title="Assign Fleet"><i class="fa fa-cab"></i></li>
+									<li class="v-delete" data-toggle="tooltip" title="Delete"><i class="fa fa-trash"></i></li>
+								</ul>
+								<div class="other_actions">
+									<ul>
+										<li class="v-driver" data-toggle="tooltip" title="Drivers"><i class="fa fa-user"></i> drivers</li>
+										<li class="v-near" data-toggle="tooltip" title="Nearest Vehicle"><i class="fa fa-car"></i> nearest vehicle</li>
+										<li class="v-status" data-toggle="tooltip" title="Update Status"><i class="fa fa-pencil-square-o"></i> update status</li>
+									</ul>
+								</div>
+							</div>
+							<div class="right_veh_icons"><i class="fa fa-ellipsis-v"></i></div>
+						</div>
+					</div>
+
+					<div class="user_box maintenance" data-toggle="tooltip" title="Maintenance">
+						<div class="vehicle_up_box">
+							<div class="pic_user"><img src="assets/images/truck.jpg"></div>
+							<div class="user_details">
+								<div class="u-name">Name: <span>Demo vehicle</span></div>
+								<div class="u-email">Plate Number: <span>654654648</span></div>
+								<div class="u-mob">Odometer: <span>231313</span></div>
+								<div class="u-mob">GPS Date: <span>15/04/2019 10:00 AM</span></div>
+								<div class="u-mob">Server Date: <span>15/04/2019 10:00 AM</span></div>
+								<div class="u-mob">Status: <span>maintenance</span></div>
+							</div>
+						</div>
+						<div class="vehicle_icons">
+							<div class="left_veh_icons">
+								<ul>
+									<li class="v-detail" data-toggle="tooltip" title="Details"><i class="fa fa-file"></i></li>
+									<li class="v-odometer" data-toggle="tooltip" title="Edit Odometer"><i class="fa fa-tachometer"></i></li>
+									<li class="v-edit" data-toggle="tooltip" title="Edit"><i class="fa fa-pencil"></i></li>
+									<li class="v-registration" data-toggle="tooltip" title="Registration"><i class="fa fa-id-card"></i></li>
+									<li class="v-insurance" data-toggle="tooltip" title="Insurance"><i class="fa fa-file-text"></i></li>
+									<li class="v-assign" data-toggle="tooltip" title="Assign Fleet"><i class="fa fa-cab"></i></li>
+									<li class="v-delete" data-toggle="tooltip" title="Delete"><i class="fa fa-trash"></i></li>
+								</ul>
+								<div class="other_actions">
+									<ul>
+										<li class="v-driver" data-toggle="tooltip" title="Drivers"><i class="fa fa-user"></i> drivers</li>
+										<li class="v-near" data-toggle="tooltip" title="Nearest Vehicle"><i class="fa fa-car"></i> nearest vehicle</li>
+										<li class="v-status" data-toggle="tooltip" title="Update Status"><i class="fa fa-pencil-square-o"></i> update status</li>
+									</ul>
+								</div>
+							</div>
+							<div class="right_veh_icons"><i class="fa fa-ellipsis-v"></i></div>
+						</div>
+					</div>
+
+					<div class="user_box maintenance" data-toggle="tooltip" title="Maintenance">
+						<div class="vehicle_up_box">
+							<div class="pic_user"><img src="assets/images/truck.jpg"></div>
+							<div class="user_details">
+								<div class="u-name">Name: <span>Demo vehicle</span></div>
+								<div class="u-email">Plate Number: <span>654654648</span></div>
+								<div class="u-mob">Odometer: <span>231313</span></div>
+								<div class="u-mob">GPS Date: <span>15/04/2019 10:00 AM</span></div>
+								<div class="u-mob">Server Date: <span>15/04/2019 10:00 AM</span></div>
+								<div class="u-mob">Status: <span>maintenance</span></div>
+							</div>
+						</div>
+						<div class="vehicle_icons">
+							<div class="left_veh_icons">
+								<ul>
+									<li class="v-detail" data-toggle="tooltip" title="Details"><i class="fa fa-file"></i></li>
+									<li class="v-odometer" data-toggle="tooltip" title="Edit Odometer"><i class="fa fa-tachometer"></i></li>
+									<li class="v-edit" data-toggle="tooltip" title="Edit"><i class="fa fa-pencil"></i></li>
+									<li class="v-registration" data-toggle="tooltip" title="Registration"><i class="fa fa-id-card"></i></li>
+									<li class="v-insurance" data-toggle="tooltip" title="Insurance"><i class="fa fa-file-text"></i></li>
+									<li class="v-assign" data-toggle="tooltip" title="Assign Fleet"><i class="fa fa-cab"></i></li>
+									<li class="v-delete" data-toggle="tooltip" title="Delete"><i class="fa fa-trash"></i></li>
+								</ul>
+								<div class="other_actions">
+									<ul>
+										<li class="v-driver" data-toggle="tooltip" title="Drivers"><i class="fa fa-user"></i> drivers</li>
+										<li class="v-near" data-toggle="tooltip" title="Nearest Vehicle"><i class="fa fa-car"></i> nearest vehicle</li>
+										<li class="v-status" data-toggle="tooltip" title="Update Status"><i class="fa fa-pencil-square-o"></i> update status</li>
+									</ul>
+								</div>
+							</div>
+							<div class="right_veh_icons"><i class="fa fa-ellipsis-v"></i></div>
+						</div>
+					</div>
+
+					<div class="user_box inactive" data-toggle="tooltip" title="Inactive">
+						<div class="vehicle_up_box">
+							<div class="pic_user"><img src="assets/images/truck.jpg"></div>
+							<div class="user_details">
+								<div class="u-name">Name: <span>Demo vehicle</span></div>
+								<div class="u-email">Plate Number: <span>654654648</span></div>
+								<div class="u-mob">Odometer: <span>231313</span></div>
+								<div class="u-mob">GPS Date: <span>15/04/2019 10:00 AM</span></div>
+								<div class="u-mob">Server Date: <span>15/04/2019 10:00 AM</span></div>
+								<div class="u-mob">Status: <span>Inactive</span></div>
+							</div>
+						</div>
+						<div class="vehicle_icons">
+							<div class="left_veh_icons">
+								<ul>
+									<li class="v-detail" data-toggle="tooltip" title="Details"><i class="fa fa-file"></i></li>
+									<li class="v-odometer" data-toggle="tooltip" title="Edit Odometer"><i class="fa fa-tachometer"></i></li>
+									<li class="v-edit" data-toggle="tooltip" title="Edit"><i class="fa fa-pencil"></i></li>
+									<li class="v-registration" data-toggle="tooltip" title="Registration"><i class="fa fa-id-card"></i></li>
+									<li class="v-insurance" data-toggle="tooltip" title="Insurance"><i class="fa fa-file-text"></i></li>
+									<li class="v-assign" data-toggle="tooltip" title="Assign Fleet"><i class="fa fa-cab"></i></li>
+									<li class="v-delete" data-toggle="tooltip" title="Delete"><i class="fa fa-trash"></i></li>
+								</ul>
+								<div class="other_actions">
+									<ul>
+										<li class="v-driver" data-toggle="tooltip" title="Drivers"><i class="fa fa-user"></i> drivers</li>
+										<li class="v-near" data-toggle="tooltip" title="Nearest Vehicle"><i class="fa fa-car"></i> nearest vehicle</li>
+										<li class="v-status" data-toggle="tooltip" title="Update Status"><i class="fa fa-pencil-square-o"></i> update status</li>
+									</ul>
+								</div>
+							</div>
+							<div class="right_veh_icons"><i class="fa fa-ellipsis-v"></i></div>
+						</div>
+					</div>
+
+					<div class="user_box" data-toggle="tooltip" title="Active">
+						<div class="vehicle_up_box">
+							<div class="pic_user"><img src="assets/images/truck.jpg"></div>
+							<div class="user_details">
+								<div class="u-name">Name: <span>Demo vehicle</span></div>
+								<div class="u-email">Plate Number: <span>654654648</span></div>
+								<div class="u-mob">Odometer: <span>231313</span></div>
+								<div class="u-mob">GPS Date: <span>15/04/2019 10:00 AM</span></div>
+								<div class="u-mob">Server Date: <span>15/04/2019 10:00 AM</span></div>
+								<div class="u-mob">Status: <span>Active</span></div>
+							</div>
+						</div>
+						<div class="vehicle_icons">
+							<div class="left_veh_icons">
+								<ul>
+									<li class="v-detail" data-toggle="tooltip" title="Details"><i class="fa fa-file"></i></li>
+									<li class="v-odometer" data-toggle="tooltip" title="Edit Odometer"><i class="fa fa-tachometer"></i></li>
+									<li class="v-edit" data-toggle="tooltip" title="Edit"><i class="fa fa-pencil"></i></li>
+									<li class="v-registration" data-toggle="tooltip" title="Registration"><i class="fa fa-id-card"></i></li>
+									<li class="v-insurance" data-toggle="tooltip" title="Insurance"><i class="fa fa-file-text"></i></li>
+									<li class="v-assign" data-toggle="tooltip" title="Assign Fleet"><i class="fa fa-cab"></i></li>
+									<li class="v-delete" data-toggle="tooltip" title="Delete"><i class="fa fa-trash"></i></li>
+								</ul>
+								<div class="other_actions">
+									<ul>
+										<li class="v-driver" data-toggle="tooltip" title="Drivers"><i class="fa fa-user"></i> drivers</li>
+										<li class="v-near" data-toggle="tooltip" title="Nearest Vehicle"><i class="fa fa-car"></i> nearest vehicle</li>
+										<li class="v-status" data-toggle="tooltip" title="Update Status"><i class="fa fa-pencil-square-o"></i> update status</li>
+									</ul>
+								</div>
+							</div>
+							<div class="right_veh_icons"><i class="fa fa-ellipsis-v"></i></div>
+						</div>
+					</div>
+		</div>
+
+
+		<!--add new vehicle popup -->
+			<div class="add_new_user_popup" id="wizard_add_new_vehicle">
+				<div class="register_new_user">
+					<div class="title">
+						<span>Add New vehicle</span>
+						<i class="fa fa-remove"></i>
+					</div>
+
+					<form>
+					<div class="col-sm-12">
+						<div class="row">
+							<div class="col-sm-12 fld_area choose_profile">
+								<div class="choose_inner_div">
+									<span>choose Your Vehicle picture</span>
+									<input type="file">
+								</div>
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>Name</span>
+								<input type="text" placeholder="Name" required="required">
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>Plate Number</span>
+								<input type="text" placeholder="Plate Number" required="required">
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>Odometer</span>
+								<input type="text" placeholder="Odometer" required="required">
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>Status</span>
+								<select required="required">
+									<option>Active</option>
+									<option>Inactive</option>
+									<option>In Maintenance</option>
+								</select>
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>GPS Date</span>
+								<input type="text" placeholder="Date" class="datepicker" required="required">
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>GPS Time</span>
+								<input type="text" placeholder="Time" class="timepicker" required="required">
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>Server Date</span>
+								<input type="text" placeholder="Date" class="datepicker" required="required">
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>Server Time</span>
+								<input type="text" placeholder="Time" class="timepicker" required="required">
+							</div>
+
+							<div class="col-sm-12 form_btn">
+								<input type="submit" value="save">
+								<div class="close_btn">close</div>
+							</div>
+						</div>
+					</div>
+					</form>
+				</div>
+			</div>
+
+
+
+			<!-- Detail Popup  -->
+			<div class="add_new_user_popup" id="wizard_vehicle_detail_popup">
+				<div class="register_new_user">
+					<div class="title">
+						<span>Vehicle Information</span>
+						<i class="fa fa-remove"></i>
+					</div>
+
+					<div class="col-sm-12 driver_info">
+						<div class="row">
+							<div class="col-sm-6 detail_list">Vehicle Name: <span>98724</span></div>
+							<div class="col-sm-6 detail_list">Fleet Name: <span>demo</span></div>
+							<div class="col-sm-6 detail_list">Plate Number: <span>213213131</span></div>
+							<div class="col-sm-6 detail_list">Year Of Make: <span>2015</span></div>
+							<div class="col-sm-6 detail_list">Server Date: <span>15/04/2019</span></div>
+							<div class="col-sm-6 detail_list">Server Time: <span>04:51 PM</span></div>
+							<div class="col-sm-6 detail_list">GPS Status: <span>Fixed</span></div>
+							<div class="col-sm-6 detail_list">Initial Odometer: <span>0</span></div>
+							<div class="col-sm-6 detail_list">Insurance Expiry Date: <span>15/04/2019</span></div>
+							<div class="col-sm-6 detail_list">Department: <span>AVL Operations</span></div>
+							<div class="col-sm-6 detail_list">Model: <span>	Nissan - 200SX</span></div>
+							<div class="col-sm-6 detail_list">Plate Type: <span>Private</span></div>
+							<div class="col-sm-6 detail_list">Registration Expiry Date: <span>15/04/2019</span></div>
+						</div>
+					</div>
+
+					<div class="col-sm-12 form_btn">
+						<div class="close_btn">close</div>
+					</div>
+				</div>
+			</div>
+
+
+			<!--Update odomoter -->
+			<div class="add_new_user_popup" id="wizard_update_odometer">
+				<div class="register_new_user">
+					<div class="title">
+						<span>Update Odometer</span>
+						<i class="fa fa-remove"></i>
+					</div>
+
+					<form>
+						<div class="col-sm-12">
+							<div class="row">
+								<div class="col-sm-12 fld_area">
+									<span>Odometer (Km)</span>
+									<input type="text" placeholder="0" required="required">
+								</div>
+								
+								<div class="col-sm-12 form_btn">
+									<input type="submit" value="save">
+									<div class="close_btn">close</div>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+
+
+			<!--edit vehicle popup -->
+			<div class="add_new_user_popup" id="wizard_edit_vehicle">
+				<div class="register_new_user">
+					<div class="title">
+						<span>Edit Vehicle</span>
+						<i class="fa fa-remove"></i>
+					</div>
+
+					<form>
+					<div class="col-sm-12">
+						<div class="row">
+							<div class="col-sm-12 fld_area choose_profile">
+								<div class="choose_inner_div">
+									<span>choose Your Vehicle picture</span>
+									<input type="file">
+								</div>
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>Name</span>
+								<input type="text" placeholder="Name" required="required">
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>Plate Number</span>
+								<input type="text" placeholder="Plate Number" required="required">
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>Odometer</span>
+								<input type="text" placeholder="Odometer" required="required">
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>Status</span>
+								<select required="required">
+									<option>Active</option>
+									<option>Inactive</option>
+									<option>In Maintenance</option>
+								</select>
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>GPS Date</span>
+								<input type="text" placeholder="Date" class="datepicker" required="required">
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>GPS Time</span>
+								<input type="text" placeholder="Date" class="timepicker" required="required">
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>Server Date</span>
+								<input type="text" placeholder="Date" class="datepicker" required="required">
+							</div>
+							<div class="col-sm-6 fld_area">
+								<span>Server Time</span>
+								<input type="text" placeholder="Date" class="timepicker" required="required">
+							</div>
+
+							<div class="col-sm-12 form_btn">
+								<input type="submit" value="save">
+								<div class="close_btn">close</div>
+							</div>
+						</div>
+					</div>
+					</form>
+				</div>
+			</div>
+
+
+			<!--registration expiry-->
+			<div class="add_new_user_popup" id="wizard_vehicle_registration_Expiry">
+				<div class="register_new_user">
+					<div class="title">
+						<span>Registration Expiry</span>
+						<i class="fa fa-remove"></i>
+					</div>
+
+					<form>
+						<div class="col-sm-12">
+							<div class="row">
+								<div class="col-sm-12 fld_area">
+									<span>Registration Expiry Date</span>
+									<input type="text" placeholder="Date" class="datepicker" required="required">
+								</div>
+								
+								<div class="col-sm-12 form_btn">
+									<input type="submit" value="save">
+									<div class="close_btn">close</div>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+
+
+
+			<!--insurance expiry -->
+			<div class="add_new_user_popup" id="wizard_vehicle_insurance_Expiry">
+				<div class="register_new_user">
+					<div class="title">
+						<span>Insurance Expiry</span>
+						<i class="fa fa-remove"></i>
+					</div>
+
+					<form>
+						<div class="col-sm-12">
+							<div class="row">
+								<div class="col-sm-12 fld_area">
+									<span>Insurance Expiry Date</span>
+									<input type="text" placeholder="Date" class="datepicker" required="required">
+								</div>
+								
+								<div class="col-sm-12 form_btn">
+									<input type="submit" value="save">
+									<div class="close_btn">close</div>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+
+
+			<!--fleets -->
+			<div class="add_new_user_popup" id="wizard_vehicle_assign_fleet">
+				<div class="register_new_user">
+					<div class="title">
+						<span>Assign Fleet</span>
+						<i class="fa fa-remove"></i>
+					</div>
+
+					<form>
+						<div class="col-sm-12">
+							<div class="row">
+								<div class="col-sm-12 fld_area">
+									<span>Assign Fleet</span>
+									<select>
+										<option>Master Fleet</option>
+										<option>Logistic Fleet</option>
+										<option>Food Delivery Fleet</option>
+									</select>
+								</div>
+								
+								<div class="col-sm-12 form_btn">
+									<input type="submit" value="save">
+									<div class="close_btn">close</div>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+
+
+			<!--update status -->
+			<div class="add_new_user_popup" id="wizard_vehicle_status">
+				<div class="register_new_user">
+					<div class="title">
+						<span>Update Status</span>
+						<i class="fa fa-remove"></i>
+					</div>
+
+					<form>
+						<div class="col-sm-12">
+							<div class="row">
+								<div class="col-sm-12 fld_area">
+									<span>Vehicle Statuses</span>
+									<select>
+										<option>Canceled</option>
+										<option>In Maintainance</option>
+										<option>Active</option>
+									</select>
+								</div>
+								
+								<div class="col-sm-12 form_btn">
+									<input type="submit" value="save">
+									<div class="close_btn">close</div>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+
+
+			<!--  driver -->
+			<div class="add_new_user_popup" id="wizard_vehicle_drivers">
+				<div class="register_new_user">
+					<div class="title">
+						<span>Drivers</span>
+						<i class="fa fa-remove"></i>
+					</div>
+
+					<div class="vehcile_listings">
+						<table class="display responsive nowrap" width="100%">
+						    <thead>
+						        <tr>
+						            <th>Driver name</th>
+						            <th>phone number</th>
+						            <th>Sponser name</th>
+						            <th>Shift</th>
+						            <th>Actions</th>
+						        </tr>
+						    </thead>
+						    <tbody>
+						        <tr>
+						            <th>John</th>
+						            <th>65478912</th>
+						            <th>demo</th>
+						            <th>Morning</th>
+						            <td><input type="checkbox"></td>
+						        </tr>
+						         <tr>
+						            <th>John</th>
+						            <th>65478912</th>
+						            <th>demo</th>
+						            <th>Morning</th>
+						            <td><input type="checkbox"></td>
+						        </tr>
+						        <tr>
+						            <th>John</th>
+						            <th>65478912</th>
+						            <th>demo</th>
+						            <th>Morning</th>
+						            <td><input type="checkbox"></td>
+						        </tr>
+						        <tr>
+						            <th>John</th>
+						            <th>65478912</th>
+						            <th>demo</th>
+						            <th>Morning</th>
+						            <td><input type="checkbox"></td>
+						        </tr>
+						        <tr>
+						            <th>John</th>
+						            <th>65478912</th>
+						            <th>demo</th>
+						            <th>Morning</th>
+						            <td><input type="checkbox"></td>
+						        </tr>
+						        <tr>
+						            <th>John</th>
+						            <th>65478912</th>
+						            <th>demo</th>
+						            <th>Morning</th>
+						            <td><input type="checkbox"></td>
+						        </tr>
+						        <tr>
+						            <th>John</th>
+						            <th>65478912</th>
+						            <th>demo</th>
+						            <th>Morning</th>
+						            <td><input type="checkbox"></td>
+						        </tr>
+
+						    </tbody>
+						</table>
+					</div>
+					<div class="col-sm-12 form_btn">
+						<div class="close_btn">close</div>
+					</div>
+				</div>
+			</div>
+
+
+			<!-- near Vehicle -->
+			<div class="add_new_user_popup" id="wizard_nearest_vehicle">
+				<div class="register_new_user">
+					<div class="title">
+						<span>Nearest Vehicles</span>
+						<i class="fa fa-remove"></i>
+					</div>
+
+					<div class="vehcile_listings">
+						<table id="vehicle_table" class="display responsive nowrap" width="100%">
+						    <thead>
+						        <tr>
+						            <th>name</th>
+						            <th>plate number</th>
+						            <th>model</th>
+						            <th>fleet name</th>
+						            <th>Longitude</th>
+						            <th>Latitude</th>
+						            <th>Distance</th>
+						            <th>Actions</th>
+						        </tr>
+						    </thead>
+						    <tbody>
+						        <tr>
+						            <td>Demo Vehicle</td>
+						            <td>654122</td>
+						            <td>Mercedes-Benz - Actros</td>
+						            <td>Sedan Cars</td>
+						            <td>51.4301	</td>
+						            <td>25.2376	</td>
+						            <td>10.441</td>
+						            <td data-toggle="tooltip" title="Locate"><span class="locate_vehicle"><i class="fa fa-map-marker"></span></td>
+						        </tr>
+						         <tr>
+						            <td>Demo Vehicle</td>
+						            <td>654122</td>
+						            <td>Mercedes-Benz - Actros</td>
+						            <td>Sedan Cars</td>
+						            <td>51.4301	</td>
+						            <td>25.2376	</td>
+						            <td>10.441</td>
+						            <td data-toggle="tooltip" title="Locate"><span class="locate_vehicle"><i class="fa fa-map-marker"></span></td>
+						        </tr>
+						        <tr>
+						            <td>Demo Vehicle</td>
+						            <td>654122</td>
+						            <td>Mercedes-Benz - Actros</td>
+						            <td>Sedan Cars</td>
+						            <td>51.4301	</td>
+						            <td>25.2376	</td>
+						            <td>10.441</td>
+						            <td data-toggle="tooltip" title="Locate"><span class="locate_vehicle"><i class="fa fa-map-marker"></span></td>
+						        </tr>
+						        <tr>
+						            <td>Demo Vehicle</td>
+						            <td>654122</td>
+						            <td>Mercedes-Benz - Actros</td>
+						            <td>Sedan Cars</td>
+						            <td>51.4301	</td>
+						            <td>25.2376	</td>
+						            <td>10.441</td>
+						            <td data-toggle="tooltip" title="Locate"><span class="locate_vehicle"><i class="fa fa-map-marker"></span></td>
+						        </tr>
+						        <tr>
+						            <td>Demo Vehicle</td>
+						            <td>654122</td>
+						            <td>Mercedes-Benz - Actros</td>
+						            <td>Sedan Cars</td>
+						            <td>51.4301	</td>
+						            <td>25.2376	</td>
+						            <td>10.441</td>
+						            <td data-toggle="tooltip" title="Locate"><span class="locate_vehicle"><i class="fa fa-map-marker"></span></td>
+						        </tr>
+						        <tr>
+						            <td>Demo Vehicle</td>
+						            <td>654122</td>
+						            <td>Mercedes-Benz - Actros</td>
+						            <td>Sedan Cars</td>
+						            <td>51.4301	</td>
+						            <td>25.2376	</td>
+						            <td>10.441</td>
+						            <td data-toggle="tooltip" title="Locate"><span class="locate_vehicle"><i class="fa fa-map-marker"></span></td>
+						        </tr>
+						        <tr>
+						            <td>Demo Vehicle</td>
+						            <td>654122</td>
+						            <td>Mercedes-Benz - Actros</td>
+						            <td>Sedan Cars</td>
+						            <td>51.4301	</td>
+						            <td>25.2376	</td>
+						            <td>10.441</td>
+						            <td data-toggle="tooltip" title="Locate"><span class="locate_vehicle"><i class="fa fa-map-marker"></span></td>
+						        </tr>
+						        
+						    </tbody>
+						</table>
+					</div>
+
+					<div class="col-sm-12 form_btn">
+						<div class="close_btn">close</div>
+					</div>
+				</div>
+			</div>
+	</section>
+
+
+
+<!-- Top Alerts -->
+<div class="add_new_user_popup" id="topbar_alerts">
+	<div class="register_new_user">
+		<div class="title">
+			<span>Alerts</span>
+			<i class="fa fa-remove"></i>
+		</div>
+
+		<div class="vehcile_listings">
+			<table  class="display responsive nowrap" width="100%">
+			    <thead>
+			        <tr>
+			            <th>name</th>
+			            <th>plate number</th>
+			            <th>alert type</th>
+			            <th>importance</th>
+			            <th>created date</th>
+			            <th>created time</th>
+			            <th>message</th>
+			            <th>Actions</th>
+			        </tr>
+			    </thead>
+			    <tbody>
+			        <tr>
+			            <td>Demo Vehicle</td>
+			            <td>654122</td>
+			            <td>Speed Limit	</td>
+			            <td><span class="badge badge-warning">Medium</span></td>
+			            <td>01/04/2019</td>
+			            <td>10:41:56</td>
+			            <td>The vehicle "Demo Vehicle" has exceeded the speed limit at 110 KM/H.	</td>
+			            <td data-toggle="tooltip" title="Locate"><span class="locate_vehicle"><i class="fa fa-map-marker"></span></td>
+			        </tr>
+			          <tr>
+			            <td>Demo Vehicle</td>
+			            <td>654122</td>
+			            <td>Speed Limit	</td>
+			            <td><span class="badge badge-danger">high</span></td>
+			            <td>01/04/2019</td>
+			            <td>10:41:56</td>
+			            <td>The vehicle "Demo Vehicle" has exceeded the speed limit at 110 KM/H.	</td>
+			            <td data-toggle="tooltip" title="Locate"><span class="locate_vehicle"><i class="fa fa-map-marker"></span></td>
+			        </tr>
+			         <tr>
+			            <td>Demo Vehicle</td>
+			            <td>654122</td>
+			            <td>Speed Limit	</td>
+			            <td><span class="badge badge-warning">Medium</span></td>
+			            <td>01/04/2019</td>
+			            <td>10:41:56</td>
+			            <td>The vehicle "Demo Vehicle" has exceeded the speed limit at 110 KM/H.	</td>
+			            <td data-toggle="tooltip" title="Locate"><span class="locate_vehicle"><i class="fa fa-map-marker"></span></td>
+			        </tr>
+			         <tr>
+			            <td>Demo Vehicle</td>
+			            <td>654122</td>
+			            <td>Speed Limit	</td>
+			            <td><span class="badge badge-warning">Medium</span></td>
+			            <td>01/04/2019</td>
+			            <td>10:41:56</td>
+			            <td>The vehicle "Demo Vehicle" has exceeded the speed limit at 110 KM/H.	</td>
+			            <td data-toggle="tooltip" title="Locate"><span class="locate_vehicle"><i class="fa fa-map-marker"></span></td>
+			        </tr>
+			         <tr>
+			            <td>Demo Vehicle</td>
+			            <td>654122</td>
+			            <td>Speed Limit	</td>
+			            <td><span class="badge badge-warning">Medium</span></td>
+			            <td>01/04/2019</td>
+			            <td>10:41:56</td>
+			            <td>The vehicle "Demo Vehicle" has exceeded the speed limit at 110 KM/H.	</td>
+			            <td data-toggle="tooltip" title="Locate"><span class="locate_vehicle"><i class="fa fa-map-marker"></span></td>
+			        </tr>
+			         <tr>
+			            <td>Demo Vehicle</td>
+			            <td>654122</td>
+			            <td>Speed Limit	</td>
+			            <td><span class="badge badge-warning">Medium</span></td>
+			            <td>01/04/2019</td>
+			            <td>10:41:56</td>
+			            <td>The vehicle "Demo Vehicle" has exceeded the speed limit at 110 KM/H.	</td>
+			            <td data-toggle="tooltip" title="Locate"><span class="locate_vehicle"><i class="fa fa-map-marker"></span></td>
+			        </tr>
+			    </tbody>
+			</table>
+		</div>
+
+		<div class="col-sm-12 form_btn">
+			<div class="close_btn">close</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Top Maintenance -->
+<div class="add_new_user_popup" id="topbar_maintain">
+	<div class="register_new_user">
+		<div class="title">
+			<span>Maintenance</span>
+			<i class="fa fa-remove"></i>
+		</div>
+
+		<div class="vehcile_listings">
+			<table class="display responsive nowrap" width="100%">
+			    <thead>
+			        <tr>
+			            <th>name</th>
+			            <th>plate number</th>
+			            <th>Maintenance Type</th>
+			            <th>created date</th>
+			            <th>last change date</th>
+			            <th>message</th>
+			            <th>Actions</th>
+			        </tr>
+			    </thead>
+			    <tbody>
+			        <tr>
+			            <td>Demo Vehicle</td>
+			            <td>654122</td>
+			            <td>Oil Filter</td>
+			            <td>01/04/2019</td>
+			            <td>10:41:56</td>
+			            <td>Oil Filter change required</td>
+			            <td><span class="badge badge-success change">change</span> <span class="badge badge-warning new-reminder">new reminder</span></td>
+			        </tr>
+			        <tr>
+			            <td>Demo Vehicle</td>
+			            <td>654122</td>
+			            <td>Oil Filter</td>
+			            <td>01/04/2019</td>
+			            <td>10:41:56</td>
+			            <td>Oil Filter change required</td>
+			            <td><span class="badge badge-success change">change</span> <span class="badge badge-warning new-reminder">new reminder</span></td>
+			        </tr>
+			        <tr>
+			            <td>Demo Vehicle</td>
+			            <td>654122</td>
+			            <td>Oil Filter</td>
+			            <td>01/04/2019</td>
+			            <td>10:41:56</td>
+			            <td>Oil Filter change required</td>
+			            <td><span class="badge badge-success change">change</span> <span class="badge badge-warning new-reminder">new reminder</span></td>
+			        </tr>
+			        <tr>
+			            <td>Demo Vehicle</td>
+			            <td>654122</td>
+			            <td>Oil Filter</td>
+			            <td>01/04/2019</td>
+			            <td>10:41:56</td>
+			            <td>Oil Filter change required</td>
+			            <td><span class="badge badge-success change">change</span> <span class="badge badge-warning new-reminder">new reminder</span></td>
+			        </tr>
+			        <tr>
+			            <td>Demo Vehicle</td>
+			            <td>654122</td>
+			            <td>Oil Filter</td>
+			            <td>01/04/2019</td>
+			            <td>10:41:56</td>
+			            <td>Oil Filter change required</td>
+			            <td><span class="badge badge-success change">change</span> <span class="badge badge-warning new-reminder">new reminder</span></td>
+			        </tr>
+			    </tbody>
+			</table>
+		</div>
+
+		<div class="col-sm-12 form_btn">
+			<div class="close_btn">close</div>
+		</div>
+	</div>
+</div>
+
+
+<!--  change oil  -->
+<div class="add_new_user_popup" id="change_oil_filter">
+	<div class="register_new_user">
+		<div class="title">
+			<span>Change Oil Filter</span>
+			<i class="fa fa-remove"></i>
+		</div>
+
+		<form>
+		<div class="col-sm-12">
+			<div class="row">
+				<div class="col-sm-12 fld_area">
+					<span>Cost (Currency)</span>
+					<input type="text" placeholder="Cost (Currency)" required="required">
+				</div>
+				<div class="col-sm-12 fld_area">
+					<span>Change Date</span>
+					<input type="text" class="datepicker" placeholder="Change Date" required="required">
+				</div>
+				<div class="col-sm-12 form_btn">
+					<input type="submit" value="Update">
+					<div class="close_btn">close</div>
+				</div>
+			</div>
+		</div>
+		</form>
+	</div>
+</div>
+
+
+<!-- Top reminder -->
+<div class="add_new_user_popup" id="topbar_reminder">
+	<div class="register_new_user">
+		<div class="title">
+			<span>Triggered Reminders</span>
+			<i class="fa fa-remove"></i>
+		</div>
+
+		<div class="vehcile_listings">
+			<table class="display responsive nowrap" width="100%">
+			    <thead>
+			        <tr>
+			            <th>title</th>
+			            <th>Trigger Date</th>
+			            <th>Description</th>
+			            <th>Actions</th>
+			        </tr>
+			    </thead>
+			    <tbody>
+			        <tr>
+			            <td>Renew Driver License For Nader	</td>
+			            <td>10/05/2019</td>
+			            <td>dummy text</td>
+			            <td><span class="badge badge-success">Mark as read</span></td>
+			        </tr>
+			         <tr>
+			            <td>Renew Driver License For Nader	</td>
+			            <td>10/05/2019</td>
+			            <td>dummy text</td>
+			            <td><span class="badge badge-success">Mark as read</span></td>
+			        </tr>
+			         <tr>
+			            <td>Renew Driver License For Nader	</td>
+			            <td>10/05/2019</td>
+			            <td>dummy text</td>
+			            <td><span class="badge badge-success">Mark as read</span></td>
+			        </tr>
+			         <tr>
+			            <td>Renew Driver License For Nader	</td>
+			            <td>10/05/2019</td>
+			            <td>dummy text</td>
+			            <td><span class="badge badge-success">Mark as read</span></td>
+			        </tr>
+			         <tr>
+			            <td>Renew Driver License For Nader	</td>
+			            <td>10/05/2019</td>
+			            <td>dummy text</td>
+			            <td><span class="badge badge-success">Mark as read</span></td>
+			        </tr>
+			    </tbody>
+			</table>
+		</div>
+
+		<div class="col-sm-12 form_btn">
+			<div class="close_btn">close</div>
+		</div>
+	</div>
+</div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="assets/js/jquery-ui.js"></script>
+<script src="assets/js/jquery.timepicker.min.js"></script>
+<script src="assets/js/jquery.dataTables.min.js"></script>
+<script src="assets/js/dataTables.responsive.min.js"></script>
+<!-- table export -->
+<script src="assets/js/dataTables.buttons.min.js"></script>
+<script src="assets/js/jszip.min.js"></script>
+<script src="assets/js/pdfmake.min.js"></script>
+<script src="assets/js/vfs_fonts.js"></script>
+<script src="assets/js/buttons.html5.min.js"></script>
+<!-- table export -->
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/custom.js"></script>
+
+</body>
+</html>

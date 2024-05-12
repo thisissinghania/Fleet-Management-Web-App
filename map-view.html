@@ -1,0 +1,1175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Ideal Solutions</title>
+<meta name="keywords" content="Ideal Solutions">
+<meta name="description" content="Ideal Solutions">
+<meta charset="UTF-8">
+<meta name="author" content="Ideal Solutions">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="assets/css/jquery.timepicker.min.css">
+<link rel="stylesheet" href="assets/css/jquery-ui.css">
+<link rel="stylesheet" href="assets/css/jquery.dataTables.min.css">
+<link rel="stylesheet" href="assets/css/responsive.dataTables.min.css">
+<link rel="stylesheet" href="assets/css/buttons.dataTables.min.css">
+<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+<div class="fixed_loading">
+	<div class="fixed_loading_inset">
+		<div class="sk-cube-grid">
+		  <div class="sk-cube sk-cube1"></div>
+		  <div class="sk-cube sk-cube2"></div>
+		  <div class="sk-cube sk-cube3"></div>
+		  <div class="sk-cube sk-cube4"></div>
+		  <div class="sk-cube sk-cube5"></div>
+		  <div class="sk-cube sk-cube6"></div>
+		  <div class="sk-cube sk-cube7"></div>
+		  <div class="sk-cube sk-cube8"></div>
+		  <div class="sk-cube sk-cube9"></div>
+		</div>
+	</div>
+</div>
+
+
+<!-- header start area -->
+<div class="col-sm-12 topbar">
+
+	<!-- left header start -->
+	<div class="top_bar_left">
+		<div class="main_logo">
+			<a href="map-view.html" title="ideal solutions" class="mob_logo"><img src="assets/images/mob-logo.png" alt="main logo"></a>
+		</div>
+		<div class="toggle_bar"><span></span></div>
+		<div class="map_and_dash">
+			<ul>
+				<li><a href="wizard.html">wizard</a></li>
+				<li class="active"><a href="map-view.html">map view</a></li>
+			</ul>
+		</div>
+		<div class="full_search_area">
+			<div class="search_inside">
+				<div class="searchicon"><img src="assets/images/search-icon.png" /></div>
+				<div class="searchfield"><input type="text" placeholder="Search"></div>
+				<div class="searchbtn"><input type="button" value="search"></div>
+			</div>
+			<div class="mobile_search_close"><img src="assets/images/clear.png"></div>
+		</div>
+		<div class="mobile_search_click"><img src="assets/images/search-icon.png" /></div>
+	</div>
+	<!-- left header end -->
+
+
+
+	<!-- right header start -->
+	<div class="right_top_bar">
+		<div class="setting_list">
+			<ul>
+				<li class="desk_search_click"><a href="#" data-toggle="tooltip" title="Search"><img src="assets/images/search-icon-white.png"></a></li>
+				<li class="topbar_reminder"><a href="#" data-toggle="tooltip" title="Triggered Reminder"><img src="assets/images/remin.png"></a></li>
+				<li class="topbar_maintain"><a href="#" data-toggle="tooltip" title="Maintenance"><img src="assets/images/mainten.png"></a></li>
+				<li class="topbar_alerts"><a href="#" data-toggle="tooltip" title="Alert"><img src="assets/images/alert.png"></a></li>
+				<!-- <li><a href="#" data-toggle="tooltip" title="Reports"><img src="assets/images/reports.png"></a></li> -->
+			</ul>
+			<div class="col-sm-12 user_profile">
+				<span><img src="assets/images/men.jpg"></span>
+				<h6>Odai Amer</h6>
+				<i class="fa fa-caret-down"></i>
+				<div class="user_popup">
+					<ul>
+						<li><i class="fa fa-power-off"></i> logout</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- right header end -->
+
+	<div class="mobile_click"><i class="fa fa-ellipsis-v"></i></div>
+</div>
+<!-- header end area -->
+
+
+
+
+<!-- Start main Div -->
+<div class="col-sm-12 all_main_area">
+
+			<!--Dashboard sidebar navigation-->
+			<aside class="sidebar">
+				<div class="side_logo"><a href="map-view.html" title="ideal solutions" class="desk_logo"><img src="assets/images/main-logo.png" alt="main logo" /></a></div>
+				<div class="side_nav">
+					<ul>
+						<li class="active_nav"><a href="map-view.html"><span><img src="assets/images/dashboard.png"></span> Dashboard</a></li>
+						<li><a href="fleets.html"><span><img src="assets/images/fleets.png"></span> fleets</a></li>
+						<li><a href="drivers.html"><span><img src="assets/images/drivers.png"></span> drivers</a></li>
+						<li><a href="users.html"><span><img src="assets/images/users.png"></span> users</a></li>
+						<li><a href="vehicles.html"><span><img src="assets/images/nav-vehicle.png"></span> vehicles</a></li>
+						<li><a href="consumption.html"><span><img src="assets/images/consump-icon.png"></span> Consumptions</a></li>
+						<li><a href="fuel-tanks.html"><span><img src="assets/images/fuel.png"></span> fuel tanks</a></li>
+						<li><a href="geofences.html"><span><img src="assets/images/geofence.png"></span> geofences</a></li>
+						<li><a href="shifts.html"><span><img src="assets/images/shifts.png"></span> shifts</a></li>
+						<li><a href="maintenance.html"><span><img src="assets/images/maintenance.png"></span> maintenance</a></li>
+						<li><a href="landmarks.html"><span><img src="assets/images/landmark.png"></span> landmark</a></li>
+						<li><a href="point-of-interest.html"><span><img src="assets/images/point.png"></span> point of interest</a></li>
+						<li><a href="reminders.html"><span><img src="assets/images/remin.png"></span> reminder</a></li>
+						<li><a href="alerts.html"><span><img src="assets/images/alert.png"></span> Alerts</a></li>
+						<li><a href="invoices.html"><span><img src="assets/images/invoice.png"></span> invoice</a></li>
+						<li><a href="report.html"><span><img src="assets/images/report.png"></span> report</a></li>
+					</ul>
+				</div>
+			</aside>
+	<!--End Dashboard sidebar -->
+
+
+
+
+
+		<!-- right Side map view -->
+			<section class="right_section">
+				<div class="fleet_map_area"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1846202.322478877!2d50.09629507410949!3d25.342347268109222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45c534ffdce87f%3A0x1cfa88cf812b4032!2sQatar!5e0!3m2!1sen!2sin!4v1572262083356!5m2!1sen!2sin" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
+
+				<div class="mini_popup">
+					<div class="top_view_popup">
+						<div class="title">GPS Device Name</div>
+						<div class="view_part">
+							<ul>
+								<li><i class="fa fa-camera"></i></li>
+								<li class="road_view"><i class="fa fa-road"></i></li>
+								<li><i class="fa fa-bars"></i></li>
+								<li class="remove"><i class="fa fa-remove"></i></li>
+							</ul>
+						</div>
+					</div>
+					<img src="assets/images/road.jpg">
+				</div>
+
+
+				<div class="tabs">
+					<ul>
+						<li class="active_tab" id="fleet_click"><a href="#" data-toggle="tooltip" data-placement="right" title="Fleets"><img src="assets/images/fleet.png"></a></li>
+						<li id="geo_click"><a href="#" data-toggle="tooltip" data-placement="right" title="Geofences"><img src="assets/images/geofen.png"></a></li>
+						<li id="land_click"><a href="#" data-toggle="tooltip" data-placement="right" title="Landmarks"><img src="assets/images/land-mark.png"></a></li>
+						<li id="point_click"><a href="#" data-toggle="tooltip" data-placement="right" title="Point of Interest"><img src="assets/images/point-inter.png"></a></li>
+					</ul>
+				</div>
+
+
+					<!--====================Start one fleet section============================ -->
+							<div id="fleet_setting_sections" class="draggable">
+								<div class="all_main_headlines">
+									<div class="box_title">Fleets</div>
+									<div class="inset_icons">
+										<div class="main-search-toggle" data-toggle="tooltip" title="Search"><i class="fa fa-search"></i></div>
+										<div class="refresh" data-toggle="tooltip" title="Refresh"><i class="fa fa-refresh"></i></div>
+										<div class="remove_box" data-toggle="tooltip" title="Close"><i class="fa fa-remove"></i></div>
+									</div>
+								</div>
+
+								<div class="main_search">
+									<div class="srh_input"><input type="text" placeholder="Search"></div>
+								</div>
+
+								<div class="fleets_setting">
+									<div class="accordians">
+										<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/fl_icon.png"></p> <span>logistic fleets</span></div>
+										<div class="all_type_list">
+											<div class="one-list">
+												<div class="unique_numbers">
+													<input type="checkbox" class="childCheckBox">
+													<h5><p><img src="assets/images/car.png"></p> 98724</h5>
+												</div>
+												<div class="three_dots"><i class="fa fa-ellipsis-v"></i></div>
+												<div class="map_functions">
+													<span class="f-locate" data-toggle="tooltip" title="Locate"><img src="assets/images/locate.png"></span>
+													<span class="f-follow" data-toggle="tooltip" title="Follow"><img src="assets/images/follow.png"></span>
+													<span class="f-trace" data-toggle="tooltip" title="Trace"><img src="assets/images/trace.png"></span>
+													<span class="f-history" data-toggle="tooltip" title="Last 24 Hour History"><img src="assets/images/history.png"></span>
+												</div>
+											</div>
+
+											<div class="one-list">
+												<div class="unique_numbers">
+													<input type="checkbox" class="childCheckBox">
+													<h5><p><img src="assets/images/car.png"></p> 46464</h5>
+												</div>
+												<div class="three_dots"><i class="fa fa-ellipsis-v"></i></div>
+												<div class="map_functions">
+													<span class="f-locate" data-toggle="tooltip" title="Locate"><img src="assets/images/locate.png"></span>
+													<span class="f-follow" data-toggle="tooltip" title="Follow"><img src="assets/images/follow.png"></span>
+													<span class="f-trace" data-toggle="tooltip" title="Trace"><img src="assets/images/trace.png"></span>
+													<span class="f-history" data-toggle="tooltip" title="Last 24 Hour History"><img src="assets/images/history.png"></span>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="accordians">
+										<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/fl_icon.png"></p> <span>Food Delivery Fleet</span> </div>
+										<div class="all_type_list">
+											<!-- inset accordian -->
+											<div class="accordians">
+												<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/car.png"></p> <span>Sedan Cars</span></div>
+												<div class="all_type_list">
+													<div class="one-list">
+														<div class="unique_numbers">
+															<input type="checkbox" class="childCheckBox">
+															<h5><p><img src="assets/images/car.png"></p> demo vehicle</h5>
+														</div>
+														<div class="three_dots"><i class="fa fa-ellipsis-v"></i></div>
+														<div class="map_functions">
+															<span class="f-locate" data-toggle="tooltip" title="Locate"><img src="assets/images/locate.png"></span>
+															<span class="f-follow" data-toggle="tooltip" title="Follow"><img src="assets/images/follow.png"></span>
+															<span class="f-trace" data-toggle="tooltip" title="Trace"><img src="assets/images/trace.png"></span>
+															<span class="f-history" data-toggle="tooltip" title="Last 24 Hour History"><img src="assets/images/history.png"></span>
+														</div>
+													</div>
+												</div>
+											</div>
+											<!-- end inset accordian -->
+										</div>
+									</div>
+
+
+									<div class="accordians">
+										<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/fl_icon.png"></p> <span>Master Fleet</span></div>
+										<div class="all_type_list">
+											<div class="one-list">
+												<div class="unique_numbers">
+													<input type="checkbox">
+													<h5><p><img src="assets/images/car.png"></p> Drivers</h5>
+												</div>
+												<div class="three_dots"><i class="fa fa-ellipsis-v"></i></div>
+												<div class="map_functions">
+													<span class="f-locate" data-toggle="tooltip" title="Locate"><img src="assets/images/locate.png"></span>
+													<span class="f-follow" data-toggle="tooltip" title="Follow"><img src="assets/images/follow.png"></span>
+													<span class="f-trace" data-toggle="tooltip" title="Trace"><img src="assets/images/trace.png"></span>
+													<span class="f-history" data-toggle="tooltip" title="Last 24 Hour History"><img src="assets/images/history.png"></span>
+												</div>
+											</div>
+
+											<!-- inner accordian -->
+												<div class="accordians">
+													<div class="acc_title"><input type="checkbox" class="parentCheckBox"> <p><img src="assets/images/car.png"></p> <span>Technicians</span></div>
+													<div class="all_type_list">
+														<div class="one-list">
+															<div class="unique_numbers">
+																<input type="checkbox" class="childCheckBox">
+																<h5><p><img src="assets/images/car.png"></p> Junior Staff</h5>
+															</div>
+															<div class="three_dots"><i class="fa fa-ellipsis-v"></i></div>
+															<div class="map_functions">
+																<span class="f-locate" data-toggle="tooltip" title="Locate"><img src="assets/images/locate.png"></span>
+																<span class="f-follow" data-toggle="tooltip" title="Follow"><img src="assets/images/follow.png"></span>
+																<span class="f-trace" data-toggle="tooltip" title="Trace"><img src="assets/images/trace.png"></span>
+																<span class="f-history" data-toggle="tooltip" title="Last 24 Hour History"><img src="assets/images/history.png"></span>
+															</div>
+														</div>
+														<div class="one-list">
+															<div class="unique_numbers">
+																<input type="checkbox" class="childCheckBox">
+																<h5><p><img src="assets/images/car.png"></p> Senior Staff</h5>
+															</div>
+															<div class="three_dots"><i class="fa fa-ellipsis-v"></i></div>
+															<div class="map_functions">
+																<span class="f-locate" data-toggle="tooltip" title="Locate"><img src="assets/images/locate.png"></span>
+																<span class="f-follow" data-toggle="tooltip" title="Follow"><img src="assets/images/follow.png"></span>
+																<span class="f-trace" data-toggle="tooltip" title="Trace"><img src="assets/images/trace.png"></span>
+																<span class="f-history" data-toggle="tooltip" title="Last 24 Hour History"><img src="assets/images/history.png"></span>
+															</div>
+														</div>
+													</div>
+												</div>
+											<!-- inner accordian -->
+										</div>
+									</div>
+
+								</div>
+							</div>
+					<!--====================End one fleet section============================ -->
+
+					<!--====================Start one Geofances section============================ -->
+							<div id="geofances_setting_sections" class="draggable">
+								<div class="all_main_headlines">
+									<div class="box_title">Geofences</div>
+									<div class="inset_icons">
+										<div class="main-search-toggle" data-toggle="tooltip" title="Search"><i class="fa fa-search"></i></div>
+										<div class="new-data-show" data-toggle="tooltip" title="Create New"><i class="fa fa-plus"></i></div>
+										<div class="back-data-show" data-toggle="tooltip" title="List View"><i class="fa fa-bars"></i></div>
+										<div class="refresh" data-toggle="tooltip" title="Refresh"><i class="fa fa-refresh"></i></div>
+										<div class="remove_box" data-toggle="tooltip" title="Close"><i class="fa fa-remove"></i></div>
+									</div>
+								</div>
+
+								<div class="main_search">
+									<div class="srh_input"><input type="text" placeholder="Search"></div>
+								</div>
+
+								<div class="tab_view1">
+									<div class="fences_list_heading">
+										<div class="main_check"><input type="checkbox"></div>
+										<div class="main_title">name</div>
+										<div class="action_title">actions</div>
+									</div>
+									<div class="fleets_setting geofence_list_data">
+										<ul>
+											<li>
+												<div class="main_check"><input type="checkbox"></div>
+												<div class="main_title">Demo name</div>
+												<div class="action_btn"><i class="fa fa-trash"></i></div>
+											</li>
+											<li>
+												<div class="main_check"><input type="checkbox"></div>
+												<div class="main_title">Demo two</div>
+												<div class="action_btn"><i class="fa fa-trash"></i></div>
+											</li>
+											<li>
+												<div class="main_check"><input type="checkbox"></div>
+												<div class="main_title">Demo three</div>
+												<div class="action_btn"><i class="fa fa-trash"></i></div>
+											</li>
+											<li>
+												<div class="main_check"><input type="checkbox"></div>
+												<div class="main_title">Demo four</div>
+												<div class="action_btn"><i class="fa fa-trash"></i></div>
+											</li>
+										</ul>
+									</div>
+									<div class="all_records">Records : <span></span></div>
+								</div>
+
+								<div class="tab_view2">
+									<div class="drawlines">
+										<ul>
+											<li data-toggle="tooltip" title="Draw Polygon"><img src="assets/images/polygon.png"></li>
+											<li data-toggle="tooltip" title="Draw Polyline"><img src="assets/images/polyline.png"></li>
+											<li class="draw_close" data-toggle="tooltip" title="Clear All"><img src="assets/images/clear.png"></li>
+										</ul>
+									</div>
+
+									<div class="map_form">
+									<!-- <div class="main_line">New geofences</div> -->
+									<div class="map_form_scroll">
+										<div class="first_form">
+											<div class="fields_box">
+												<span>Name</span>
+												<input type="text" placeholder="Name" required="required">
+											</div>
+											<div class="fields_box">
+												<span>Speed</span>
+												<input type="text" placeholder="Speed" required="required">
+											</div>
+											<div class="fields_box">
+												<span>Importance</span>
+												<select>
+													<option>Low</option>
+													<option>Medium</option>
+													<option>High</option>
+												</select>
+											</div>
+											<div class="fields_box">
+												<span>trigger</span>
+												<select>
+													<option>In</option>
+													<option>Out</option>
+													<option>Both</option>
+												</select>
+											</div>
+											<div class="double_btns">
+												<button>sound enbabled</button>
+												<button>email enbabled</button>
+											</div>
+										</div>
+
+										<div class="second_form">
+											<div class="second_form_title">
+												<h1>contact information</h1>
+												<i class="fa fa-caret-down"></i>
+											</div>
+
+											<div class="second_form_inset">
+												<div class="fields_box">
+													<span>Contact Name</span>
+													<input type="text" placeholder="Contact Name" required="required">
+												</div>
+												<div class="fields_box">
+													<span>Contact Phone Number</span>
+													<input type="text" placeholder="Contact Phone Number" required="required">
+												</div>
+												<div class="fields_box">
+													<span>Contact Address</span>
+													<textarea placeholder="Contact Address"></textarea>
+												</div>
+												<div class="fields_box">
+													<span>Department</span>
+													<select>
+														<option>AVL Operations</option>
+													</select>
+												</div>
+											</div>
+										</div>
+
+										<div class="both_cta_actions">
+											<input type="button" value="save">
+											<div class="cls_btn">close</div>
+										</div>
+									</div>
+									</div>
+								</div>
+							</div>
+					<!--====================End one Geofances section============================ -->
+
+
+					<!--====================Start one Landmarks section============================ -->
+							<div id="landmarks_setting_sections" class="draggable">
+								<div class="all_main_headlines">
+									<div class="box_title">Landmarks</div>
+									<div class="inset_icons">
+										<div class="main-search-toggle" data-toggle="tooltip" title="Search"><i class="fa fa-search"></i></div>
+										<div class="new-data-show" data-toggle="tooltip" title="Create New"><i class="fa fa-plus"></i></div>
+										<div class="back-data-show" data-toggle="tooltip" title="List View"><i class="fa fa-bars"></i></div>
+										<div class="refresh" data-toggle="tooltip" title="Refresh"><i class="fa fa-refresh"></i></div>
+										<div class="remove_box" data-toggle="tooltip" title="Close"><i class="fa fa-remove"></i></div>
+									</div>
+								</div>
+
+								<div class="main_search">
+									<div class="srh_input"><input type="text" placeholder="Search"></div>
+								</div>
+								
+								<div class="tab_view1">
+									<div class="fences_list_heading">
+										<div class="main_check"><input type="checkbox"></div>
+										<div class="main_title">name</div>
+										<div class="action_title">actions</div>
+									</div>
+									<div class="fleets_setting geofence_list_data">
+										<ul>
+											<li>
+												<div class="main_check"><input type="checkbox"></div>
+												<div class="main_title">Demo name</div>
+												<div class="action_btn"><i class="fa fa-trash"></i></div>
+											</li>
+											<li>
+												<div class="main_check"><input type="checkbox"></div>
+												<div class="main_title">Demo two</div>
+												<div class="action_btn"><i class="fa fa-trash"></i></div>
+											</li>
+											<li>
+												<div class="main_check"><input type="checkbox"></div>
+												<div class="main_title">Demo three</div>
+												<div class="action_btn"><i class="fa fa-trash"></i></div>
+											</li>
+											<li>
+												<div class="main_check"><input type="checkbox"></div>
+												<div class="main_title">Demo four</div>
+												<div class="action_btn"><i class="fa fa-trash"></i></div>
+											</li>
+										</ul>
+									</div>
+									<div class="all_records">Records : <span></span></div>
+								</div>
+
+								<div class="tab_view2">
+									<div class="drawlines">
+										<ul>
+											<li data-toggle="tooltip" title="Add New Landmarks"><img src="assets/images/plus.png"></li>
+											<li  class="draw_close"  data-toggle="tooltip" title="Clear All"><img src="assets/images/clear.png"></li>
+										</ul>
+									</div>
+
+									<div class="map_form">
+									<!-- <div class="main_line">New Landmarks</div> -->
+									<div class="map_form_scroll">
+										<div class="first_form">
+											<div class="fields_box">
+												<span>Select Icon</span>
+												<ul>
+													<li><i class="fa fa-map-marker"></i></li>
+													<li><i class="fa fa-map-pin"></i></li>
+													<li><i class="fa fa-map-signs"></i></li>
+												</ul>
+											</div>
+											<div class="fields_box">
+												<span>Name</span>
+												<input type="text" placeholder="Name" required="required">
+											</div>
+											<div class="fields_box">
+												<span>Radius (Meter)</span>
+												<input type="text" placeholder="0" required="required">
+											</div>
+											<div class="fields_box">
+												<span>Importance</span>
+												<select>
+													<option>Low</option>
+													<option>Medium</option>
+													<option>High</option>
+												</select>
+											</div>
+											<div class="fields_box">
+												<span>trigger</span>
+												<select>
+													<option>In</option>
+													<option>Out</option>
+													<option>Both</option>
+												</select>
+											</div>
+											<div class="double_btns">
+												<button>sound enbabled</button>
+												<button>email enbabled</button>
+											</div>
+										</div>
+
+										<div class="second_form">
+											<div class="second_form_title">
+												<h1>contact information</h1>
+												<i class="fa fa-caret-down"></i>
+											</div>
+
+											<div class="second_form_inset">
+												<div class="fields_box">
+													<span>Contact Name</span>
+													<input type="text" placeholder="Contact Name" required="required">
+												</div>
+												<div class="fields_box">
+													<span>Contact Phone Number</span>
+													<input type="text" placeholder="Contact Phone Number" required="required">
+												</div>
+												<div class="fields_box">
+													<span>Contact Address</span>
+													<textarea placeholder="Contact Address"></textarea>
+												</div>
+												<div class="fields_box">
+													<span>Department</span>
+													<select>
+														<option>AVL Operations</option>
+													</select>
+												</div>
+											</div>
+										</div>
+
+										<div class="both_cta_actions">
+											<input type="button" value="save">
+											<div class="cls_btn">close</div>
+										</div>
+									</div>
+									</div>
+								</div>
+							</div>
+					<!--====================End one Landmarks section============================ -->
+
+
+					<!--====================Start point of inetrest section============================ -->
+							<div id="point_of_inetrest_setting_sections" class="draggable">
+								<div class="all_main_headlines">
+									<div class="box_title">Point Of Interest</div>
+									<div class="inset_icons">
+										<div class="main-search-toggle" data-toggle="tooltip" title="Search"><i class="fa fa-search"></i></div>
+										<div class="new-data-show" data-toggle="tooltip" title="Create New"><i class="fa fa-plus"></i></div>
+										<div class="back-data-show" data-toggle="tooltip" title="List View"><i class="fa fa-bars"></i></div>
+										<div class="refresh" data-toggle="tooltip" title="Refresh"><i class="fa fa-refresh"></i></div>
+										<div class="remove_box" data-toggle="tooltip" title="Close"><i class="fa fa-remove"></i></div>
+									</div>
+								</div>
+
+								<div class="main_search">
+									<div class="srh_input"><input type="text" placeholder="Search"></div>
+								</div>
+								
+
+								<div class="tab_view1">
+									<div class="fences_list_heading">
+										<div class="main_check"><input type="checkbox"></div>
+										<div class="main_title">name</div>
+										<div class="action_title">actions</div>
+									</div>
+									<div class="fleets_setting geofence_list_data">
+										<ul>
+											<li>
+												<div class="main_check"><input type="checkbox"></div>
+												<div class="main_title">Demo name</div>
+												<div class="action_btn"><i class="fa fa-trash"></i></div>
+											</li>
+											<li>
+												<div class="main_check"><input type="checkbox"></div>
+												<div class="main_title">Demo two</div>
+												<div class="action_btn"><i class="fa fa-trash"></i></div>
+											</li>
+											<li>
+												<div class="main_check"><input type="checkbox"></div>
+												<div class="main_title">Demo three</div>
+												<div class="action_btn"><i class="fa fa-trash"></i></div>
+											</li>
+											<li>
+												<div class="main_check"><input type="checkbox"></div>
+												<div class="main_title">Demo four</div>
+												<div class="action_btn"><i class="fa fa-trash"></i></div>
+											</li>
+										</ul>
+									</div>
+									<div class="all_records">Records : <span></span></div>
+								</div>
+
+								<div class="tab_view2">
+									<div class="drawlines">
+										<ul>
+											<li data-toggle="tooltip" title="Add New Point Of Interest"><img src="assets/images/plus.png"></li>
+											<li data-toggle="tooltip" title="Get current location"><img src="assets/images/location.png"></li>
+											<li  class="draw_close"  data-toggle="tooltip" title="Clear All"><img src="assets/images/clear.png"></li>
+										</ul>
+									</div>
+
+									<div class="map_form">
+									<!-- <div class="main_line">New Point Of Interest</div> -->
+									<div class="map_form_scroll">
+										<div class="first_form">
+											<div class="fields_box">
+												<span>Select Icon</span>
+												<ul>
+													<li><i class="fa fa-map-marker"></i></li>
+													<li><i class="fa fa-map-pin"></i></li>
+													<li><i class="fa fa-map-signs"></i></li>
+												</ul>
+											</div>
+											<div class="fields_box">
+												<span>Name</span>
+												<input type="text" placeholder="Name" required="required">
+											</div>
+											<div class="fields_box">
+												<span>Description</span>
+												<textarea placeholder="Description"></textarea>
+											</div>
+										</div>
+
+										<div class="second_form">
+											<div class="second_form_title">
+												<h1>contact information</h1>
+												<i class="fa fa-caret-down"></i>
+											</div>
+
+											<div class="second_form_inset">
+												<div class="fields_box">
+													<span>Contact Name</span>
+													<input type="text" placeholder="Contact Name" required="required">
+												</div>
+												<div class="fields_box">
+													<span>Contact Phone Number</span>
+													<input type="text" placeholder="Contact Phone Number" required="required">
+												</div>
+												<div class="fields_box">
+													<span>Contact Address</span>
+													<textarea placeholder="Contact Address"></textarea>
+												</div>
+												<div class="fields_box">
+													<span>Department</span>
+													<select>
+														<option>AVL Operations</option>
+													</select>
+												</div>
+											</div>
+										</div>
+
+										<div class="both_cta_actions">
+											<input type="button" value="save">
+											<div class="cls_btn">close</div>
+										</div>
+									</div>
+									</div>
+								</div>
+							</div>
+					<!--====================End point of inetrest section============================ -->
+
+
+				<div class="click_to_full">
+					<img src="assets/images/close_view.png" class="cl_view" data-toggle="tooltip" title="Close full screen">
+					<img src="assets/images/full_view.png" class="fl_view" data-toggle="tooltip" title="Full screen view">
+				</div>
+
+				<div class="reports_playback">
+					<a href="#"><img src="assets/images/playback.png" data-toggle="tooltip" title="Playback"></a>
+				</div>
+			</section>
+			<!-- End right Side map view -->
+
+</div>
+<!-- End main Div -->
+
+
+<!-- add new fleet -->
+<div class="add_new_user_popup" id="map_playback_view">
+	<div class="register_new_user">
+		<div class="title">
+			<span>Playback Reports</span>
+			<i class="fa fa-remove"></i>
+		</div>
+
+		<form>
+		<div class="col-sm-12">
+			<div class="row">
+				<div class="col-sm-12 report_vehicle_name">Demo vehicle Name</div>
+				<div class="col-sm-12 fld_area">
+					<span>start date & Time</span>
+					<div class="row">
+						<div class="col-sm-6"><input type="text" placeholder="Date" class="datepicker"></div>
+						<div class="col-sm-6"><input type="text" placeholder="Time" class="timepicker"></div>
+					</div>
+				</div>
+				<div class="col-sm-12 fld_area">
+					<span>end date & Time</span>
+					<div class="row">
+						<div class="col-sm-6"><input type="text" placeholder="Date" class="datepicker"></div>
+						<div class="col-sm-6"><input type="text" placeholder="Time" class="timepicker"></div>
+					</div>
+				</div>
+				<div class="col-sm-12 form_btn">
+					<input type="button" value="run">
+					<div class="close_btn">close</div>
+				</div>
+			</div>
+		</div>
+		</form>
+	</div>
+</div>
+
+
+<!-- playback popup -->
+<div class="add_new_user_popup" id="playback_popup_map">
+	<div class="register_new_user">
+		<div class="title">
+			<span>Playback</span>
+			<i class="fa fa-remove"></i>
+		</div>
+
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462562.84785662167!2d54.947543798340256!3d25.075707331290925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1568150832775!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+	</div>
+</div>
+
+
+
+<!-- bottom popup  -->
+<div class="close_area"><i class="fa fa-angle-down"></i></div>
+<div class="map_bottom_part">
+	<div class="col-sm-3 per_box">
+		<div class="main_hdng">
+			<div class="l-hdng"><i class="fa fa-location-arrow"></i> GPS Device Name</div>
+			<div class="online"><i class="fa fa-circle"></i> Online</div>
+		</div>
+		<div class="col-sm-12 btm_data">
+			<table>
+				<tbody>
+					<tr>
+						<th>Address:</th>
+						<td>Los Angeles, California</td>
+						<td class="eye"><i class="fa fa-eye"></i></td>
+					</tr>
+					<tr>
+						<th>Time:</th>
+						<td colspan="2">2019-09-28 09:58:13</td>
+					</tr>
+					<tr>
+						<th>stop duration:</th>
+						<td colspan="2">12h</td>
+					</tr>
+					<tr>
+						<th>driver:</th>
+						<td colspan="2">thomas</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+	<div class="col-sm-4 per_box">
+		<div class="main_hdng">
+			<div class="l-hdng"><i class="fa fa-wifi"></i> sensors</div>
+		</div>
+		<div class="col-sm-6 btm_data">
+			<table>
+				<tbody>
+					<tr>
+						<th><i class="fa fa-key"></i> ignition:</th>
+						<td>on</td>
+					</tr>
+					<tr>
+						<th><i class="fa fa-tachometer"></i> odometer:</th>
+						<td>249 200 km</td>
+					</tr>
+					<tr>
+						<th><img src="assets/images/pump.png"> fuel level:</th>
+						<td>20%</td>
+					</tr>
+					<tr>
+						<th><i class="fa fa-battery-full"></i> battery:</th>
+						<td>85%</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="col-sm-6 btm_data">
+			<table>
+				<tbody>
+					<tr>
+						<th><i class="fa fa-tachometer"></i> speed:</th>
+						<td>70 km/h</td>
+					</tr>
+					<tr>
+						<th><i class="fa fa-tachometer"></i> RMP:</th>
+						<td>1200</td>
+					</tr>
+					<tr>
+						<th><img src="assets/images/pump.png"> fuel cons:</th>
+						<td>12 liters</td>
+					</tr>
+					<tr>
+						<th><i class="fa fa-signal"></i> GPS Signal:</th>
+						<td>45%</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+
+	<div class="col-sm-2 per_box">
+		<div class="main_hdng">
+			<div class="l-hdng"><i class="fa fa-cog"></i> services</div>
+		</div>
+		<div class="col-sm-12 btm_data">
+			<table>
+				<tbody>
+					<tr>
+						<th>insurance:</th>
+						<td colspan="2">123 d. left</td>
+					</tr>
+					<tr>
+						<th>tech maint:</th>
+						<td>23 d. left</td>
+						<td class="alert"><i class="fa fa-exclamation-triangle"></i></td>
+					</tr>
+					<tr>
+						<th>oil change:</th>
+						<td colspan="2">360 d. left</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+	<div class="col-sm-3 per_box">
+		<div class="main_hdng">
+			<div class="l-hdng"><i class="fa fa-angle-right"></i> GPRS Commands</div>
+		</div>
+		<div class="col-sm-12 btm_data">
+			<div class="engine">
+				<select>
+					<option>Engine Stop</option>
+					<option>Engine Start</option>
+				</select>
+				<button><i class="fa fa-arrow-right"></i></button>
+			</div>
+			<div class="alarm_mode">
+				<span>alarm mode</span>
+				<label class="switch2">
+				  <input type="checkbox">
+				  <span class="slider"></span>
+				</label>
+			</div>
+			<div class="alarm_mode">
+				<span>engine start blocked</span>
+				<label class="switch2">
+				  <input type="checkbox">
+				  <span class="slider"></span>
+				</label>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<!-- Top Alerts -->
+<div class="add_new_user_popup" id="topbar_alerts">
+	<div class="register_new_user">
+		<div class="title">
+			<span>Alerts</span>
+			<i class="fa fa-remove"></i>
+		</div>
+
+		<div class="vehcile_listings">
+			<table  class="display responsive nowrap" width="100%">
+			    <thead>
+			        <tr>
+			            <th>name</th>
+			            <th>plate number</th>
+			            <th>alert type</th>
+			            <th>importance</th>
+			            <th>created date</th>
+			            <th>created time</th>
+			            <th>message</th>
+			            <th>Actions</th>
+			        </tr>
+			    </thead>
+			    <tbody>
+			        <tr>
+			            <td>Demo Vehicle</td>
+			            <td>654122</td>
+			            <td>Speed Limit	</td>
+			            <td><span class="badge badge-warning">Medium</span></td>
+			            <td>01/04/2019</td>
+			            <td>10:41:56</td>
+			            <td>The vehicle "Demo Vehicle" has exceeded the speed limit at 110 KM/H.	</td>
+			            <td data-toggle="tooltip" title="Locate"><span class="locate_vehicle"><i class="fa fa-map-marker"></span></td>
+			        </tr>
+			          <tr>
+			            <td>Demo Vehicle</td>
+			            <td>654122</td>
+			            <td>Speed Limit	</td>
+			            <td><span class="badge badge-danger">high</span></td>
+			            <td>01/04/2019</td>
+			            <td>10:41:56</td>
+			            <td>The vehicle "Demo Vehicle" has exceeded the speed limit at 110 KM/H.	</td>
+			            <td data-toggle="tooltip" title="Locate"><span class="locate_vehicle"><i class="fa fa-map-marker"></span></td>
+			        </tr>
+			         <tr>
+			            <td>Demo Vehicle</td>
+			            <td>654122</td>
+			            <td>Speed Limit	</td>
+			            <td><span class="badge badge-warning">Medium</span></td>
+			            <td>01/04/2019</td>
+			            <td>10:41:56</td>
+			            <td>The vehicle "Demo Vehicle" has exceeded the speed limit at 110 KM/H.	</td>
+			            <td data-toggle="tooltip" title="Locate"><span class="locate_vehicle"><i class="fa fa-map-marker"></span></td>
+			        </tr>
+			         <tr>
+			            <td>Demo Vehicle</td>
+			            <td>654122</td>
+			            <td>Speed Limit	</td>
+			            <td><span class="badge badge-warning">Medium</span></td>
+			            <td>01/04/2019</td>
+			            <td>10:41:56</td>
+			            <td>The vehicle "Demo Vehicle" has exceeded the speed limit at 110 KM/H.	</td>
+			            <td data-toggle="tooltip" title="Locate"><span class="locate_vehicle"><i class="fa fa-map-marker"></span></td>
+			        </tr>
+			         <tr>
+			            <td>Demo Vehicle</td>
+			            <td>654122</td>
+			            <td>Speed Limit	</td>
+			            <td><span class="badge badge-warning">Medium</span></td>
+			            <td>01/04/2019</td>
+			            <td>10:41:56</td>
+			            <td>The vehicle "Demo Vehicle" has exceeded the speed limit at 110 KM/H.	</td>
+			            <td data-toggle="tooltip" title="Locate"><span class="locate_vehicle"><i class="fa fa-map-marker"></span></td>
+			        </tr>
+			         <tr>
+			            <td>Demo Vehicle</td>
+			            <td>654122</td>
+			            <td>Speed Limit	</td>
+			            <td><span class="badge badge-warning">Medium</span></td>
+			            <td>01/04/2019</td>
+			            <td>10:41:56</td>
+			            <td>The vehicle "Demo Vehicle" has exceeded the speed limit at 110 KM/H.	</td>
+			            <td data-toggle="tooltip" title="Locate"><span class="locate_vehicle"><i class="fa fa-map-marker"></span></td>
+			        </tr>
+			    </tbody>
+			</table>
+		</div>
+
+		<div class="col-sm-12 form_btn">
+			<div class="close_btn">close</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Top Maintenance -->
+<div class="add_new_user_popup" id="topbar_maintain">
+	<div class="register_new_user">
+		<div class="title">
+			<span>Maintenance</span>
+			<i class="fa fa-remove"></i>
+		</div>
+
+		<div class="vehcile_listings">
+			<table class="display responsive nowrap" width="100%">
+			    <thead>
+			        <tr>
+			            <th>name</th>
+			            <th>plate number</th>
+			            <th>Maintenance Type</th>
+			            <th>created date</th>
+			            <th>last change date</th>
+			            <th>message</th>
+			            <th>Actions</th>
+			        </tr>
+			    </thead>
+			    <tbody>
+			        <tr>
+			            <td>Demo Vehicle</td>
+			            <td>654122</td>
+			            <td>Oil Filter</td>
+			            <td>01/04/2019</td>
+			            <td>10:41:56</td>
+			            <td>Oil Filter change required</td>
+			            <td><span class="badge badge-success change">change</span> <span class="badge badge-warning new-reminder">new reminder</span></td>
+			        </tr>
+			        <tr>
+			            <td>Demo Vehicle</td>
+			            <td>654122</td>
+			            <td>Oil Filter</td>
+			            <td>01/04/2019</td>
+			            <td>10:41:56</td>
+			            <td>Oil Filter change required</td>
+			            <td><span class="badge badge-success change">change</span> <span class="badge badge-warning new-reminder">new reminder</span></td>
+			        </tr>
+			        <tr>
+			            <td>Demo Vehicle</td>
+			            <td>654122</td>
+			            <td>Oil Filter</td>
+			            <td>01/04/2019</td>
+			            <td>10:41:56</td>
+			            <td>Oil Filter change required</td>
+			            <td><span class="badge badge-success change">change</span> <span class="badge badge-warning new-reminder">new reminder</span></td>
+			        </tr>
+			        <tr>
+			            <td>Demo Vehicle</td>
+			            <td>654122</td>
+			            <td>Oil Filter</td>
+			            <td>01/04/2019</td>
+			            <td>10:41:56</td>
+			            <td>Oil Filter change required</td>
+			            <td><span class="badge badge-success change">change</span> <span class="badge badge-warning new-reminder">new reminder</span></td>
+			        </tr>
+			        <tr>
+			            <td>Demo Vehicle</td>
+			            <td>654122</td>
+			            <td>Oil Filter</td>
+			            <td>01/04/2019</td>
+			            <td>10:41:56</td>
+			            <td>Oil Filter change required</td>
+			            <td><span class="badge badge-success change">change</span> <span class="badge badge-warning new-reminder">new reminder</span></td>
+			        </tr>
+			    </tbody>
+			</table>
+		</div>
+
+		<div class="col-sm-12 form_btn">
+			<div class="close_btn">close</div>
+		</div>
+	</div>
+</div>
+
+
+<!--  change oil  -->
+<div class="add_new_user_popup" id="change_oil_filter">
+	<div class="register_new_user">
+		<div class="title">
+			<span>Change Oil Filter</span>
+			<i class="fa fa-remove"></i>
+		</div>
+
+		<form>
+		<div class="col-sm-12">
+			<div class="row">
+				<div class="col-sm-12 fld_area">
+					<span>Cost (Currency)</span>
+					<input type="text" placeholder="Cost (Currency)" required="required">
+				</div>
+				<div class="col-sm-12 fld_area">
+					<span>Change Date</span>
+					<input type="text" class="datepicker" placeholder="Change Date" required="required">
+				</div>
+				<div class="col-sm-12 form_btn">
+					<input type="submit" value="Update">
+					<div class="close_btn">close</div>
+				</div>
+			</div>
+		</div>
+		</form>
+	</div>
+</div>
+
+
+<!-- Top reminder -->
+<div class="add_new_user_popup" id="topbar_reminder">
+	<div class="register_new_user">
+		<div class="title">
+			<span>Triggered Reminders</span>
+			<i class="fa fa-remove"></i>
+		</div>
+
+		<div class="vehcile_listings">
+			<table class="display responsive nowrap" width="100%">
+			    <thead>
+			        <tr>
+			            <th>title</th>
+			            <th>Trigger Date</th>
+			            <th>Description</th>
+			            <th>Actions</th>
+			        </tr>
+			    </thead>
+			    <tbody>
+			        <tr>
+			            <td>Renew Driver License For Nader	</td>
+			            <td>10/05/2019</td>
+			            <td>dummy text</td>
+			            <td><span class="badge badge-success">Mark as read</span></td>
+			        </tr>
+			         <tr>
+			            <td>Renew Driver License For Nader	</td>
+			            <td>10/05/2019</td>
+			            <td>dummy text</td>
+			            <td><span class="badge badge-success">Mark as read</span></td>
+			        </tr>
+			         <tr>
+			            <td>Renew Driver License For Nader	</td>
+			            <td>10/05/2019</td>
+			            <td>dummy text</td>
+			            <td><span class="badge badge-success">Mark as read</span></td>
+			        </tr>
+			         <tr>
+			            <td>Renew Driver License For Nader	</td>
+			            <td>10/05/2019</td>
+			            <td>dummy text</td>
+			            <td><span class="badge badge-success">Mark as read</span></td>
+			        </tr>
+			         <tr>
+			            <td>Renew Driver License For Nader	</td>
+			            <td>10/05/2019</td>
+			            <td>dummy text</td>
+			            <td><span class="badge badge-success">Mark as read</span></td>
+			        </tr>
+			    </tbody>
+			</table>
+		</div>
+
+		<div class="col-sm-12 form_btn">
+			<div class="close_btn">close</div>
+		</div>
+	</div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="assets/js/jquery-ui.js"></script>
+<script src="assets/js/jquery.timepicker.min.js"></script>
+<script src="assets/js/jquery.dataTables.min.js"></script>
+<script src="assets/js/dataTables.responsive.min.js"></script>
+<!-- table export -->
+<script src="assets/js/dataTables.buttons.min.js"></script>
+<script src="assets/js/jszip.min.js"></script>
+<script src="assets/js/pdfmake.min.js"></script>
+<script src="assets/js/vfs_fonts.js"></script>
+<script src="assets/js/buttons.html5.min.js"></script>
+<!-- table export -->
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/custom.js"></script>
+
+</body>
+</html>
